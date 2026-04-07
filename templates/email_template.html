@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;padding:0;background-color:#f0f4f8;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f0f4f8;">
+    <tr>
+      <td align="center" style="padding:20px 10px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:linear-gradient(135deg,#1a365d 0%,#2b6cb0 100%);padding:28px 30px;text-align:center;">
+              <h1 style="margin:0;color:#ffffff;font-size:22px;font-weight:700;">Daily English Conversation</h1>
+              <p style="margin:8px 0 0;color:#bee3f8;font-size:14px;">
+                {{ date }} &middot; {{ category_ko }} &middot; {{ difficulty_ko }}
+              </p>
+            </td>
+          </tr>
+
+          <!-- New Expressions Section -->
+          <tr>
+            <td style="padding:24px 30px 12px;">
+              <h2 style="margin:0;color:#1a365d;font-size:18px;border-bottom:2px solid #2b6cb0;padding-bottom:8px;">
+                &#x1F4D6; &#xC624;&#xB298;&#xC758; &#xD45C;&#xD604; ({{ new_expressions|length }}&#xAC1C;)
+              </h2>
+            </td>
+          </tr>
+
+          {% for expr in new_expressions %}
+          <tr>
+            <td style="padding:6px 30px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f7fafc;border-radius:8px;border-left:4px solid #2b6cb0;">
+                <tr>
+                  <td style="padding:16px 18px;">
+                    <!-- Expression + Type Badge + TTS -->
+                    <p style="margin:0 0 6px;">
+                      <span style="font-size:17px;font-weight:700;color:#1a365d;">{{ loop.index }}. {{ expr.expression }}</span>
+                      {% if expr.type %}
+                      <span style="display:inline-block;font-size:11px;color:#ffffff;background-color:{% if expr.type == 'word' %}#38a169{% elif expr.type == 'idiom' %}#d69e2e{% elif expr.type == 'phrasal_verb' %}#805ad5{% else %}#2b6cb0{% endif %};border-radius:10px;padding:2px 8px;margin-left:6px;vertical-align:middle;">{{ expr.type }}</span>
+                      {% endif %}
+                      <a href="https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q={{ expr.expression | urlencode }}" target="_blank" style="display:inline-block;text-decoration:none;font-size:13px;color:#2b6cb0;margin-left:8px;vertical-align:middle;" title="발음 듣기">&#x1F50A;</a>
+                    </p>
+
+                    {% if expr.pronunciation %}
+                    <p style="margin:0 0 8px;font-size:13px;color:#718096;">
+                      {{ expr.pronunciation }}
+                    </p>
+                    {% endif %}
+
+                    <!-- Meaning -->
+                    <p style="margin:0 0 8px;font-size:15px;color:#2d3748;">
+                      <strong>&#xB73B;:</strong> {{ expr.meaning_ko }}
+                    </p>
+
+                    <!-- Explanation (merged: nuance + usage) -->
+                    <p style="margin:0 0 12px;font-size:13px;color:#4a5568;line-height:1.6;background-color:#edf2f7;border-radius:6px;padding:10px 12px;">
+                      &#x1F4A1; {{ expr.explanation_ko }}
+                    </p>
+
+                    <!-- Examples -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding:0;">
+                          <p style="margin:0 0 6px;font-size:12px;font-weight:600;color:#2b6cb0;text-transform:uppercase;">Examples</p>
+                          {% for ex in expr.examples %}
+                          <p style="margin:0 0 2px;font-size:14px;color:#1a202c;line-height:1.5;">
+                            &bull; "{{ ex.en }}"
+                            <a href="https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q={{ ex.en | urlencode }}" target="_blank" style="text-decoration:none;font-size:11px;color:#a0aec0;" title="예문 듣기">&#x1F50A;</a>
+                          </p>
+                          <p style="margin:0 0 {% if not loop.last %}8{% else %}0{% endif %}px;font-size:13px;color:#718096;padding-left:14px;">
+                            &rarr; {{ ex.ko }}
+                          </p>
+                          {% endfor %}
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Synonyms & Antonyms -->
+                    {% if expr.synonyms or expr.antonyms %}
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;border-top:1px dashed #e2e8f0;padding-top:8px;">
+                      <tr>
+                        <td style="padding:0;">
+                          {% if expr.synonyms %}
+                          <p style="margin:0 0 3px;font-size:13px;color:#2d3748;">
+                            <span style="display:inline-block;background-color:#ebf8ff;color:#2b6cb0;font-size:11px;font-weight:600;border-radius:4px;padding:1px 6px;margin-right:4px;">&#xC720;&#xC0AC;</span>
+                            {% for syn in expr.synonyms %}
+                            <span style="color:#4a5568;">{% if syn is mapping %}{{ syn.en }} <span style="color:#a0aec0;">({{ syn.ko }})</span>{% else %}{{ syn }}{% endif %}{% if not loop.last %}, {% endif %}</span>
+                            {% endfor %}
+                          </p>
+                          {% endif %}
+                          {% if expr.antonyms %}
+                          <p style="margin:0;font-size:13px;color:#2d3748;">
+                            <span style="display:inline-block;background-color:#fff5f5;color:#e53e3e;font-size:11px;font-weight:600;border-radius:4px;padding:1px 6px;margin-right:4px;">&#xBC18;&#xC758;</span>
+                            {% for ant in expr.antonyms %}
+                            <span style="color:#4a5568;">{% if ant is mapping %}{{ ant.en }} <span style="color:#a0aec0;">({{ ant.ko }})</span>{% else %}{{ ant }}{% endif %}{% if not loop.last %}, {% endif %}</span>
+                            {% endfor %}
+                          </p>
+                          {% endif %}
+                        </td>
+                      </tr>
+                    </table>
+                    {% endif %}
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {% endfor %}
+
+          <!-- Review Section -->
+          {% if review_expressions %}
+          <tr>
+            <td style="padding:24px 30px 12px;">
+              <h2 style="margin:0;color:#744210;font-size:18px;border-bottom:2px solid #d69e2e;padding-bottom:8px;">
+                &#x1F504; &#xBCF5;&#xC2B5; &#xCF54;&#xB108; ({{ review_expressions|length }}&#xAC1C;)
+              </h2>
+            </td>
+          </tr>
+
+          {% for review in review_expressions %}
+          <tr>
+            <td style="padding:3px 30px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#fffff0;border-radius:6px;border-left:4px solid
+                {%- if review.box == 1 %} #e53e3e
+                {%- elif review.box == 2 %} #dd6b20
+                {%- elif review.box == 3 %} #d69e2e
+                {%- elif review.box == 4 %} #38a169
+                {%- else %} #3182ce
+                {%- endif %};">
+                <tr>
+                  <td style="padding:10px 14px;">
+                    <p style="margin:0;font-size:15px;font-weight:600;color:#1a202c;">
+                      {{ review.expression }}
+                      <a href="https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q={{ review.expression | urlencode }}" target="_blank" style="text-decoration:none;font-size:12px;color:#a0aec0;margin-left:4px;" title="발음 듣기">&#x1F50A;</a>
+                      <span style="font-size:11px;color:#a0aec0;font-weight:400;margin-left:6px;">
+                        Box {{ review.box }} &middot; {{ review.category_ko }}
+                      </span>
+                    </p>
+                    <p style="margin:3px 0 0;font-size:13px;color:#4a5568;">
+                      {{ review.meaning_ko }}
+                    </p>
+                    {% if review.examples and review.examples|length > 0 %}
+                    <p style="margin:4px 0 0;font-size:13px;color:#718096;font-style:italic;">
+                      &bull; "{{ review.examples[0].en }}"
+                    </p>
+                    {% endif %}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {% endfor %}
+          {% endif %}
+
+          <!-- Stats Section -->
+          <tr>
+            <td style="padding:24px 30px 8px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#ebf8ff;border-radius:8px;">
+                <tr>
+                  <td style="padding:14px 18px;text-align:center;">
+                    <p style="margin:0 0 4px;font-size:14px;font-weight:600;color:#2b6cb0;">
+                      &#x1F4CA; &#xD559;&#xC2B5; &#xD604;&#xD669;
+                    </p>
+                    <p style="margin:0;font-size:13px;color:#4a5568;">
+                      &#xCD1D; &#xD559;&#xC2B5;: {{ stats.total_learned }}&#xAC1C; &middot;
+                      &#xD65C;&#xC131;: {{ stats.active }}&#xAC1C; &middot;
+                      &#xC644;&#xB8CC;: {{ stats.retired }}&#xAC1C;
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:18px 30px;text-align:center;border-top:1px solid #e2e8f0;">
+              <p style="margin:0;font-size:12px;color:#a0aec0;">
+                Daily English Conversation Bot &middot; Powered by Llama 3.3
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

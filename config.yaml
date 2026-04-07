@@ -1,0 +1,25 @@
+study:
+  difficulty: intermediate  # beginner, intermediate, advanced
+  expressions_per_day: 15
+  max_review_items: 15
+
+category:
+  name: daily_conversation
+  label_ko: "일상 영어회화"
+
+spaced_repetition:
+  intervals:
+    1: 1
+    2: 3
+    3: 7
+    4: 14
+    5: 30
+  retire_after_box: 5
+
+llm:
+  model: "gemini-3-flash-preview"
+  temperature: 0.7
+  max_tokens: 16000
+
+email:
+  subject_prefix: "[영어회화]"
