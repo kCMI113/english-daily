@@ -1082,11 +1082,552 @@
           "ko": "상세히 설명하다"
         }
       ]
+    },
+    "2026-04-06_69310_01": {
+      "expression": "reluctant",
+      "meaning_ko": "망설이는, 꺼리는",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "He was reluctant to share his personal information.",
+          "ko": "그는 개인 정보를 공유하는 것을 꺼려했다."
+        },
+        {
+          "en": "I'm a bit reluctant to try that new restaurant.",
+          "ko": "그 새로 생긴 식당에 가보는 게 좀 망설여져."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "hesitant",
+          "ko": "주저하는"
+        },
+        {
+          "en": "unwilling",
+          "ko": "내키지 않는"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "eager",
+          "ko": "열망하는"
+        },
+        {
+          "en": "willing",
+          "ko": "기꺼이 하는"
+        }
+      ]
+    },
+    "2026-04-06_69310_02": {
+      "expression": "genuine",
+      "meaning_ko": "진짜의, 진심 어린",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Is this a genuine leather jacket?",
+          "ko": "이거 진짜 가죽 재킷이에요?"
+        },
+        {
+          "en": "She showed genuine concern for my health.",
+          "ko": "그녀는 내 건강을 진심으로 걱정해 주었다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "authentic",
+          "ko": "진품의"
+        },
+        {
+          "en": "sincere",
+          "ko": "진실된"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "fake",
+          "ko": "가짜의"
+        },
+        {
+          "en": "insincere",
+          "ko": "진심이 없는"
+        }
+      ]
+    },
+    "2026-04-06_69310_03": {
+      "expression": "tedious",
+      "meaning_ko": "지루한, 따분한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Checking the data one by one was a tedious task.",
+          "ko": "데이터를 일일이 확인하는 건 정말 지루한 작업이었어."
+        },
+        {
+          "en": "The long commute can be quite tedious.",
+          "ko": "통근 시간이 길면 꽤 따분할 수 있지."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "monotonous",
+          "ko": "단조로운"
+        },
+        {
+          "en": "tiresome",
+          "ko": "피곤한"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "exciting",
+          "ko": "흥미진진한"
+        },
+        {
+          "en": "engaging",
+          "ko": "매력적인"
+        }
+      ]
+    },
+    "2026-04-06_69310_04": {
+      "expression": "plausible",
+      "meaning_ko": "그럴듯한, 타당한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "That sounds like a plausible explanation.",
+          "ko": "그거 꽤 그럴듯한 설명인데."
+        },
+        {
+          "en": "It's a plausible scenario, but we need more evidence.",
+          "ko": "있을 법한 시나리오지만 증거가 더 필요해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "reasonable",
+          "ko": "합리적인"
+        },
+        {
+          "en": "believable",
+          "ko": "믿을 만한"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "implausible",
+          "ko": "믿기 어려운"
+        },
+        {
+          "en": "unlikely",
+          "ko": "가망 없는"
+        }
+      ]
+    },
+    "2026-04-06_69310_05": {
+      "expression": "hit the nail on the head",
+      "meaning_ko": "핵심을 찌르다, 정답을 맞히다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "You really hit the nail on the head with that comment.",
+          "ko": "그 코멘트는 정말 핵심을 제대로 짚었어."
+        },
+        {
+          "en": "I think you hit the nail on the head regarding the budget issue.",
+          "ko": "예산 문제에 대해서 네가 정답을 말한 것 같아."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "get it right",
+          "ko": "제대로 맞히다"
+        },
+        {
+          "en": "be spot on",
+          "ko": "정확하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "miss the mark",
+          "ko": "핵심을 놓치다"
+        }
+      ]
+    },
+    "2026-04-06_69310_06": {
+      "expression": "keep someone posted",
+      "meaning_ko": "계속 상황을 알려주다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'll keep you posted on any changes.",
+          "ko": "변경 사항이 생기면 계속 알려줄게."
+        },
+        {
+          "en": "Please keep me posted about the meeting results.",
+          "ko": "회의 결과가 어떻게 되는지 계속 공유해 줘."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "keep someone updated",
+          "ko": "최신 정보를 주다"
+        },
+        {
+          "en": "keep someone in the loop",
+          "ko": "상황을 공유하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "leave someone in the dark",
+          "ko": "아무것도 안 알려주다"
+        }
+      ]
+    },
+    "2026-04-06_69310_07": {
+      "expression": "get over",
+      "meaning_ko": "극복하다, 잊어버리다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It took me a long time to get over the breakup.",
+          "ko": "이별의 아픔을 이겨내는 데 꽤 오래 걸렸어."
+        },
+        {
+          "en": "You'll get over the flu soon.",
+          "ko": "독감은 곧 나을 거야."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "recover from",
+          "ko": "회복하다"
+        },
+        {
+          "en": "overcome",
+          "ko": "극복하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "dwell on",
+          "ko": "연연하다"
+        }
+      ]
+    },
+    "2026-04-06_69310_08": {
+      "expression": "call it a day",
+      "meaning_ko": "하루를 마무리하다, 퇴근하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'm exhausted. Let's call it a day.",
+          "ko": "너무 지쳤다. 오늘은 이만하자."
+        },
+        {
+          "en": "We've done enough for now, so let's call it a day.",
+          "ko": "지금까지 할 만큼 했으니 이제 퇴근합시다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "wrap it up",
+          "ko": "마무리 짓다"
+        },
+        {
+          "en": "finish up",
+          "ko": "끝내다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "burn the midnight oil",
+          "ko": "밤샘 작업을 하다"
+        }
+      ]
+    },
+    "2026-04-06_69310_09": {
+      "expression": "come up with",
+      "meaning_ko": "생각해내다, 제안하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "How did you come up with such a great idea?",
+          "ko": "어떻게 그런 멋진 생각을 해냈어?"
+        },
+        {
+          "en": "We need to come up with a plan by tomorrow.",
+          "ko": "내일까지 계획을 세워야 해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "think of",
+          "ko": "생각하다"
+        },
+        {
+          "en": "devise",
+          "ko": "고안하다"
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_69310_10": {
+      "expression": "on the fence",
+      "meaning_ko": "결정을 못 내린, 중립적인",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'm still on the fence about buying a new car.",
+          "ko": "새 차를 살지 말지 아직 고민 중이야."
+        },
+        {
+          "en": "Many voters are still on the fence.",
+          "ko": "많은 유권자들이 아직 마음을 정하지 못했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "undecided",
+          "ko": "결정되지 않은"
+        },
+        {
+          "en": "unsure",
+          "ko": "확신이 없는"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "decisive",
+          "ko": "결단력 있는"
+        }
+      ]
+    },
+    "2026-04-06_69310_11": {
+      "expression": "take it for granted",
+      "meaning_ko": "당연하게 여기다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Don't take your health for granted.",
+          "ko": "건강을 당연하게 생각하지 마세요."
+        },
+        {
+          "en": "I took it for granted that he would help me.",
+          "ko": "그가 나를 도와줄 것이라고 당연히 믿었어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "assume",
+          "ko": "추정하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "appreciate",
+          "ko": "고마워하다"
+        }
+      ]
+    },
+    "2026-04-06_69310_12": {
+      "expression": "fill someone in",
+      "meaning_ko": "자세히 알려주다, 설명하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Can you fill me in on what happened at the meeting?",
+          "ko": "회의 때 무슨 일이 있었는지 좀 알려줄래?"
+        },
+        {
+          "en": "I'll fill you in later when we have more time.",
+          "ko": "나중에 시간 좀 더 있을 때 자세히 설명해 줄게."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "brief",
+          "ko": "요약 보고하다"
+        },
+        {
+          "en": "inform",
+          "ko": "알리다"
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_69310_13": {
+      "expression": "make ends meet",
+      "meaning_ko": "겨우 생계를 유지하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It's hard to make ends meet with such a low salary.",
+          "ko": "그렇게 적은 월급으로는 먹고살기 힘들어."
+        },
+        {
+          "en": "They had to take a second job to make ends meet.",
+          "ko": "그들은 생계를 유지하기 위해 투잡을 뛰어야 했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "get by",
+          "ko": "그럭저럭 살아가다"
+        },
+        {
+          "en": "survive",
+          "ko": "생존하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "live in luxury",
+          "ko": "호화롭게 살다"
+        }
+      ]
+    },
+    "2026-04-06_69310_14": {
+      "expression": "back and forth",
+      "meaning_ko": "왔다 갔다, 주고받는",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We went back and forth before deciding on a date.",
+          "ko": "날짜를 정하기까지 의견이 왔다 갔다 했어."
+        },
+        {
+          "en": "They've been emailing back and forth all day.",
+          "ko": "그들은 하루 종일 이메일을 주고받고 있어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "to and fro",
+          "ko": "이리저리"
+        },
+        {
+          "en": "alternatingly",
+          "ko": "교대로"
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_69310_15": {
+      "expression": "see eye to eye",
+      "meaning_ko": "의견이 일치하다, 동의하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "My boss and I don't always see eye to eye.",
+          "ko": "상사랑 내 의견이 항상 맞는 건 아니야."
+        },
+        {
+          "en": "I'm glad we see eye to eye on this project.",
+          "ko": "이 프로젝트에 대해 우리 의견이 같아서 다행이야."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "agree",
+          "ko": "동의하다"
+        },
+        {
+          "en": "be in accord",
+          "ko": "일치하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "disagree",
+          "ko": "반대하다"
+        },
+        {
+          "en": "clash",
+          "ko": "충돌하다"
+        }
+      ]
     }
   },
   "metadata": {
     "last_run": "2026-04-06",
-    "total_expressions_learned": 30,
+    "total_expressions_learned": 45,
     "current_category_index": 0
   }
 }
