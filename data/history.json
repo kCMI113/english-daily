@@ -535,11 +535,558 @@
           "ko": "얼어붙다"
         }
       ]
+    },
+    "2026-04-06_01": {
+      "expression": "vulnerable",
+      "meaning_ko": "취약한, 상처받기 쉬운",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It's okay to feel vulnerable sometimes.",
+          "ko": "가끔은 마음이 약해져도 괜찮아요."
+        },
+        {
+          "en": "The system is vulnerable to cyber attacks.",
+          "ko": "그 시스템은 사이버 공격에 취약합니다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "susceptible",
+          "ko": "영향을 받기 쉬운"
+        },
+        {
+          "en": "defenseless",
+          "ko": "무방비의"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "invincible",
+          "ko": "천하무적의"
+        },
+        {
+          "en": "resilient",
+          "ko": "회복력 있는"
+        }
+      ]
+    },
+    "2026-04-06_02": {
+      "expression": "procrastinate",
+      "meaning_ko": "미루다, 꾸물거리다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Stop procrastinating and just start the report.",
+          "ko": "그만 좀 미루고 보고서 시작해."
+        },
+        {
+          "en": "I have a tendency to procrastinate when I'm stressed.",
+          "ko": "나는 스트레스 받으면 일을 미루는 경향이 있어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "put off",
+          "ko": "미루다"
+        },
+        {
+          "en": "dilly-dally",
+          "ko": "늑장 부리다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "hasten",
+          "ko": "서두르다"
+        },
+        {
+          "en": "expedite",
+          "ko": "신속히 처리하다"
+        }
+      ]
+    },
+    "2026-04-06_03": {
+      "expression": "resilient",
+      "meaning_ko": "회복력 있는, 강인한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Children are often more resilient than adults.",
+          "ko": "아이들은 종종 어른들보다 회복력이 더 빠릅니다."
+        },
+        {
+          "en": "She's a resilient person who never gives up.",
+          "ko": "그녀는 절대 포기하지 않는 강인한 사람이에요."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "tough",
+          "ko": "강인한"
+        },
+        {
+          "en": "buoyant",
+          "ko": "금방 기운을 되찾는"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "fragile",
+          "ko": "취약한"
+        },
+        {
+          "en": "weak",
+          "ko": "약한"
+        }
+      ]
+    },
+    "2026-04-06_04": {
+      "expression": "spontaneous",
+      "meaning_ko": "즉흥적인, 자발적인",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We took a spontaneous trip to the beach.",
+          "ko": "우리는 즉흥적으로 바다 여행을 떠났어."
+        },
+        {
+          "en": "I love his spontaneous personality.",
+          "ko": "나는 그의 즉흥적인 성격이 좋아."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "impulsive",
+          "ko": "충동적인"
+        },
+        {
+          "en": "unplanned",
+          "ko": "계획되지 않은"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "calculated",
+          "ko": "의도적인"
+        },
+        {
+          "en": "planned",
+          "ko": "계획된"
+        }
+      ]
+    },
+    "2026-04-06_05": {
+      "expression": "get the hang of",
+      "meaning_ko": "요령을 터득하다, 감을 잡다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It’s hard at first, but you’ll get the hang of it soon.",
+          "ko": "처음엔 어렵지만 곧 감을 잡을 거야."
+        },
+        {
+          "en": "I'm finally getting the hang of this new software.",
+          "ko": "드디어 이 새 소프트웨어 사용법에 익숙해지고 있어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "get the knack of",
+          "ko": "요령을 알다"
+        },
+        {
+          "en": "master",
+          "ko": "숙달하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "struggle with",
+          "ko": "애를 먹다"
+        }
+      ]
+    },
+    "2026-04-06_06": {
+      "expression": "play it by ear",
+      "meaning_ko": "상황 봐서 정하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We don't have a set plan, so let's just play it by ear.",
+          "ko": "정해진 계획은 없으니까 그냥 상황 봐서 하자."
+        },
+        {
+          "en": "I’m not sure when I’ll be free, let’s play it by ear.",
+          "ko": "언제 한가해질지 모르겠으니 그때 가서 정하자."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "improvise",
+          "ko": "즉흥적으로 하다"
+        },
+        {
+          "en": "wing it",
+          "ko": "즉흥적으로 해내다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "plan ahead",
+          "ko": "미리 계획하다"
+        }
+      ]
+    },
+    "2026-04-06_07": {
+      "expression": "catch up with",
+      "meaning_ko": "근황을 나누다, 따라잡다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We should grab coffee and catch up with each other.",
+          "ko": "우리 커피 마시면서 밀린 얘기 좀 하자."
+        },
+        {
+          "en": "I need to catch up with my work after the vacation.",
+          "ko": "휴가 끝나고 밀린 일을 좀 처리해야 해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "get together",
+          "ko": "모이다"
+        },
+        {
+          "en": "keep up with",
+          "ko": "보조를 맞추다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "fall behind",
+          "ko": "뒤처지다"
+        }
+      ]
+    },
+    "2026-04-06_08": {
+      "expression": "be on the same page",
+      "meaning_ko": "의견이 일치하다, 생각하는 바가 같다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I want to make sure we are all on the same page.",
+          "ko": "우리 모두 같은 생각인지 확인하고 싶어요."
+        },
+        {
+          "en": "Are we on the same page regarding the budget?",
+          "ko": "예산 부분에 대해서 저희 의견이 같은 거죠?"
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "see eye to eye",
+          "ko": "의견이 완전히 일치하다"
+        },
+        {
+          "en": "agree",
+          "ko": "동의하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "be at odds",
+          "ko": "뜻이 맞지 않다"
+        }
+      ]
+    },
+    "2026-04-06_09": {
+      "expression": "pull oneself together",
+      "meaning_ko": "마음을 추스르다, 정신 차리다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Stop crying and pull yourself together.",
+          "ko": "그만 울고 이제 마음 좀 추스려 봐."
+        },
+        {
+          "en": "I took a deep breath to pull myself together before the interview.",
+          "ko": "면접 전에 마음을 가다듬으려 깊게 숨을 들이마셨어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "calm down",
+          "ko": "진정하다"
+        },
+        {
+          "en": "get a grip",
+          "ko": "정신을 바짝 차리다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "fall apart",
+          "ko": "무너지다, 감정을 주체 못 하다"
+        }
+      ]
+    },
+    "2026-04-06_10": {
+      "expression": "on the tip of my tongue",
+      "meaning_ko": "생각이 날 듯 말 듯 한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "His name is on the tip of my tongue, but I can't remember it.",
+          "ko": "그 사람 이름이 생각날 듯 말 듯 한데 기억이 안 나네."
+        },
+        {
+          "en": "The answer was on the tip of my tongue.",
+          "ko": "답이 입안에서 맴돌았어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "almost remembered",
+          "ko": "거의 기억난"
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_11": {
+      "expression": "burn out",
+      "meaning_ko": "에너지를 소진하다, 지치다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "If you keep working like this, you'll burn out.",
+          "ko": "너 이런 식으로 계속 일하면 완전히 지쳐버릴 거야."
+        },
+        {
+          "en": "I'm feeling burnt out lately.",
+          "ko": "나 요즘 번아웃 온 것 같아."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "exhaust",
+          "ko": "기진맥진하게 하다"
+        },
+        {
+          "en": "wear out",
+          "ko": "닳아 없어지게 하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "recharge",
+          "ko": "재충전하다"
+        }
+      ]
+    },
+    "2026-04-06_12": {
+      "expression": "look on the bright side",
+      "meaning_ko": "긍정적으로 생각하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Look on the bright side, at least you didn't lose your phone.",
+          "ko": "긍정적으로 생각해, 적어도 핸드폰은 안 잃어버렸잖아."
+        },
+        {
+          "en": "I always try to look on the bright side of things.",
+          "ko": "난 항상 사물의 밝은 면을 보려고 노력해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "be optimistic",
+          "ko": "낙관하다"
+        },
+        {
+          "en": "stay positive",
+          "ko": "긍정적인 태도를 유지하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "dwell on the negative",
+          "ko": "부정적인 면에 집착하다"
+        }
+      ]
+    },
+    "2026-04-06_13": {
+      "expression": "stand someone up",
+      "meaning_ko": "바람 맞히다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I can't believe he stood me up last night.",
+          "ko": "어젯밤에 그가 나를 바람 맞혔다는 게 믿기지 않아."
+        },
+        {
+          "en": "She's upset because her date stood her up.",
+          "ko": "그녀는 데이트 상대가 바람을 맞혀서 화가 났어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "blow someone off",
+          "ko": "약속을 쌩까다"
+        },
+        {
+          "en": "ditch",
+          "ko": "내버려두고 가버리다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "keep a promise",
+          "ko": "약속을 지키다"
+        }
+      ]
+    },
+    "2026-04-06_14": {
+      "expression": "keep an eye on",
+      "meaning_ko": "지켜보다, 주시하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Could you keep an eye on my bag for a second?",
+          "ko": "잠시 제 가방 좀 봐주실 수 있나요?"
+        },
+        {
+          "en": "The doctor told me to keep an eye on the symptoms.",
+          "ko": "의사가 증상을 주의 깊게 지켜보라고 했어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "watch over",
+          "ko": "보살피다"
+        },
+        {
+          "en": "monitor",
+          "ko": "추적 관찰하다"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "ignore",
+          "ko": "무시하다"
+        }
+      ]
+    },
+    "2026-04-06_15": {
+      "expression": "make a long story short",
+      "meaning_ko": "요약하자면, 거두절미하고",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "To make a long story short, we missed the flight.",
+          "ko": "요약하자면, 우리 비행기 놓쳤어."
+        },
+        {
+          "en": "Anyway, to make a long story short, they got married.",
+          "ko": "어쨌든, 짧게 말해서 둘이 결혼했대."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "to sum up",
+          "ko": "요약하자면"
+        },
+        {
+          "en": "in a nutshell",
+          "ko": "아주 간단히 말하면"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "go into detail",
+          "ko": "상세히 설명하다"
+        }
+      ]
     }
   },
   "metadata": {
-    "last_run": "2026-04-07",
-    "total_expressions_learned": 15,
+    "last_run": "2026-04-06",
+    "total_expressions_learned": 30,
     "current_category_index": 0
   }
 }
