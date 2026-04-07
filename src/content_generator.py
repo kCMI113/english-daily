@@ -94,7 +94,7 @@ class ContentGenerator:
         difficulty: str,
         exclude_expressions: list[str],
     ) -> dict:
-        """Generate daily English expressions via Groq API."""
+        """Generate daily English expressions via Gemini API."""
         count = self.config["study"]["expressions_per_day"]
         exclude_str = ", ".join(exclude_expressions[-200:]) if exclude_expressions else "(none)"
 
@@ -110,9 +110,11 @@ class ContentGenerator:
         self._clean_foreign_chars(expressions)
         self._validate(expressions, count)
 
-        # Assign IDs
+        # Assign IDs (with timestamp to avoid collision on same-day reruns)
+        import time
+        ts = int(time.time()) % 100000
         for i, expr in enumerate(expressions):
-            expr["id"] = f"{today}_{i+1:02d}"
+            expr["id"] = f"{today}_{ts}_{i+1:02d}"
             expr["category_ko"] = category["label_ko"]
             expr["difficulty"] = difficulty
 

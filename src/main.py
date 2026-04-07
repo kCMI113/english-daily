@@ -31,7 +31,11 @@ def build_subject(today: str, category_ko: str, new_count: int, review_count: in
 
 def main():
     config = load_config()
-    today = sys.argv[1] if len(sys.argv) > 1 else date.today().isoformat()
+    if len(sys.argv) > 1:
+        today = sys.argv[1]
+        date.fromisoformat(today)  # validate format
+    else:
+        today = date.today().isoformat()
 
     # Paths
     history_path = os.path.join(BASE_DIR, "data", "history.json")
@@ -95,7 +99,8 @@ def main():
             config["email"]["subject_prefix"],
         )
         sender = EmailSender()
-        sender.send(to_email, subject, html)
+        if not sender.send(to_email, subject, html):
+            print("Warning: Email delivery failed")
     else:
         # Save HTML locally for testing
         out_path = os.path.join(BASE_DIR, "output.html")
