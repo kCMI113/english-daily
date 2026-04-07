@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Gemini_3_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Actions">
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="Pages">
-  <img src="https://img.shields.io/badge/SendGrid-1A82E2?style=for-the-badge&logo=twilio&logoColor=white" alt="SendGrid">
+
 </p>
 
 ---
@@ -31,10 +31,6 @@
 - 터치 스와이프 + 키보드 화살표 지원
 - 날짜별 네비게이션
 
-**이메일 버전**
-- SendGrid로 매일 아침 HTML 이메일 발송
-- 인라인 CSS로 모든 이메일 클라이언트 호환
-
 **완전 자동화**
 - GitHub Actions 크론으로 매일 KST 07:00 실행
 - 서버 불필요, 100% 무료 운영
@@ -52,15 +48,15 @@ GitHub Actions (cron: KST 07:00)
   │ (JSON 생성)  │     │  (JSON data) │
   └─────────────┘     └──────┬───────┘
                              │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-        ┌──────────┐  ┌──────────┐  ┌──────────────┐
-        │  Email   │  │   Web    │  │   History     │
-        │ (HTML)   │  │ (HTML+JS)│  │ (Leitner Box) │
-        └────┬─────┘  └────┬─────┘  └──────────────┘
-             │              │
-             ▼              ▼
-        SendGrid      GitHub Pages
+              ┌──────────────┴──────────────┐
+              ▼                             ▼
+        ┌──────────┐                ┌──────────────┐
+        │   Web    │                │   History     │
+        │ (HTML+JS)│                │ (Leitner Box) │
+        └────┬─────┘                └──────────────┘
+             │
+             ▼
+       GitHub Pages
 ```
 
 ---
@@ -95,9 +91,6 @@ Repository Settings > Secrets and variables > Actions:
 | Secret | Description |
 |--------|-------------|
 | `GEMINI_API_KEY` | Google AI Studio API Key |
-| `SENDGRID_API_KEY` | SendGrid API Key |
-| `EMAIL_FROM` | 발신 이메일 (SendGrid 인증 필요) |
-| `EMAIL_TO` | 수신 이메일 |
 
 ### 4. GitHub Pages 설정
 
@@ -159,7 +152,6 @@ english-daily/
 | Component | Technology | Cost |
 |-----------|-----------|------|
 | LLM | Google Gemini 3 Flash Preview | Free |
-| Email | SendGrid | Free (100/day) |
 | Scheduling | GitHub Actions | Free |
 | Web Hosting | GitHub Pages | Free |
 | TTS | Web Speech API (browser built-in) | Free |
