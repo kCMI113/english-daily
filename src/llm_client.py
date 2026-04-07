@@ -21,8 +21,9 @@ class LLMClient:
 
     def generate(self, system_prompt: str, user_prompt: str) -> dict:
         """Generate JSON response from Gemini API with retry."""
+        max_retries = 10
         last_error = None
-        for attempt in range(3):
+        for attempt in range(max_retries):
             try:
                 response = self.client.models.generate_content(
                     model=self.model,
@@ -37,18 +38,15 @@ class LLMClient:
                 return self._parse_json(response.text)
             except (json.JSONDecodeError, ValueError) as e:
                 last_error = e
-                print(f"JSON parse error (attempt {attempt + 1}/3): {e}")
-                if attempt < 2:
-                    time.sleep(2 ** attempt)
-                    continue
+                print(f"JSON parse error (attempt {attempt + 1}/{max_retries}): {e}")
             except Exception as e:
                 last_error = e
-                print(f"API error (attempt {attempt + 1}/3): {e}")
-                if attempt < 2:
-                    time.sleep(2 ** attempt)
-                    continue
+                print(f"API error (attempt {attempt + 1}/{max_retries}): {e}")
+            wait = min(2 ** attempt, 30)
+            print(f"Retrying in {wait}s...")
+            time.sleep(wait)
 
-        raise RuntimeError(f"Gemini API failed after 3 attempts: {last_error}")
+        raise RuntimeError(f"Gemini API failed after {max_retries} attempts: {last_error}")
 
     @staticmethod
     def _parse_json(text: str) -> dict:
