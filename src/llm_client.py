@@ -32,7 +32,7 @@ class LLMClient:
                         response_mime_type="application/json",
                     ),
                 )
-                return json.loads(response.text)
+                return self._parse_json(response.text)
             except json.JSONDecodeError:
                 if attempt < 2:
                     time.sleep(2 ** attempt)
@@ -45,3 +45,21 @@ class LLMClient:
                 raise RuntimeError(f"Gemini API failed after 3 attempts: {e}")
 
         raise RuntimeError("All retries exhausted")
+
+    @staticmethod
+    def _parse_json(text: str) -> dict:
+        """Parse JSON, handling extra data by extracting first valid object."""
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            # Find the first complete JSON object
+            depth = 0
+            start = text.index('{')
+            for i, ch in enumerate(text[start:], start):
+                if ch == '{':
+                    depth += 1
+                elif ch == '}':
+                    depth -= 1
+                    if depth == 0:
+                        return json.loads(text[start:i + 1])
+            raise
