@@ -63,6 +63,8 @@
     .tag-syn { background: #ebf8ff; color: #2b6cb0; }
     .tag-ant { background: #fff5f5; color: #e53e3e; }
     .syn-ant .ko-hint { color: #a0aec0; }
+    .rel-item { margin: 4px 0 4px 4px; }
+    .rel-example { font-size: 12px; color: #718096; padding-left: 18px; margin-top: 1px; }
 
     /* Review card */
     .review-card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
@@ -141,10 +143,14 @@
               {% if expr.synonyms or expr.antonyms %}
               <div class="syn-ant">
                 {% if expr.synonyms %}
-                <div style="margin-bottom:4px;">
+                <div style="margin-bottom:6px;">
                   <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
                   {% for syn in expr.synonyms %}
-                  {% if syn is mapping %}<button class="btn-speak-sm" data-speak="{{ syn.en }}">&#x1F50A;</button> {{ syn.en }} <span class="ko-hint">({{ syn.ko }})</span>{% else %}<button class="btn-speak-sm" data-speak="{{ syn }}">&#x1F50A;</button> {{ syn }}{% endif %}{% if not loop.last %}, {% endif %}
+                  <div class="rel-item">
+                    {% if syn is mapping %}<button class="btn-speak-sm" data-speak="{{ syn.en }}">&#x1F50A;</button> <strong>{{ syn.en }}</strong> <span class="ko-hint">({{ syn.ko }})</span>
+                    {% if syn.example %}<div class="rel-example"><button class="btn-speak-sm" data-speak="{{ syn.example }}">&#x1F50A;</button> "{{ syn.example }}"</div>{% endif %}
+                    {% else %}<button class="btn-speak-sm" data-speak="{{ syn }}">&#x1F50A;</button> {{ syn }}{% endif %}
+                  </div>
                   {% endfor %}
                 </div>
                 {% endif %}
@@ -152,7 +158,11 @@
                 <div>
                   <span class="tag tag-ant">&#xBC18;&#xC758;</span>
                   {% for ant in expr.antonyms %}
-                  {% if ant is mapping %}<button class="btn-speak-sm" data-speak="{{ ant.en }}">&#x1F50A;</button> {{ ant.en }} <span class="ko-hint">({{ ant.ko }})</span>{% else %}<button class="btn-speak-sm" data-speak="{{ ant }}">&#x1F50A;</button> {{ ant }}{% endif %}{% if not loop.last %}, {% endif %}
+                  <div class="rel-item">
+                    {% if ant is mapping %}<button class="btn-speak-sm" data-speak="{{ ant.en }}">&#x1F50A;</button> <strong>{{ ant.en }}</strong> <span class="ko-hint">({{ ant.ko }})</span>
+                    {% if ant.example %}<div class="rel-example"><button class="btn-speak-sm" data-speak="{{ ant.example }}">&#x1F50A;</button> "{{ ant.example }}"</div>{% endif %}
+                    {% else %}<button class="btn-speak-sm" data-speak="{{ ant }}">&#x1F50A;</button> {{ ant }}{% endif %}
+                  </div>
                   {% endfor %}
                 </div>
                 {% endif %}
