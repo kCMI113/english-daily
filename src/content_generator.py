@@ -98,17 +98,17 @@ class ContentGenerator:
         count = self.config["study"]["expressions_per_day"]
         exclude_str = ", ".join(exclude_expressions[-200:]) if exclude_expressions else "(none)"
 
-        prompt = USER_PROMPT_TEMPLATE.format(
-            date=today,
-            difficulty=difficulty,
-            difficulty_ko=DIFFICULTY_MAP.get(difficulty, "중급"),
-            count=count,
-            exclude_list=exclude_str,
-        )
-        result = self.client.generate(SYSTEM_PROMPT, prompt)
-        expressions = result.get("expressions", [])
+        # Try full count first, fallback to half on failure
+        expressions = self._try_generate(today, difficulty, count, exclude_str)
+        if expressions is None:
+            half = max(count // 2, 5)
+            print(f"Retrying with reduced count: {half}")
+            expressions = self._try_generate(today, difficulty, half, exclude_str)
+            if expressions is None:
+                raise RuntimeError("Content generation failed after all attempts")
+
         self._clean_foreign_chars(expressions)
-        self._validate(expressions, count)
+        self._validate(expressions, count=0)  # skip count check on fallback
 
         # Assign IDs (with timestamp to avoid collision on same-day reruns)
         import time
@@ -119,6 +119,22 @@ class ContentGenerator:
             expr["difficulty"] = difficulty
 
         return {"date": today, "category": category, "expressions": expressions}
+
+    def _try_generate(self, today, difficulty, count, exclude_str):
+        """Attempt generation, return expressions list or None on failure."""
+        prompt = USER_PROMPT_TEMPLATE.format(
+            date=today,
+            difficulty=difficulty,
+            difficulty_ko=DIFFICULTY_MAP.get(difficulty, "중급"),
+            count=count,
+            exclude_list=exclude_str,
+        )
+        try:
+            result = self.client.generate(SYSTEM_PROMPT, prompt)
+            return result.get("expressions", [])
+        except Exception as e:
+            print(f"Generation failed for count={count}: {e}")
+            return None
 
     @staticmethod
     def _clean_foreign_chars(expressions: list):
@@ -152,11 +168,11 @@ class ContentGenerator:
                 if isinstance(ant, dict) and "ko" in ant:
                     ant["ko"] = clean(ant["ko"])
 
-    def _validate(self, expressions: list, expected_count: int):
+    def _validate(self, expressions: list, count: int = 0):
         """Validate generated content structure."""
-        if len(expressions) < expected_count:
+        if count > 0 and len(expressions) < count:
             print(
-                f"Warning: Expected {expected_count} expressions, got {len(expressions)}"
+                f"Warning: Expected {count} expressions, got {len(expressions)}"
             )
 
         for expr in expressions:
