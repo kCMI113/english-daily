@@ -1623,11 +1623,580 @@
           "ko": "충돌하다"
         }
       ]
+    },
+    "2026-04-06_69484_01": {
+      "expression": "vibrant",
+      "meaning_ko": "활기찬, 생기가 넘치는",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "The night market in Seoul is so vibrant and fun.",
+          "ko": "서울의 야시장은 정말 활기차고 재밌어."
+        },
+        {
+          "en": "I love her vibrant personality; she always cheers me up.",
+          "ko": "그녀의 활기찬 성격이 너무 좋아. 항상 내 기분을 북돋아 주거든."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "lively",
+          "ko": "활기 넘치는",
+          "example": "The party was very lively."
+        },
+        {
+          "en": "energetic",
+          "ko": "에너지가 넘치는",
+          "example": "She is an energetic leader."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "dull",
+          "ko": "지루한, 생기 없는",
+          "example": "The movie was a bit dull."
+        }
+      ]
+    },
+    "2026-04-06_69484_02": {
+      "expression": "vague",
+      "meaning_ko": "모호한, 막연한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "His answer was too vague, so I'm still not sure what to do.",
+          "ko": "그의 대답이 너무 모호해서 아직 뭘 해야 할지 잘 모르겠어."
+        },
+        {
+          "en": "I have a vague idea of what happened, but not the details.",
+          "ko": "무슨 일이 있었는지 대충은 알겠는데 자세한 건 몰라."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "unclear",
+          "ko": "불분명한",
+          "example": "The instructions were unclear."
+        },
+        {
+          "en": "hazy",
+          "ko": "흐릿한",
+          "example": "I have a hazy memory of that night."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "precise",
+          "ko": "정확한",
+          "example": "We need more precise data."
+        }
+      ]
+    },
+    "2026-04-06_69484_03": {
+      "expression": "skeptical",
+      "meaning_ko": "회의적인, 의심하는",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'm a bit skeptical about this new diet plan.",
+          "ko": "이 새로운 다이어트 계획은 좀 의심스러워."
+        },
+        {
+          "en": "Most people were skeptical when they first heard the news.",
+          "ko": "대부분의 사람들은 그 소식을 처음 들었을 때 반신반의했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "doubtful",
+          "ko": "의심스러운",
+          "example": "I'm doubtful about his story."
+        },
+        {
+          "en": "cynical",
+          "ko": "부정적인",
+          "example": "Don't be so cynical about love."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "gullible",
+          "ko": "잘 속는",
+          "example": "He is too gullible to be a businessman."
+        }
+      ]
+    },
+    "2026-04-06_69484_04": {
+      "expression": "apprehensive",
+      "meaning_ko": "걱정되는, 불안한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'm a bit apprehensive about starting a new job tomorrow.",
+          "ko": "내일 새 직장에 출근하려니 조금 걱정되고 떨려."
+        },
+        {
+          "en": "She was apprehensive about the surgery, but it went well.",
+          "ko": "그녀는 수술을 앞두고 불안해했지만 결과는 좋았다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "anxious",
+          "ko": "불안해하는",
+          "example": "She is anxious about the interview."
+        },
+        {
+          "en": "uneasy",
+          "ko": "마음이 불편한",
+          "example": "I felt uneasy about leaving her alone."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "confident",
+          "ko": "자신만만한",
+          "example": "I feel confident about the exam."
+        }
+      ]
+    },
+    "2026-04-06_69484_05": {
+      "expression": "get a grip",
+      "meaning_ko": "정신 차리다, 진정하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "You need to get a grip and focus on the presentation.",
+          "ko": "정신 차리고 발표에 집중해야 해."
+        },
+        {
+          "en": "I had to get a grip on myself before walking into the room.",
+          "ko": "방에 들어가기 전에 마음을 다잡아야 했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "calm down",
+          "ko": "진정하다",
+          "example": "Just calm down and tell me everything."
+        },
+        {
+          "en": "compose oneself",
+          "ko": "마음을 가라앉히다",
+          "example": "Take a deep breath to compose yourself."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "lose it",
+          "ko": "자제력을 잃다",
+          "example": "I totally lost it when he lied again."
+        }
+      ]
+    },
+    "2026-04-06_69484_06": {
+      "expression": "brush up on",
+      "meaning_ko": "실력을 다듬다, 복습하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I need to brush up on my English before my trip to London.",
+          "ko": "런던 여행 가기 전에 영어 공부 좀 다시 해야겠어."
+        },
+        {
+          "en": "She's brushing up on her coding skills for the new project.",
+          "ko": "그녀는 새 프로젝트를 위해 코딩 실력을 다시 다듬고 있다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "review",
+          "ko": "검토하다",
+          "example": "Let's review the main points."
+        },
+        {
+          "en": "polish",
+          "ko": "다듬다",
+          "example": "I need to polish my speech."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "neglect",
+          "ko": "방치하다",
+          "example": "Don't neglect your health."
+        }
+      ]
+    },
+    "2026-04-06_69484_07": {
+      "expression": "touch base",
+      "meaning_ko": "연락하다, 상황을 확인하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Let's touch base next Monday to discuss the details.",
+          "ko": "자세한 내용은 다음 주 월요일에 다시 이야기하자."
+        },
+        {
+          "en": "I just wanted to touch base and see how you're doing.",
+          "ko": "그냥 잘 지내는지 궁금해서 연락해 봤어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "check in",
+          "ko": "확인 연락을 하다",
+          "example": "I'll check in with you tomorrow."
+        },
+        {
+          "en": "connect",
+          "ko": "연결하다",
+          "example": "Let's connect next week."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "lose touch",
+          "ko": "연락이 끊기다",
+          "example": "We lost touch after graduation."
+        }
+      ]
+    },
+    "2026-04-06_69484_08": {
+      "expression": "ring a bell",
+      "meaning_ko": "들어본 적 있다, 낯이 익다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Does the name 'James Kim' ring a bell?",
+          "ko": "제임스 김이라는 이름 들어본 적 있어?"
+        },
+        {
+          "en": "The title of the movie rings a bell, but I don't remember the plot.",
+          "ko": "영화 제목은 들어본 것 같은데 줄거리가 기억 안 나."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "sound familiar",
+          "ko": "익숙하게 들리다",
+          "example": "That name sounds familiar to me."
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_69484_09": {
+      "expression": "pull a fast one",
+      "meaning_ko": "속임수를 쓰다, 사기 치다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Are you trying to pull a fast one on me?",
+          "ko": "지금 나한테 사기 치려는 거야?"
+        },
+        {
+          "en": "He pulled a fast one and sold me a broken phone.",
+          "ko": "그가 속임수를 써서 나한테 고장 난 폰을 팔았어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "trick",
+          "ko": "속이다",
+          "example": "He tried to trick me into buying it."
+        },
+        {
+          "en": "deceive",
+          "ko": "기만하다",
+          "example": "They deceived the public for years."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "be honest",
+          "ko": "정직하게 굴다",
+          "example": "Just be honest with me."
+        }
+      ]
+    },
+    "2026-04-06_69484_10": {
+      "expression": "down to earth",
+      "meaning_ko": "현실적인, 털털한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Even though he's a CEO, he's very down to earth.",
+          "ko": "그는 대표인데도 성격이 정말 털털하고 소박해."
+        },
+        {
+          "en": "I like her because she is so down to earth and easy to talk to.",
+          "ko": "그녀는 정말 가식이 없고 대화하기 편해서 좋아."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "practical",
+          "ko": "실용적인",
+          "example": "We need a practical solution."
+        },
+        {
+          "en": "unpretentious",
+          "ko": "가식 없는",
+          "example": "The restaurant was small and unpretentious."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "pretentious",
+          "ko": "허세 부리는",
+          "example": "I can't stand pretentious people."
+        }
+      ]
+    },
+    "2026-04-06_69484_11": {
+      "expression": "keep a straight face",
+      "meaning_ko": "웃음을 참다, 정색하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It was so hard to keep a straight face during the meeting.",
+          "ko": "회의 중에 웃음 참느라 진짜 힘들었어."
+        },
+        {
+          "en": "I couldn't keep a straight face when I saw his funny haircut.",
+          "ko": "그의 웃긴 머리 모양을 보고 웃음을 참을 수가 없었어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "stay serious",
+          "ko": "진지함을 유지하다",
+          "example": "It's hard to stay serious in this situation."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "crack up",
+          "ko": "빵 터지다",
+          "example": "Everyone cracked up at his joke."
+        }
+      ]
+    },
+    "2026-04-06_69484_12": {
+      "expression": "give someone the cold shoulder",
+      "meaning_ko": "쌀쌀맞게 대하다, 무시하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I don't know why she's giving me the cold shoulder.",
+          "ko": "그녀가 왜 나를 피하고 쌀쌀맞게 구는지 모르겠어."
+        },
+        {
+          "en": "He gave me the cold shoulder after our argument yesterday.",
+          "ko": "어제 말다툼한 뒤로 그는 나를 본체만체해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "ignore",
+          "ko": "무시하다",
+          "example": "She ignored my texts all day."
+        },
+        {
+          "en": "snub",
+          "ko": "모욕하다, 무시하다",
+          "example": "He snubbed me at the party."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "welcome",
+          "ko": "환영하다",
+          "example": "They welcomed us with open arms."
+        }
+      ]
+    },
+    "2026-04-06_69484_13": {
+      "expression": "sleep on it",
+      "meaning_ko": "하룻밤 자며 고민하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Don't decide now. Why don't you sleep on it?",
+          "ko": "지금 결정하지 말고 하룻밤 자면서 생각해 보는 게 어때?"
+        },
+        {
+          "en": "I'm going to sleep on it before I sign the contract.",
+          "ko": "계약서에 서명하기 전에 하룻밤 더 고민해 보려고요."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "think it over",
+          "ko": "심사숙고하다",
+          "example": "I'll think it over and let you know."
+        },
+        {
+          "en": "take one's time",
+          "ko": "천천히 하다",
+          "example": "Take your time deciding."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "rush into",
+          "ko": "성급하게 결정하다",
+          "example": "Don't rush into a marriage."
+        }
+      ]
+    },
+    "2026-04-06_69484_14": {
+      "expression": "cut someone some slack",
+      "meaning_ko": "좀 봐주다, 사정을 봐주다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Cut him some slack. He's been under a lot of stress lately.",
+          "ko": "좀 봐줘. 걔 요즘 스트레스 엄청 받고 있단 말이야."
+        },
+        {
+          "en": "I'm new here, so please cut me some slack if I make mistakes.",
+          "ko": "제가 여기 처음이라 실수하더라도 너그럽게 봐주세요."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "go easy on",
+          "ko": "살살 대하다",
+          "example": "Go easy on him; it's his first day."
+        },
+        {
+          "en": "be lenient",
+          "ko": "관대하게 대하다",
+          "example": "The judge was lenient with the teenager."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "be hard on",
+          "ko": "엄하게 대하다",
+          "example": "Don't be so hard on yourself."
+        }
+      ]
+    },
+    "2026-04-06_69484_15": {
+      "expression": "stumble upon",
+      "meaning_ko": "우연히 발견하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I stumbled upon this cozy cafe while walking around.",
+          "ko": "동네 산책하다가 우연히 이 아늑한 카페를 발견했어."
+        },
+        {
+          "en": "She stumbled upon some old photos in the attic.",
+          "ko": "그녀는 다락방에서 우연히 옛날 사진들을 발견했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "bump into",
+          "ko": "우연히 마주치다",
+          "example": "I bumped into an old friend today."
+        },
+        {
+          "en": "encounter",
+          "ko": "맞닥뜨리다",
+          "example": "We encountered some problems."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "search for",
+          "ko": "찾아 헤매다",
+          "example": "I've been searching for my keys all day."
+        }
+      ]
     }
   },
   "metadata": {
     "last_run": "2026-04-06",
-    "total_expressions_learned": 45,
+    "total_expressions_learned": 60,
     "current_category_index": 0
   }
 }
