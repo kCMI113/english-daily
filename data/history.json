@@ -2192,11 +2192,594 @@
           "example": "I've been searching for my keys all day."
         }
       ]
+    },
+    "2026-04-06_70369_01": {
+      "expression": "overwhelmed",
+      "meaning_ko": "압도된, 벅찬",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I feel completely overwhelmed with all these deadlines.",
+          "ko": "이 모든 마감일 때문에 완전히 압도당하는 기분이야."
+        },
+        {
+          "en": "She was overwhelmed with joy when she saw her family.",
+          "ko": "그녀는 가족을 보자 기쁨에 벅차올랐다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "swamped",
+          "ko": "일에 파묻힌, 바쁜",
+          "example": "I'm swamped with work."
+        },
+        {
+          "en": "bogged down",
+          "ko": "발목 잡힌, 지체된",
+          "example": "We got bogged down in details."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "under control",
+          "ko": "통제 가능한",
+          "example": "Everything is under control now."
+        }
+      ]
+    },
+    "2026-04-06_70369_02": {
+      "expression": "diligent",
+      "meaning_ko": "성실한, 부지런한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "He is a diligent student who always finishes his homework on time.",
+          "ko": "그는 항상 숙제를 제때 마치는 성실한 학생이다."
+        },
+        {
+          "en": "Her diligent efforts led to the success of the project.",
+          "ko": "그녀의 부지런한 노력 덕분에 프로젝트가 성공했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "hardworking",
+          "ko": "열심히 일하는",
+          "example": "He is a very hardworking student."
+        },
+        {
+          "en": "industrious",
+          "ko": "근면한",
+          "example": "She is known for her industrious nature."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "lazy",
+          "ko": "게으른",
+          "example": "Don't be lazy; finish your tasks."
+        }
+      ]
+    },
+    "2026-04-06_70369_03": {
+      "expression": "contingency",
+      "meaning_ko": "만일의 사태, 비상 계획",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We need to have a contingency plan in case the main server goes down.",
+          "ko": "메인 서버가 다운될 경우를 대비한 비상 계획이 필요해요."
+        },
+        {
+          "en": "Always keep some extra cash for contingencies.",
+          "ko": "만일의 사태를 대비해 항상 여분의 현금을 가지고 다녀라."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "emergency",
+          "ko": "비상사태",
+          "example": "We have an emergency protocol."
+        },
+        {
+          "en": "eventuality",
+          "ko": "만일의 경우",
+          "example": "Prepare for every eventuality."
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_70369_04": {
+      "expression": "empathy",
+      "meaning_ko": "공감, 감정 이입",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Good leaders often show strong empathy for their team members.",
+          "ko": "좋은 리더들은 종종 팀원들에게 강한 공감 능력을 보여준다."
+        },
+        {
+          "en": "It's important to teach children empathy towards others.",
+          "ko": "아이들에게 타인에 대한 공감 능력을 가르치는 것이 중요하다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "understanding",
+          "ko": "이해심",
+          "example": "She showed great understanding."
+        },
+        {
+          "en": "compassion",
+          "ko": "연민, 동정",
+          "example": "He felt deep compassion for the victims."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "apathy",
+          "ko": "무관심, 냉담",
+          "example": "His apathy was shocking."
+        }
+      ]
+    },
+    "2026-04-06_70369_05": {
+      "expression": "assertive",
+      "meaning_ko": "자기주장이 강한, 단호한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "You need to be more assertive to get your ideas heard in meetings.",
+          "ko": "회의에서 당신의 의견을 들리게 하려면 더 자기주장이 강해야 해요."
+        },
+        {
+          "en": "Being assertive means expressing your needs clearly, not aggressively.",
+          "ko": "단호하다는 것은 공격적으로가 아니라 당신의 필요를 분명히 표현하는 것을 의미한다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "confident",
+          "ko": "자신감 있는",
+          "example": "She's confident in her abilities."
+        },
+        {
+          "en": "firm",
+          "ko": "단호한",
+          "example": "He took a firm stance."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "passive",
+          "ko": "수동적인",
+          "example": "Don't be passive; speak up."
+        },
+        {
+          "en": "submissive",
+          "ko": "복종적인",
+          "example": "He was too submissive."
+        }
+      ]
+    },
+    "2026-04-06_70369_06": {
+      "expression": "go with the flow",
+      "meaning_ko": "흐름에 따르다, 순응하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I don't have any specific plans tonight, so I'll just go with the flow.",
+          "ko": "오늘 밤 딱히 정해둔 계획은 없으니, 그냥 흐름에 맡길래."
+        },
+        {
+          "en": "Sometimes it's easier to just go with the flow instead of fighting against it.",
+          "ko": "때로는 맞서 싸우기보다 그냥 흐름에 따르는 것이 더 쉽다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "adapt",
+          "ko": "적응하다",
+          "example": "You should adapt to the new system."
+        },
+        {
+          "en": "conform",
+          "ko": "따르다, 순응하다",
+          "example": "She refused to conform to expectations."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "resist",
+          "ko": "저항하다",
+          "example": "He resisted the change."
+        }
+      ]
+    },
+    "2026-04-06_70369_07": {
+      "expression": "hit the road",
+      "meaning_ko": "출발하다, 떠나다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It's getting late, we should probably hit the road.",
+          "ko": "늦었으니 이제 슬슬 출발해야 할 것 같아."
+        },
+        {
+          "en": "Let's hit the road early tomorrow to avoid traffic.",
+          "ko": "내일은 차 막히는 걸 피하려면 일찍 출발하자."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "depart",
+          "ko": "출발하다",
+          "example": "The train departs at 5 PM."
+        },
+        {
+          "en": "set off",
+          "ko": "출발하다",
+          "example": "They set off on their journey early."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "arrive",
+          "ko": "도착하다",
+          "example": "We arrived at the destination."
+        }
+      ]
+    },
+    "2026-04-06_70369_08": {
+      "expression": "bite the bullet",
+      "meaning_ko": "이를 악물고 참다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "The project is difficult, but we'll just have to bite the bullet and finish it.",
+          "ko": "프로젝트가 어렵지만, 그냥 이를 악물고 끝내야 할 것 같아."
+        },
+        {
+          "en": "I didn't want to work overtime, but I had to bite the bullet to meet the deadline.",
+          "ko": "야근하기 싫었지만, 마감일을 맞추기 위해 억지로 참아야 했다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "grin and bear it",
+          "ko": "이를 악물고 참다",
+          "example": "He had to grin and bear it."
+        },
+        {
+          "en": "tough it out",
+          "ko": "끝까지 버티다",
+          "example": "You need to tough it out."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "give up",
+          "ko": "포기하다",
+          "example": "Don't give up so easily."
+        }
+      ]
+    },
+    "2026-04-06_70369_09": {
+      "expression": "speak of the devil",
+      "meaning_ko": "호랑이도 제 말 하면 온다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Oh, speak of the devil! We were just talking about you, John.",
+          "ko": "어, 호랑이도 제 말 하면 온다더니! 존, 우리 방금 네 얘기 하고 있었어."
+        },
+        {
+          "en": "I was just wondering where Sarah was, and speak of the devil, she just walked in.",
+          "ko": "사라 어디 있나 궁금했는데, 호랑이도 제 말 하면 온다더니, 방금 들어왔네."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "what a coincidence",
+          "ko": "정말 우연이네",
+          "example": "What a coincidence, I was just thinking of you!"
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-04-06_70369_10": {
+      "expression": "get cold feet",
+      "meaning_ko": "겁먹다, 망설이다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "He was going to propose, but he got cold feet at the last minute.",
+          "ko": "그는 프러포즈할 예정이었는데, 마지막 순간에 겁을 먹었다."
+        },
+        {
+          "en": "Don't get cold feet now; you've worked too hard for this!",
+          "ko": "지금 와서 겁먹지 마; 이걸 위해 너무 열심히 노력했잖아!"
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "lose courage",
+          "ko": "용기를 잃다",
+          "example": "He lost courage at the last minute."
+        },
+        {
+          "en": "have second thoughts",
+          "ko": "다시 생각하다, 주저하다",
+          "example": "I'm having second thoughts about moving."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "be determined",
+          "ko": "단호하다, 결심하다",
+          "example": "She was determined to go through with it."
+        }
+      ]
+    },
+    "2026-04-06_70369_11": {
+      "expression": "cost an arm and a leg",
+      "meaning_ko": "엄청 비싸다, 거금이다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "That designer bag must have cost an arm and a leg.",
+          "ko": "저 디자이너 가방은 엄청 비쌌을 거야."
+        },
+        {
+          "en": "I'd love to go on that trip, but it costs an arm and a leg.",
+          "ko": "그 여행 정말 가고 싶지만, 돈이 너무 많이 들어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "be pricey",
+          "ko": "값이 비싸다",
+          "example": "That restaurant is quite pricey."
+        },
+        {
+          "en": "break the bank",
+          "ko": "거금을 쓰다",
+          "example": "Buying a new car would break the bank."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "be cheap",
+          "ko": "값이 싸다",
+          "example": "These shoes were really cheap."
+        },
+        {
+          "en": "be affordable",
+          "ko": "저렴하다",
+          "example": "The tickets are quite affordable."
+        }
+      ]
+    },
+    "2026-04-06_70369_12": {
+      "expression": "miss the boat",
+      "meaning_ko": "기회를 놓치다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "If you don't apply now, you might miss the boat for this scholarship.",
+          "ko": "지금 신청하지 않으면, 이 장학금 기회를 놓칠 수도 있어."
+        },
+        {
+          "en": "I should have invested in that company earlier, but I totally missed the boat.",
+          "ko": "그 회사에 더 일찍 투자했어야 했는데, 완전히 기회를 놓쳤어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "lose the chance",
+          "ko": "기회를 잃다",
+          "example": "He lost the chance to study abroad."
+        },
+        {
+          "en": "blow it",
+          "ko": "망치다, 기회를 놓치다",
+          "example": "I really blew it on that interview."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "seize the opportunity",
+          "ko": "기회를 잡다",
+          "example": "She seized the opportunity to learn."
+        }
+      ]
+    },
+    "2026-04-06_70369_13": {
+      "expression": "spill the beans",
+      "meaning_ko": "비밀을 누설하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "We're planning a surprise party for him, so don't spill the beans!",
+          "ko": "우리가 그를 위한 깜짝 파티를 계획 중이니, 비밀을 누설하지 마!"
+        },
+        {
+          "en": "Who spilled the beans about our engagement?",
+          "ko": "누가 우리 약혼 소식을 발설했어?"
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "reveal a secret",
+          "ko": "비밀을 밝히다",
+          "example": "He revealed a big secret."
+        },
+        {
+          "en": "let the cat out of the bag",
+          "ko": "비밀을 폭로하다",
+          "example": "Someone let the cat out of the bag about the surprise party."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "keep a secret",
+          "ko": "비밀을 지키다",
+          "example": "Can you keep a secret?"
+        }
+      ]
+    },
+    "2026-04-06_70369_14": {
+      "expression": "take a rain check",
+      "meaning_ko": "다음 기회로 미루다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'd love to go to the concert, but I'm busy tonight. Can I take a rain check?",
+          "ko": "콘서트 정말 가고 싶지만, 오늘 밤은 바빠요. 다음 기회로 미룰 수 있을까요?"
+        },
+        {
+          "en": "Thanks for the dinner invitation, but I'll have to take a rain check. I'm not feeling well.",
+          "ko": "저녁 초대 고맙지만, 다음으로 미뤄야 할 것 같아요. 몸이 안 좋아서요."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "postpone",
+          "ko": "연기하다",
+          "example": "Let's postpone our meeting."
+        },
+        {
+          "en": "reschedule",
+          "ko": "일정을 변경하다",
+          "example": "Can we reschedule for next week?"
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "accept",
+          "ko": "수락하다",
+          "example": "I accept your invitation."
+        }
+      ]
+    },
+    "2026-04-06_70369_15": {
+      "expression": "wrap up",
+      "meaning_ko": "마무리하다, 끝내다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-04-06",
+      "last_reviewed": "2026-04-06",
+      "next_review": "2026-04-07",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Let's try to wrap up this discussion in the next 10 minutes.",
+          "ko": "앞으로 10분 안에 이 논의를 마무리하도록 하죠."
+        },
+        {
+          "en": "I need to wrap up my work before I leave for the day.",
+          "ko": "퇴근하기 전에 일을 마무리해야 해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "finish",
+          "ko": "끝내다",
+          "example": "Let's finish this task quickly."
+        },
+        {
+          "en": "conclude",
+          "ko": "결론 내리다, 마치다",
+          "example": "The meeting concluded at noon."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "start",
+          "ko": "시작하다",
+          "example": "We need to start the project."
+        },
+        {
+          "en": "begin",
+          "ko": "시작하다",
+          "example": "Let's begin the presentation."
+        }
+      ]
     }
   },
   "metadata": {
     "last_run": "2026-04-06",
-    "total_expressions_learned": 60,
+    "total_expressions_learned": 75,
     "current_category_index": 0
   }
 }
