@@ -1,4 +1,4 @@
-name: Daily English Study Email
+name: Daily English Study
 
 on:
   schedule:
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  send-daily-english:
+  generate-daily-english:
     runs-on: ubuntu-latest
 
     steps:
@@ -34,9 +34,6 @@ jobs:
       - name: Run daily English study
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python -m src.main "${{ github.event.inputs.date }}"

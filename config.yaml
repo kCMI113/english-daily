@@ -20,6 +20,3 @@ llm:
   model: "gemini-3-flash-preview"
   temperature: 0.7
   max_tokens: 24000
-
-email:
-  subject_prefix: "[영어회화]"

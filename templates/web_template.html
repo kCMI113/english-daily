@@ -48,6 +48,9 @@
     .btn-speak:hover { background: #ebf8ff; border-color: #2b6cb0; }
     .btn-speak.playing { background: #2b6cb0; border-color: #2b6cb0; color: #fff; }
     .pronunciation { font-size: 13px; color: #718096; margin-bottom: 10px; }
+    .word-forms { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .wf { font-size: 12px; background: #edf2f7; color: #4a5568; border-radius: 4px; padding: 2px 8px; }
+    .wf em { color: #2b6cb0; font-style: normal; font-weight: 600; margin-right: 3px; }
     .meaning { font-size: 16px; margin-bottom: 10px; }
     .meaning strong { color: #2d3748; }
     .explanation { font-size: 13px; color: #4a5568; background: #f7fafc; border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; line-height: 1.7; }
@@ -127,6 +130,14 @@
               </div>
               {% if expr.pronunciation %}<div class="pronunciation">{{ expr.pronunciation }}</div>{% endif %}
               <div class="meaning"><strong>&#xB73B;:</strong> {{ expr.meaning_ko }}</div>
+              {% if expr.word_forms %}
+              <div class="word-forms">
+                {% if expr.word_forms.verb %}<span class="wf"><em>v.</em> {{ expr.word_forms.verb }}</span>{% endif %}
+                {% if expr.word_forms.noun %}<span class="wf"><em>n.</em> {{ expr.word_forms.noun }}</span>{% endif %}
+                {% if expr.word_forms.adjective %}<span class="wf"><em>adj.</em> {{ expr.word_forms.adjective }}</span>{% endif %}
+                {% if expr.word_forms.adverb %}<span class="wf"><em>adv.</em> {{ expr.word_forms.adverb }}</span>{% endif %}
+              </div>
+              {% endif %}
               <div class="explanation">&#x1F4A1; {{ expr.explanation_ko }}</div>
               <div class="examples">
                 <div class="label">Examples</div>
@@ -218,11 +229,6 @@
         <div>&#xC624;&#xB298; &#xBCF5;&#xC2B5;&#xD560; &#xD45C;&#xD604;&#xC774; &#xC5C6;&#xC2B5;&#xB2C8;&#xB2E4;</div>
       </div>
       {% endif %}
-    </div>
-
-    <div class="stats">
-      <div class="title">&#x1F4CA; &#xD559;&#xC2B5; &#xD604;&#xD669;</div>
-      <div class="numbers">&#xCD1D; &#xD559;&#xC2B5;: {{ stats.total_learned }}&#xAC1C; &middot; &#xD65C;&#xC131;: {{ stats.active }}&#xAC1C; &middot; &#xC644;&#xB8CC;: {{ stats.retired }}&#xAC1C;</div>
     </div>
 
     <footer>Daily English Conversation &middot; Powered by Gemini</footer>
