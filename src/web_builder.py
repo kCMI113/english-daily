@@ -72,8 +72,14 @@ class WebBuilder:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url={latest}.html">
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="pragma" content="no-cache">
   <title>Daily English Conversation</title>
+  <script>
+    fetch('dates.json?t=' + Date.now()).then(r => r.json()).then(dates => {{
+      if (dates.length) window.location.replace(dates[dates.length - 1] + '.html');
+    }});
+  </script>
   <style>
     body {{ font-family: -apple-system, sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; }}
     h1 {{ font-size: 20px; color: #1a365d; }}
