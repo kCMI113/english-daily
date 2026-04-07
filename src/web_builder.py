@@ -26,7 +26,6 @@ class WebBuilder:
             difficulty_ko=metadata["difficulty_ko"],
             new_expressions=new_expressions,
             review_expressions=review_expressions,
-            stats=metadata["stats"],
         )
 
     def save(self, html: str, docs_dir: str, date: str):
