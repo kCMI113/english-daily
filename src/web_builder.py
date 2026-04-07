@@ -56,13 +56,14 @@ class WebBuilder:
         with open(dates_path, "w", encoding="utf-8") as f:
             json.dump(dates, f)
 
-    def _build_index(self, docs_dir: str, latest_date: str) -> str:
-        """Build index page with list of all dates."""
+    def _build_index(self, docs_dir: str, _unused: str = "") -> str:
+        """Build index page that redirects to the latest date."""
         dates = sorted(
             [f.replace(".html", "") for f in os.listdir(docs_dir)
              if f.endswith(".html") and f != "index.html"],
             reverse=True,
         )
+        latest = dates[0] if dates else ""
         links = "\n".join(
             f'      <li><a href="{d}.html">{d}</a></li>' for d in dates
         )
@@ -71,7 +72,7 @@ class WebBuilder:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url={latest_date}.html">
+  <meta http-equiv="refresh" content="0; url={latest}.html">
   <title>Daily English Conversation</title>
   <style>
     body {{ font-family: -apple-system, sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; }}
