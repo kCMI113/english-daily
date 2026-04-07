@@ -262,44 +262,7 @@
     function prevCard(tab) { goTo(tab, state[tab].index - 1); }
     function nextCard(tab) { goTo(tab, state[tab].index + 1); }
 
-    /* ── Swipe support ── */
-    function setupSwipe(tab) {
-      const viewport = document.getElementById(`viewport-${tab}`);
-      if (!viewport) return;
-      const track = document.getElementById(`track-${tab}`);
-      let startX = 0, currentX = 0, isDragging = false;
-
-      viewport.addEventListener('touchstart', e => {
-        // Ignore swipe if touching a button
-        if (e.target.closest('button, a')) { isDragging = false; return; }
-        startX = e.touches[0].clientX;
-        currentX = startX;
-        isDragging = true;
-        track.classList.add('swiping');
-      }, { passive: true });
-
-      viewport.addEventListener('touchmove', e => {
-        if (!isDragging) return;
-        currentX = e.touches[0].clientX;
-        const diff = currentX - startX;
-        const offset = -(state[tab].index * viewport.offsetWidth) + diff;
-        track.style.transform = `translateX(${offset}px)`;
-      }, { passive: true });
-
-      viewport.addEventListener('touchend', () => {
-        if (!isDragging) return;
-        isDragging = false;
-        track.classList.remove('swiping');
-        const diff = currentX - startX;
-        if (Math.abs(diff) > 50) {
-          if (diff < 0) nextCard(tab);
-          else prevCard(tab);
-        } else {
-          goTo(tab, state[tab].index);
-        }
-        currentX = 0;
-      });
-    }
+    /* ── Swipe disabled — navigation via buttons only ── */
 
     /* ── Keyboard navigation ── */
     document.addEventListener('keydown', e => {
@@ -346,8 +309,6 @@
     /* ── Init ── */
     goTo('learn', 0);
     goTo('review', 0);
-    setupSwipe('learn');
-    setupSwipe('review');
   </script>
 </body>
 </html>
