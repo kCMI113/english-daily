@@ -23,10 +23,10 @@ def load_config() -> dict:
 def build_subject(today: str, category_ko: str, new_count: int, review_count: int, prefix: str) -> str:
     month = int(today.split("-")[1])
     day = int(today.split("-")[2])
-    parts = [f"{prefix} {month}월 {day}일 - {category_ko} 표현 {new_count}개"]
+    subject = f"{prefix} {month}월 {day}일 - {category_ko} 표현 {new_count}개"
     if review_count > 0:
-        parts[0] += f" + 복습 {review_count}개"
-    return parts[0]
+        subject += f" + 복습 {review_count}개"
+    return subject
 
 
 def main():

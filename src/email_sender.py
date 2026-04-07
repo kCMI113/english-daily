@@ -6,7 +6,10 @@ from sendgrid.helpers.mail import Mail
 
 class EmailSender:
     def __init__(self):
-        self.client = SendGridAPIClient(os.environ["SENDGRID_API_KEY"])
+        api_key = os.environ.get("SENDGRID_API_KEY")
+        if not api_key:
+            raise RuntimeError("SENDGRID_API_KEY environment variable is not set")
+        self.client = SendGridAPIClient(api_key)
         self.from_email = os.environ.get("EMAIL_FROM", "english-daily@study.com")
 
     def send(self, to_email: str, subject: str, html_content: str) -> bool:

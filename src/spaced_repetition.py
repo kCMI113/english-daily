@@ -65,7 +65,7 @@ class SpacedRepetitionManager:
                 "last_reviewed": today,
                 "next_review": next_review,
                 "review_count": 0,
-                "examples": expr["examples"][:2],
+                "examples": expr.get("examples", [])[:2],
                 "synonyms": expr.get("synonyms", []),
                 "antonyms": expr.get("antonyms", []),
             }

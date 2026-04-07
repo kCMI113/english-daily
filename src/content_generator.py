@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from datetime import date
+import time
 
 from .llm_client import LLMClient
 
@@ -121,7 +121,6 @@ class ContentGenerator:
         self._validate(expressions, count=count)
 
         # Assign IDs (with timestamp to avoid collision on same-day reruns)
-        import time
         ts = int(time.time()) % 100000
         for i, expr in enumerate(expressions):
             expr["id"] = f"{today}_{ts}_{i+1:02d}"
