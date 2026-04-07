@@ -98,17 +98,27 @@ class ContentGenerator:
         count = self.config["study"]["expressions_per_day"]
         exclude_str = ", ".join(exclude_expressions[-200:]) if exclude_expressions else "(none)"
 
-        # Try full count first, fallback to half on failure
-        expressions = self._try_generate(today, difficulty, count, exclude_str)
-        if expressions is None:
-            half = max(count // 2, 5)
-            print(f"Retrying with reduced count: {half}")
-            expressions = self._try_generate(today, difficulty, half, exclude_str)
-            if expressions is None:
-                raise RuntimeError("Content generation failed after all attempts")
+        # Accumulate expressions until we have enough
+        expressions = []
+        max_attempts = 5
+        for attempt in range(max_attempts):
+            remaining = count - len(expressions)
+            if remaining <= 0:
+                break
+            print(f"Attempt {attempt + 1}/{max_attempts}: requesting {remaining} expressions...")
+            batch = self._try_generate(today, difficulty, remaining, exclude_str)
+            if batch:
+                expressions.extend(batch)
+                print(f"Got {len(batch)}, total: {len(expressions)}/{count}")
+            if len(expressions) >= count:
+                break
 
+        if not expressions:
+            raise RuntimeError("Content generation failed after all attempts")
+
+        expressions = expressions[:count]  # trim if over
         self._clean_foreign_chars(expressions)
-        self._validate(expressions, count=0)  # skip count check on fallback
+        self._validate(expressions, count=count)
 
         # Assign IDs (with timestamp to avoid collision on same-day reruns)
         import time
