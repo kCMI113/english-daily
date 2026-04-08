@@ -160,5 +160,86 @@
         "meaning_ko": "실력이 예전만 못하다"
       }
     ]
+  },
+  "2026-04-08": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-08_87407_01",
+        "expression": "intuitive",
+        "meaning_ko": "직관적인, 이해하기 쉬운"
+      },
+      {
+        "id": "2026-04-08_87407_02",
+        "expression": "compromise",
+        "meaning_ko": "타협하다, 절충하다"
+      },
+      {
+        "id": "2026-04-08_87407_03",
+        "expression": "pragmatic",
+        "meaning_ko": "실용적인, 현실적인"
+      },
+      {
+        "id": "2026-04-08_87407_04",
+        "expression": "candid",
+        "meaning_ko": "솔직한, 숨김없는"
+      },
+      {
+        "id": "2026-04-08_87407_05",
+        "expression": "bring up",
+        "meaning_ko": "화제를 꺼내다, 언급하다"
+      },
+      {
+        "id": "2026-04-08_87407_06",
+        "expression": "keep track of",
+        "meaning_ko": "파악하다, 기록하다"
+      },
+      {
+        "id": "2026-04-08_87407_07",
+        "expression": "in the long run",
+        "meaning_ko": "결국에는, 장기적으로는"
+      },
+      {
+        "id": "2026-04-08_87407_08",
+        "expression": "rule out",
+        "meaning_ko": "배제하다, 제외하다"
+      },
+      {
+        "id": "2026-04-08_87407_09",
+        "expression": "get a head start",
+        "meaning_ko": "유리하게 시작하다, 일찍 시작하다"
+      },
+      {
+        "id": "2026-04-08_87407_10",
+        "expression": "make a difference",
+        "meaning_ko": "영향을 주다, 변화를 일으키다"
+      },
+      {
+        "id": "2026-04-08_87407_11",
+        "expression": "take it easy",
+        "meaning_ko": "진정하다, 쉬엄쉬엄하다"
+      },
+      {
+        "id": "2026-04-08_87407_12",
+        "expression": "on top of that",
+        "meaning_ko": "게다가, 설상가상으로"
+      },
+      {
+        "id": "2026-04-08_87407_13",
+        "expression": "run out of",
+        "meaning_ko": "다 써버리다, 바닥나다"
+      },
+      {
+        "id": "2026-04-08_87407_14",
+        "expression": "look up to",
+        "meaning_ko": "존경하다, 우러러보다"
+      },
+      {
+        "id": "2026-04-08_87407_15",
+        "expression": "in a nutshell",
+        "meaning_ko": "간단히 말하면, 요약하자면"
+      }
+    ]
   }
 }
