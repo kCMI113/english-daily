@@ -1,12 +1,11 @@
 # Daily English Conversation
 
-> 매일 아침 7시, AI가 엄선한 영어회화 표현 15개가 이메일과 웹으로 배달됩니다.
+> 매일 아침 7시, AI가 엄선한 영어회화 표현 15개가 웹으로 배달됩니다.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Gemini_3_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Actions">
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="Pages">
-
 </p>
 
 ---
@@ -28,7 +27,7 @@
 - 카드 슬라이드 UI로 한 장씩 넘기며 학습
 - 학습/복습 탭 분리
 - Web Speech API로 모든 표현, 예문, 유의어, 반의어 발음 듣기
-- 터치 스와이프 + 키보드 화살표 지원
+- 키보드 화살표 + 버튼 네비게이션
 - 날짜별 네비게이션
 
 **완전 자동화**
@@ -81,7 +80,6 @@ python -m src.main 2025-01-15   # 특정 날짜로 생성
 ```
 
 생성된 파일:
-- `output.html` - 이메일 미리보기
 - `docs/{date}.html` - 웹 버전
 
 ### 3. GitHub Actions 설정
@@ -108,6 +106,10 @@ study:
   expressions_per_day: 15
   max_review_items: 15
 
+category:
+  name: daily_conversation
+  label_ko: "일상 영어회화"
+
 spaced_repetition:
   intervals:
     1: 1    # Box 1 → 1일 후 복습
@@ -130,11 +132,8 @@ english-daily/
 │   ├── llm_client.py        # Gemini API 래퍼
 │   ├── content_generator.py # 프롬프트 엔지니어링 + 파싱
 │   ├── spaced_repetition.py # Leitner Box 시스템
-│   ├── email_builder.py     # 이메일 HTML 렌더링
-│   ├── email_sender.py      # SendGrid 발송
 │   └── web_builder.py       # 웹 페이지 생성
 ├── templates/
-│   ├── email_template.html  # 이메일 Jinja2 템플릿
 │   └── web_template.html    # 웹 Jinja2 템플릿 (카드 UI + TTS)
 ├── data/
 │   ├── history.json         # 학습 이력 (자동 커밋)

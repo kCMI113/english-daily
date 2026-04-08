@@ -277,21 +277,30 @@
     });
 
     /* ── TTS (event delegation) ── */
-    let currentUtterance = null;
+    let currentBtn = null;
+    /* Warm up voices — some browsers load them lazily */
+    if (typeof speechSynthesis !== 'undefined') {
+      speechSynthesis.getVoices();
+      speechSynthesis.addEventListener('voiceschanged', () => speechSynthesis.getVoices());
+    }
     document.addEventListener('click', e => {
       const btn = e.target.closest('[data-speak]');
       if (!btn) return;
       const text = btn.dataset.speak;
-      if (!text) return;
-      if (currentUtterance) speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US';
-      u.rate = 0.9;
+      if (!text || typeof speechSynthesis === 'undefined') return;
+      speechSynthesis.cancel();
+      if (currentBtn) currentBtn.classList.remove('playing');
       btn.classList.add('playing');
-      u.onend = () => btn.classList.remove('playing');
-      u.onerror = () => btn.classList.remove('playing');
-      currentUtterance = u;
-      speechSynthesis.speak(u);
+      currentBtn = btn;
+      /* Delay after cancel() — Chrome drops speak() if called immediately */
+      setTimeout(() => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = 'en-US';
+        u.rate = 0.9;
+        u.onend = () => { btn.classList.remove('playing'); currentBtn = null; };
+        u.onerror = () => { btn.classList.remove('playing'); currentBtn = null; };
+        speechSynthesis.speak(u);
+      }, 50);
     });
 
     /* ── Date navigation ── */
