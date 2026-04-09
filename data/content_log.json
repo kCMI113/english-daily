@@ -241,5 +241,86 @@
         "meaning_ko": "간단히 말하면, 요약하자면"
       }
     ]
+  },
+  "2026-04-09": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-09_73898_01",
+        "expression": "strenuous",
+        "meaning_ko": "몹시 힘든, 격렬한"
+      },
+      {
+        "id": "2026-04-09_73898_02",
+        "expression": "oblivious",
+        "meaning_ko": "의식하지 못하는"
+      },
+      {
+        "id": "2026-04-09_73898_03",
+        "expression": "daunting",
+        "meaning_ko": "벅찬, 주눅 들게 하는"
+      },
+      {
+        "id": "2026-04-09_73898_04",
+        "expression": "indifferent",
+        "meaning_ko": "무관심한, 시큰둥한"
+      },
+      {
+        "id": "2026-04-09_73898_05",
+        "expression": "get a kick out of",
+        "meaning_ko": "~에서 재미를 느끼다"
+      },
+      {
+        "id": "2026-04-09_73898_06",
+        "expression": "bring something to the table",
+        "meaning_ko": "기여하다, 이익을 주다"
+      },
+      {
+        "id": "2026-04-09_73898_07",
+        "expression": "take something with a grain of salt",
+        "meaning_ko": "걸러서 듣다"
+      },
+      {
+        "id": "2026-04-09_73898_08",
+        "expression": "off the top of my head",
+        "meaning_ko": "지금 당장 생각나기로는"
+      },
+      {
+        "id": "2026-04-09_73898_09",
+        "expression": "take into account",
+        "meaning_ko": "~을 고려하다"
+      },
+      {
+        "id": "2026-04-09_73898_10",
+        "expression": "blow someone away",
+        "meaning_ko": "깜짝 놀라게 하다"
+      },
+      {
+        "id": "2026-04-09_73898_11",
+        "expression": "stand out",
+        "meaning_ko": "눈에 띄다, 두드러지다"
+      },
+      {
+        "id": "2026-04-09_73898_12",
+        "expression": "play it safe",
+        "meaning_ko": "신중하게 하다"
+      },
+      {
+        "id": "2026-04-09_73898_13",
+        "expression": "lose one's nerve",
+        "meaning_ko": "겁을 먹다, 용기를 잃다"
+      },
+      {
+        "id": "2026-04-09_73898_14",
+        "expression": "fall through",
+        "meaning_ko": "무산되다, 수포로 돌아가다"
+      },
+      {
+        "id": "2026-04-09_73898_15",
+        "expression": "look over",
+        "meaning_ko": "훑어보다, 검토하다"
+      }
+    ]
   }
 }
