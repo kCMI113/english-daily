@@ -11,6 +11,10 @@ class SpacedRepetitionManager:
             int(k): v
             for k, v in config["spaced_repetition"]["intervals"].items()
         }
+        self.box_limits = {
+            int(k): v
+            for k, v in config["spaced_repetition"].get("box_limits", {}).items()
+        }
         self.retire_after = config["spaced_repetition"]["retire_after_box"]
         self.data = self._load()
 
@@ -38,18 +42,46 @@ class SpacedRepetitionManager:
             json.dump(self.data, f, ensure_ascii=False, indent=2)
 
     def get_due_reviews(self, today: str) -> list[dict]:
-        """Return expressions due for review today, sorted by box (lower first)."""
-        max_items = self.config["study"]["max_review_items"]
-        due = []
+        """Return expressions due for review today, with per-box quota allocation.
 
+        Each box has a configured limit (box_limits). If a box has fewer due
+        items than its quota, the unused slots are redistributed to boxes that
+        still have remaining items (lowest box first).
+        """
+        max_items = self.config["study"]["max_review_items"]
+
+        # Collect due items grouped by box
+        due_by_box: dict[int, list[dict]] = {}
         for expr_id, expr in self.data["expressions"].items():
             box = expr.get("box", 1)
             next_review = expr.get("next_review", "")
             if box <= self.retire_after and next_review <= today:
-                due.append({"id": expr_id, **expr})
+                due_by_box.setdefault(box, []).append({"id": expr_id, **expr})
 
-        due.sort(key=lambda x: (x.get("box", 1), x.get("last_reviewed", "")))
-        return due[:max_items]
+        # Sort within each box: oldest reviewed first
+        for box in due_by_box:
+            due_by_box[box].sort(key=lambda x: x.get("last_reviewed", ""))
+
+        # First pass: fill each box up to its quota
+        selected = []
+        overflow: dict[int, list[dict]] = {}
+        for box in sorted(due_by_box):
+            limit = self.box_limits.get(box, max_items)
+            items = due_by_box[box]
+            selected.extend(items[:limit])
+            if len(items) > limit:
+                overflow[box] = items[limit:]
+
+        # Second pass: redistribute unused slots to overflow (lowest box first)
+        remaining_slots = max_items - len(selected)
+        for box in sorted(overflow):
+            if remaining_slots <= 0:
+                break
+            take = min(len(overflow[box]), remaining_slots)
+            selected.extend(overflow[box][:take])
+            remaining_slots -= take
+
+        return selected[:max_items]
 
     def add_new_expressions(self, expressions: list[dict], today: str):
         """Add today's new expressions to box 1."""
