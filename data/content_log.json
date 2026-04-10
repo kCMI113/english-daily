@@ -322,5 +322,86 @@
         "meaning_ko": "훑어보다, 검토하다"
       }
     ]
+  },
+  "2026-04-10": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-10_60003_01",
+        "expression": "preoccupied",
+        "meaning_ko": "다른 생각에 팔린, 정신없는"
+      },
+      {
+        "id": "2026-04-10_60003_02",
+        "expression": "intimidated",
+        "meaning_ko": "위축된, 겁을 먹은"
+      },
+      {
+        "id": "2026-04-10_60003_03",
+        "expression": "flustered",
+        "meaning_ko": "허둥지둥하는, 당황한"
+      },
+      {
+        "id": "2026-04-10_60003_04",
+        "expression": "exaggerate",
+        "meaning_ko": "과장하다, 허풍 떨다"
+      },
+      {
+        "id": "2026-04-10_60003_05",
+        "expression": "get to the bottom of",
+        "meaning_ko": "진상을 규명하다, 원인을 밝히다"
+      },
+      {
+        "id": "2026-04-10_60003_06",
+        "expression": "put someone on the spot",
+        "meaning_ko": "난처하게 만들다, 정곡을 찌르다"
+      },
+      {
+        "id": "2026-04-10_60003_07",
+        "expression": "catch someone off guard",
+        "meaning_ko": "허를 찌르다, 방심했을 때 놀래키다"
+      },
+      {
+        "id": "2026-04-10_60003_08",
+        "expression": "burn the midnight oil",
+        "meaning_ko": "밤늦게까지 공부/일하다"
+      },
+      {
+        "id": "2026-04-10_60003_09",
+        "expression": "have a lot on one's plate",
+        "meaning_ko": "할 일이 태산이다, 아주 바쁘다"
+      },
+      {
+        "id": "2026-04-10_60003_10",
+        "expression": "call the shots",
+        "meaning_ko": "주도권을 쥐다, 결정권을 갖다"
+      },
+      {
+        "id": "2026-04-10_60003_11",
+        "expression": "let someone down",
+        "meaning_ko": "실망시키다, 기대를 저버리다"
+      },
+      {
+        "id": "2026-04-10_60003_12",
+        "expression": "step up one's game",
+        "meaning_ko": "수준을 높이다, 더 분발하다"
+      },
+      {
+        "id": "2026-04-10_60003_13",
+        "expression": "run a tight ship",
+        "meaning_ko": "엄격하게 관리하다, 빈틈없이 운영하다"
+      },
+      {
+        "id": "2026-04-10_60003_14",
+        "expression": "keep someone in the loop",
+        "meaning_ko": "계속 소식을 알려주다, 공유하다"
+      },
+      {
+        "id": "2026-04-10_60003_15",
+        "expression": "go down the drain",
+        "meaning_ko": "수포로 돌아가다, 헛수고가 되다"
+      }
+    ]
   }
 }
