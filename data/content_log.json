@@ -484,5 +484,86 @@
         "meaning_ko": "관계를 완전히 끊다"
       }
     ]
+  },
+  "2026-04-12": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-12_32586_01",
+        "expression": "impeccable",
+        "meaning_ko": "흠잡을 데 없는, 완벽한"
+      },
+      {
+        "id": "2026-04-12_32586_02",
+        "expression": "adversity",
+        "meaning_ko": "역경, 고난"
+      },
+      {
+        "id": "2026-04-12_32586_03",
+        "expression": "exhilarating",
+        "meaning_ko": "아주 신나는, 짜릿한"
+      },
+      {
+        "id": "2026-04-12_32586_04",
+        "expression": "precarious",
+        "meaning_ko": "위태로운, 불안정한"
+      },
+      {
+        "id": "2026-04-12_32586_05",
+        "expression": "get carried away",
+        "meaning_ko": "흥분해서 도를 넘다, 넋이 나가다"
+      },
+      {
+        "id": "2026-04-12_32586_06",
+        "expression": "pitch in",
+        "meaning_ko": "협력하다, 한 손 거들다"
+      },
+      {
+        "id": "2026-04-12_32586_07",
+        "expression": "sleep like a log",
+        "meaning_ko": "아주 깊이 잠들다, 세상 모르고 자다"
+      },
+      {
+        "id": "2026-04-12_32586_08",
+        "expression": "keep one's chin up",
+        "meaning_ko": "기운 내다, 당당하다"
+      },
+      {
+        "id": "2026-04-12_32586_09",
+        "expression": "stand one's ground",
+        "meaning_ko": "자기 주장을 굽히지 않다"
+      },
+      {
+        "id": "2026-04-12_32586_10",
+        "expression": "jump to conclusions",
+        "meaning_ko": "성급하게 결론 내리다"
+      },
+      {
+        "id": "2026-04-12_32586_11",
+        "expression": "play hard to get",
+        "meaning_ko": "비싸게 굴다, 밀당하다"
+      },
+      {
+        "id": "2026-04-12_32586_12",
+        "expression": "get a load of",
+        "meaning_ko": "~을 좀 봐, 이것 좀 봐"
+      },
+      {
+        "id": "2026-04-12_32586_13",
+        "expression": "hang in there",
+        "meaning_ko": "조금만 더 버텨, 힘내"
+      },
+      {
+        "id": "2026-04-12_32586_14",
+        "expression": "back down",
+        "meaning_ko": "한 발 물러서다, 굽히다"
+      },
+      {
+        "id": "2026-04-12_32586_15",
+        "expression": "lose track of time",
+        "meaning_ko": "시간 가는 줄 모르다"
+      }
+    ]
   }
 }
