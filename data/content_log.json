@@ -565,5 +565,86 @@
         "meaning_ko": "시간 가는 줄 모르다"
       }
     ]
+  },
+  "2026-04-13": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-13_19733_01",
+        "expression": "stifling",
+        "meaning_ko": "숨 막히는, 답답한"
+      },
+      {
+        "id": "2026-04-13_19733_02",
+        "expression": "frugal",
+        "meaning_ko": "검소한, 절약하는"
+      },
+      {
+        "id": "2026-04-13_19733_03",
+        "expression": "considerate",
+        "meaning_ko": "배려심 있는, 사려 깊은"
+      },
+      {
+        "id": "2026-04-13_19733_04",
+        "expression": "cumbersome",
+        "meaning_ko": "번거로운, 거추장스러운"
+      },
+      {
+        "id": "2026-04-13_19733_05",
+        "expression": "unpredictable",
+        "meaning_ko": "예측할 수 없는"
+      },
+      {
+        "id": "2026-04-13_19733_06",
+        "expression": "get a feel for",
+        "meaning_ko": "감을 잡다, 익숙해지다"
+      },
+      {
+        "id": "2026-04-13_19733_07",
+        "expression": "walk in the park",
+        "meaning_ko": "식은 죽 먹기, 아주 쉬운 일"
+      },
+      {
+        "id": "2026-04-13_19733_08",
+        "expression": "be tied up",
+        "meaning_ko": "매우 바쁘다, 꼼짝 못 하다"
+      },
+      {
+        "id": "2026-04-13_19733_09",
+        "expression": "cost an arm and a leg",
+        "meaning_ko": "매우 비싸다, 거액이 들다"
+      },
+      {
+        "id": "2026-04-13_19733_10",
+        "expression": "show up",
+        "meaning_ko": "나타나다, 등장하다"
+      },
+      {
+        "id": "2026-04-13_19733_11",
+        "expression": "pull off",
+        "meaning_ko": "해내다, 성사시키다"
+      },
+      {
+        "id": "2026-04-13_19733_12",
+        "expression": "make a fuss",
+        "meaning_ko": "소란을 피우다, 야단법석을 떨다"
+      },
+      {
+        "id": "2026-04-13_19733_13",
+        "expression": "feel blue",
+        "meaning_ko": "우울하다, 기분이 처지다"
+      },
+      {
+        "id": "2026-04-13_19733_14",
+        "expression": "get on one's nerves",
+        "meaning_ko": "신경을 건드리다, 짜증 나게 하다"
+      },
+      {
+        "id": "2026-04-13_19733_15",
+        "expression": "lean on",
+        "meaning_ko": "~에 의지하다, 기대다"
+      }
+    ]
   }
 }
