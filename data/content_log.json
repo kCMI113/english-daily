@@ -727,5 +727,86 @@
         "meaning_ko": "잠자리에 들다"
       }
     ]
+  },
+  "2026-04-15": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-15_92401_01",
+        "expression": "versatile",
+        "meaning_ko": "다재다능한, 다용도의"
+      },
+      {
+        "id": "2026-04-15_92401_02",
+        "expression": "meticulous",
+        "meaning_ko": "꼼꼼한, 세심한"
+      },
+      {
+        "id": "2026-04-15_92401_03",
+        "expression": "tenacious",
+        "meaning_ko": "끈질긴, 집요한"
+      },
+      {
+        "id": "2026-04-15_92401_04",
+        "expression": "authentic",
+        "meaning_ko": "진짜의, 진본인"
+      },
+      {
+        "id": "2026-04-15_92401_05",
+        "expression": "eloquent",
+        "meaning_ko": "유창한, 말을 잘하는"
+      },
+      {
+        "id": "2026-04-15_92401_06",
+        "expression": "cheer up",
+        "meaning_ko": "기운 내다, 기운을 북돋우다"
+      },
+      {
+        "id": "2026-04-15_92401_07",
+        "expression": "show off",
+        "meaning_ko": "자랑하다, 뽐내다"
+      },
+      {
+        "id": "2026-04-15_92401_08",
+        "expression": "look forward to",
+        "meaning_ko": "기대하다, 고대하다"
+      },
+      {
+        "id": "2026-04-15_92401_09",
+        "expression": "under the weather",
+        "meaning_ko": "몸 상태가 좋지 않은"
+      },
+      {
+        "id": "2026-04-15_92401_10",
+        "expression": "once in a blue moon",
+        "meaning_ko": "아주 드물게, 가뭄에 콩 나듯"
+      },
+      {
+        "id": "2026-04-15_92401_11",
+        "expression": "as far as I'm concerned",
+        "meaning_ko": "내 생각에는, 내 입장에서는"
+      },
+      {
+        "id": "2026-04-15_92401_12",
+        "expression": "for the time being",
+        "meaning_ko": "당분간은, 우선은"
+      },
+      {
+        "id": "2026-04-15_92401_13",
+        "expression": "sort out",
+        "meaning_ko": "정리하다, 해결하다"
+      },
+      {
+        "id": "2026-04-15_92401_14",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론으로 들어가다"
+      },
+      {
+        "id": "2026-04-15_92401_15",
+        "expression": "it's not the end of the world",
+        "meaning_ko": "큰일 난 거 아니야"
+      }
+    ]
   }
 }
