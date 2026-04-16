@@ -808,5 +808,86 @@
         "meaning_ko": "큰일 난 거 아니야"
       }
     ]
+  },
+  "2026-04-16": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-16_78638_01",
+        "expression": "vulnerable",
+        "meaning_ko": "취약한, 상처받기 쉬운"
+      },
+      {
+        "id": "2026-04-16_78638_02",
+        "expression": "spontaneous",
+        "meaning_ko": "즉흥적인, 자발적인"
+      },
+      {
+        "id": "2026-04-16_78638_03",
+        "expression": "eccentric",
+        "meaning_ko": "별난, 기이한"
+      },
+      {
+        "id": "2026-04-16_78638_04",
+        "expression": "mediocre",
+        "meaning_ko": "평범한, 그저 그런"
+      },
+      {
+        "id": "2026-04-16_78638_05",
+        "expression": "get the hang of",
+        "meaning_ko": "요령을 터득하다"
+      },
+      {
+        "id": "2026-04-16_78638_06",
+        "expression": "call off",
+        "meaning_ko": "취소하다"
+      },
+      {
+        "id": "2026-04-16_78638_07",
+        "expression": "out of the blue",
+        "meaning_ko": "난데없이, 느닷없이"
+      },
+      {
+        "id": "2026-04-16_78638_08",
+        "expression": "get back to someone",
+        "meaning_ko": "나중에 다시 연락하다"
+      },
+      {
+        "id": "2026-04-16_78638_09",
+        "expression": "give it a shot",
+        "meaning_ko": "한번 시도해보다"
+      },
+      {
+        "id": "2026-04-16_78638_10",
+        "expression": "play it by ear",
+        "meaning_ko": "상황 봐서 결정하다"
+      },
+      {
+        "id": "2026-04-16_78638_11",
+        "expression": "back to the drawing board",
+        "meaning_ko": "원점에서 다시 시작하다"
+      },
+      {
+        "id": "2026-04-16_78638_12",
+        "expression": "lose one's cool",
+        "meaning_ko": "평정심을 잃다, 화내다"
+      },
+      {
+        "id": "2026-04-16_78638_13",
+        "expression": "on the tip of my tongue",
+        "meaning_ko": "입가에서 맴돌다"
+      },
+      {
+        "id": "2026-04-16_78638_14",
+        "expression": "take it or leave it",
+        "meaning_ko": "싫으면 관둬라, 최종 제안이다"
+      },
+      {
+        "id": "2026-04-16_78638_15",
+        "expression": "hit the books",
+        "meaning_ko": "열심히 공부하다"
+      }
+    ]
   }
 }
