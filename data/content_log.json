@@ -889,5 +889,86 @@
         "meaning_ko": "열심히 공부하다"
       }
     ]
+  },
+  "2026-04-17": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-17_64950_01",
+        "expression": "lucid",
+        "meaning_ko": "명쾌한, 이해하기 쉬운"
+      },
+      {
+        "id": "2026-04-17_64950_02",
+        "expression": "resilient",
+        "meaning_ko": "회복력이 있는, 강인한"
+      },
+      {
+        "id": "2026-04-17_64950_03",
+        "expression": "ambiguous",
+        "meaning_ko": "애매모호한, 다의적인"
+      },
+      {
+        "id": "2026-04-17_64950_04",
+        "expression": "prudent",
+        "meaning_ko": "신중한, 검소한"
+      },
+      {
+        "id": "2026-04-17_64950_05",
+        "expression": "lay off",
+        "meaning_ko": "그만두다, 괴롭히지 않다"
+      },
+      {
+        "id": "2026-04-17_64950_06",
+        "expression": "get over",
+        "meaning_ko": "극복하다, 잊어버리다"
+      },
+      {
+        "id": "2026-04-17_64950_07",
+        "expression": "let the cat out of the bag",
+        "meaning_ko": "비밀을 누설하다"
+      },
+      {
+        "id": "2026-04-17_64950_08",
+        "expression": "on the fence",
+        "meaning_ko": "결정을 못 내린, 중립적인"
+      },
+      {
+        "id": "2026-04-17_64950_09",
+        "expression": "cross the line",
+        "meaning_ko": "선을 넘다, 무례하게 굴다"
+      },
+      {
+        "id": "2026-04-17_64950_10",
+        "expression": "pull someone's leg",
+        "meaning_ko": "농담하다, 놀리다"
+      },
+      {
+        "id": "2026-04-17_64950_11",
+        "expression": "make up one's mind",
+        "meaning_ko": "결심하다, 마음을 정하다"
+      },
+      {
+        "id": "2026-04-17_64950_12",
+        "expression": "take a back seat",
+        "meaning_ko": "뒷전으로 밀려나다, 방관하다"
+      },
+      {
+        "id": "2026-04-17_64950_13",
+        "expression": "put yourself in someone's shoes",
+        "meaning_ko": "입장을 바꿔 생각하다"
+      },
+      {
+        "id": "2026-04-17_64950_14",
+        "expression": "down the road",
+        "meaning_ko": "나중에, 장래에"
+      },
+      {
+        "id": "2026-04-17_64950_15",
+        "expression": "once and for all",
+        "meaning_ko": "최종적으로, 완전히"
+      }
+    ]
   }
 }
