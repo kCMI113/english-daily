@@ -970,5 +970,86 @@
         "meaning_ko": "최종적으로, 완전히"
       }
     ]
+  },
+  "2026-04-18": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-18_51007_01",
+        "expression": "skeptical",
+        "meaning_ko": "회의적인, 의심 많은"
+      },
+      {
+        "id": "2026-04-18_51007_02",
+        "expression": "tedious",
+        "meaning_ko": "지루한, 따분한"
+      },
+      {
+        "id": "2026-04-18_51007_03",
+        "expression": "subtle",
+        "meaning_ko": "미묘한, 섬세한"
+      },
+      {
+        "id": "2026-04-18_51007_04",
+        "expression": "humble",
+        "meaning_ko": "겸손한, 초라한"
+      },
+      {
+        "id": "2026-04-18_51007_05",
+        "expression": "up in the air",
+        "meaning_ko": "아직 불확실한, 미정인"
+      },
+      {
+        "id": "2026-04-18_51007_06",
+        "expression": "on the same page",
+        "meaning_ko": "생각이 같은, 동의하는"
+      },
+      {
+        "id": "2026-04-18_51007_07",
+        "expression": "call it a day",
+        "meaning_ko": "그만하다, 퇴근하다"
+      },
+      {
+        "id": "2026-04-18_51007_08",
+        "expression": "ring a bell",
+        "meaning_ko": "들어본 적 있다, 익숙하다"
+      },
+      {
+        "id": "2026-04-18_51007_09",
+        "expression": "run into",
+        "meaning_ko": "우연히 만나다, 마주치다"
+      },
+      {
+        "id": "2026-04-18_51007_10",
+        "expression": "look after",
+        "meaning_ko": "돌보다, 챙기다"
+      },
+      {
+        "id": "2026-04-18_51007_11",
+        "expression": "take after",
+        "meaning_ko": "닮다, 피를 이어받다"
+      },
+      {
+        "id": "2026-04-18_51007_12",
+        "expression": "keep an eye on",
+        "meaning_ko": "지켜보다, 주의하다"
+      },
+      {
+        "id": "2026-04-18_51007_13",
+        "expression": "in the works",
+        "meaning_ko": "준비 중인, 진행 중인"
+      },
+      {
+        "id": "2026-04-18_51007_14",
+        "expression": "get a grip",
+        "meaning_ko": "정신 차리다, 진정하다"
+      },
+      {
+        "id": "2026-04-18_51007_15",
+        "expression": "make ends meet",
+        "meaning_ko": "겨우 생계를 꾸리다"
+      }
+    ]
   }
 }
