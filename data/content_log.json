@@ -1051,5 +1051,86 @@
         "meaning_ko": "겨우 생계를 꾸리다"
       }
     ]
+  },
+  "2026-04-19": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-19_37492_01",
+        "expression": "procrastinate",
+        "meaning_ko": "미루다, 꾸물거리다"
+      },
+      {
+        "id": "2026-04-19_37492_02",
+        "expression": "mundane",
+        "meaning_ko": "일상적인, 따분한"
+      },
+      {
+        "id": "2026-04-19_37492_03",
+        "expression": "gullible",
+        "meaning_ko": "잘 속는, 귀가 얇은"
+      },
+      {
+        "id": "2026-04-19_37492_04",
+        "expression": "apprehensive",
+        "meaning_ko": "걱정되는, 불안한"
+      },
+      {
+        "id": "2026-04-19_37492_05",
+        "expression": "lucrative",
+        "meaning_ko": "수익성이 좋은"
+      },
+      {
+        "id": "2026-04-19_37492_06",
+        "expression": "cut someone some slack",
+        "meaning_ko": "사정을 봐주다"
+      },
+      {
+        "id": "2026-04-19_37492_07",
+        "expression": "bring about",
+        "meaning_ko": "야기하다, 초래하다"
+      },
+      {
+        "id": "2026-04-19_37492_08",
+        "expression": "in the nick of time",
+        "meaning_ko": "아슬아슬하게 제때에"
+      },
+      {
+        "id": "2026-04-19_37492_09",
+        "expression": "the elephant in the room",
+        "meaning_ko": "모두 알지만 말 안 하는 문제"
+      },
+      {
+        "id": "2026-04-19_37492_10",
+        "expression": "bite off more than one can chew",
+        "meaning_ko": "무리하다, 과욕을 부리다"
+      },
+      {
+        "id": "2026-04-19_37492_11",
+        "expression": "on second thought",
+        "meaning_ko": "다시 생각해보니"
+      },
+      {
+        "id": "2026-04-19_37492_12",
+        "expression": "count on",
+        "meaning_ko": "믿다, 의지하다"
+      },
+      {
+        "id": "2026-04-19_37492_13",
+        "expression": "blow off steam",
+        "meaning_ko": "스트레스를 풀다"
+      },
+      {
+        "id": "2026-04-19_37492_14",
+        "expression": "conscientious",
+        "meaning_ko": "양심적인, 성실한"
+      },
+      {
+        "id": "2026-04-19_37492_15",
+        "expression": "hold on to",
+        "meaning_ko": "꽉 잡다, 간직하다"
+      }
+    ]
   }
 }
