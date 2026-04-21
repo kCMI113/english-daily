@@ -1213,5 +1213,86 @@
         "meaning_ko": "인상을 주다, 마주치다"
       }
     ]
+  },
+  "2026-04-21": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-21_10659_01",
+        "expression": "redundant",
+        "meaning_ko": "불필요한, 중복된"
+      },
+      {
+        "id": "2026-04-21_10659_02",
+        "expression": "innovative",
+        "meaning_ko": "혁신적인, 획기적인"
+      },
+      {
+        "id": "2026-04-21_10659_03",
+        "expression": "lenient",
+        "meaning_ko": "관대한, 너그러운"
+      },
+      {
+        "id": "2026-04-21_10659_04",
+        "expression": "feasible",
+        "meaning_ko": "실현 가능한, 그럴싸한"
+      },
+      {
+        "id": "2026-04-21_10659_05",
+        "expression": "get along with",
+        "meaning_ko": "~와 잘 지내다"
+      },
+      {
+        "id": "2026-04-21_10659_06",
+        "expression": "a piece of cake",
+        "meaning_ko": "식은 죽 먹기"
+      },
+      {
+        "id": "2026-04-21_10659_07",
+        "expression": "as far as I know",
+        "meaning_ko": "내가 알기로는"
+      },
+      {
+        "id": "2026-04-21_10659_08",
+        "expression": "bite the bullet",
+        "meaning_ko": "이를 악물고 하다"
+      },
+      {
+        "id": "2026-04-21_10659_09",
+        "expression": "look into",
+        "meaning_ko": "~을 조사하다, 알아보다"
+      },
+      {
+        "id": "2026-04-21_10659_10",
+        "expression": "out of hand",
+        "meaning_ko": "감당할 수 없는, 통제 불능인"
+      },
+      {
+        "id": "2026-04-21_10659_11",
+        "expression": "under the table",
+        "meaning_ko": "비밀리에, 뒷거래로"
+      },
+      {
+        "id": "2026-04-21_10659_12",
+        "expression": "notorious",
+        "meaning_ko": "악명 높은"
+      },
+      {
+        "id": "2026-04-21_10659_13",
+        "expression": "fall behind",
+        "meaning_ko": "뒤처지다, 밀리다"
+      },
+      {
+        "id": "2026-04-21_10659_14",
+        "expression": "for good",
+        "meaning_ko": "영원히, 완전히"
+      },
+      {
+        "id": "2026-04-21_10659_15",
+        "expression": "get the better of",
+        "meaning_ko": "~를 이기다, 압도하다"
+      }
+    ]
   }
 }
