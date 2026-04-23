@@ -1375,5 +1375,86 @@
         "meaning_ko": "우연히 발견하다"
       }
     ]
+  },
+  "2026-04-23": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-23_83669_01",
+        "expression": "impulsive",
+        "meaning_ko": "충동적인, 즉흥적인"
+      },
+      {
+        "id": "2026-04-23_83669_02",
+        "expression": "vague",
+        "meaning_ko": "모호한, 희미한"
+      },
+      {
+        "id": "2026-04-23_83669_03",
+        "expression": "intricate",
+        "meaning_ko": "복잡한, 정교한"
+      },
+      {
+        "id": "2026-04-23_83669_04",
+        "expression": "reliable",
+        "meaning_ko": "신뢰할 수 있는, 믿음직한"
+      },
+      {
+        "id": "2026-04-23_83669_05",
+        "expression": "pull a few strings",
+        "meaning_ko": "빽을 쓰다, 영향력을 행사하다"
+      },
+      {
+        "id": "2026-04-23_83669_06",
+        "expression": "take it out on someone",
+        "meaning_ko": "누구에게 화풀이하다"
+      },
+      {
+        "id": "2026-04-23_83669_07",
+        "expression": "get the gist of",
+        "meaning_ko": "요점을 파악하다"
+      },
+      {
+        "id": "2026-04-23_83669_08",
+        "expression": "play second fiddle",
+        "meaning_ko": "조연 역할을 하다, 뒷전이 되다"
+      },
+      {
+        "id": "2026-04-23_83669_09",
+        "expression": "stand someone up",
+        "meaning_ko": "바람맞히다"
+      },
+      {
+        "id": "2026-04-23_83669_10",
+        "expression": "go the extra mile",
+        "meaning_ko": "특별히 더 노력하다"
+      },
+      {
+        "id": "2026-04-23_83669_11",
+        "expression": "keep a low profile",
+        "meaning_ko": "눈에 띄지 않게 행동하다"
+      },
+      {
+        "id": "2026-04-23_83669_12",
+        "expression": "be on the brink of",
+        "meaning_ko": "~의 직전에 있다"
+      },
+      {
+        "id": "2026-04-23_83669_13",
+        "expression": "off the top of my head",
+        "meaning_ko": "지금 당장 생각나기로는"
+      },
+      {
+        "id": "2026-04-23_83669_14",
+        "expression": "take something with a grain of salt",
+        "meaning_ko": "걸러서 듣다, 곧이곧대로 믿지 않다"
+      },
+      {
+        "id": "2026-04-23_83669_15",
+        "expression": "put something on hold",
+        "meaning_ko": "보류하다, 연기하다"
+      }
+    ]
   }
 }
