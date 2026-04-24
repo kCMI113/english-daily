@@ -1456,5 +1456,86 @@
         "meaning_ko": "보류하다, 연기하다"
       }
     ]
+  },
+  "2026-04-24": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-24_69990_01",
+        "expression": "oblivious",
+        "meaning_ko": "의식하지 못하는, 염두에 없는"
+      },
+      {
+        "id": "2026-04-24_69990_02",
+        "expression": "perceptive",
+        "meaning_ko": "통찰력 있는, 눈치가 빠른"
+      },
+      {
+        "id": "2026-04-24_69990_03",
+        "expression": "disheartened",
+        "meaning_ko": "낙담한, 기가 죽은"
+      },
+      {
+        "id": "2026-04-24_69990_04",
+        "expression": "sporadic",
+        "meaning_ko": "산발적인, 때때로 일어나는"
+      },
+      {
+        "id": "2026-04-24_69990_05",
+        "expression": "touch base",
+        "meaning_ko": "연락하다, 상황을 확인하다"
+      },
+      {
+        "id": "2026-04-24_69990_06",
+        "expression": "slip my mind",
+        "meaning_ko": "깜빡하다, 잊어버리다"
+      },
+      {
+        "id": "2026-04-24_69990_07",
+        "expression": "on the fly",
+        "meaning_ko": "즉석에서, 준비 없이 바로"
+      },
+      {
+        "id": "2026-04-24_69990_08",
+        "expression": "read between the lines",
+        "meaning_ko": "속뜻을 읽다, 행간을 읽다"
+      },
+      {
+        "id": "2026-04-24_69990_09",
+        "expression": "keep your fingers crossed",
+        "meaning_ko": "행운을 빌다, 잘 되길 바라다"
+      },
+      {
+        "id": "2026-04-24_69990_10",
+        "expression": "be on the same wavelength",
+        "meaning_ko": "생각이 통하다, 손발이 맞다"
+      },
+      {
+        "id": "2026-04-24_69990_11",
+        "expression": "draw the line",
+        "meaning_ko": "선을 긋다, 한계를 정하다"
+      },
+      {
+        "id": "2026-04-24_69990_12",
+        "expression": "give someone the cold shoulder",
+        "meaning_ko": "냉대하다, 쌀쌀맞게 대하다"
+      },
+      {
+        "id": "2026-04-24_69990_13",
+        "expression": "get a word in edgewise",
+        "meaning_ko": "말할 틈을 찾다, 끼어들다"
+      },
+      {
+        "id": "2026-04-24_69990_14",
+        "expression": "hit the roof",
+        "meaning_ko": "몹시 화를 내다, 버럭 하다"
+      },
+      {
+        "id": "2026-04-24_69990_15",
+        "expression": "keep a lid on",
+        "meaning_ko": "비밀로 하다, 억제하다"
+      }
+    ]
   }
 }
