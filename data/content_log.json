@@ -1537,5 +1537,86 @@
         "meaning_ko": "비밀로 하다, 억제하다"
       }
     ]
+  },
+  "2026-04-25": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-25_55962_01",
+        "expression": "daunting",
+        "meaning_ko": "벅찬, 주눅 들게 하는"
+      },
+      {
+        "id": "2026-04-25_55962_02",
+        "expression": "fickle",
+        "meaning_ko": "변덕스러운"
+      },
+      {
+        "id": "2026-04-25_55962_03",
+        "expression": "candid",
+        "meaning_ko": "솔직한, 거침없는"
+      },
+      {
+        "id": "2026-04-25_55962_04",
+        "expression": "unanimous",
+        "meaning_ko": "만장일치의"
+      },
+      {
+        "id": "2026-04-25_55962_05",
+        "expression": "come up with",
+        "meaning_ko": "생각해내다, 제시하다"
+      },
+      {
+        "id": "2026-04-25_55962_06",
+        "expression": "get the ball rolling",
+        "meaning_ko": "일을 시작하다, 착수하다"
+      },
+      {
+        "id": "2026-04-25_55962_07",
+        "expression": "in the long run",
+        "meaning_ko": "결국에는, 장기적으로는"
+      },
+      {
+        "id": "2026-04-25_55962_08",
+        "expression": "take it for granted",
+        "meaning_ko": "당연하게 여기다"
+      },
+      {
+        "id": "2026-04-25_55962_09",
+        "expression": "cut corners",
+        "meaning_ko": "절차를 무시하다, 대충 하다"
+      },
+      {
+        "id": "2026-04-25_55962_10",
+        "expression": "keep someone in the loop",
+        "meaning_ko": "진행 상황을 계속 알려주다"
+      },
+      {
+        "id": "2026-04-25_55962_11",
+        "expression": "it's a long shot",
+        "meaning_ko": "승산이 희박하다, 무리다"
+      },
+      {
+        "id": "2026-04-25_55962_12",
+        "expression": "see where you're coming from",
+        "meaning_ko": "무슨 뜻인지 이해하다"
+      },
+      {
+        "id": "2026-04-25_55962_13",
+        "expression": "get a kick out of",
+        "meaning_ko": "~에서 재미를 느끼다"
+      },
+      {
+        "id": "2026-04-25_55962_14",
+        "expression": "bring up",
+        "meaning_ko": "이야기를 꺼내다"
+      },
+      {
+        "id": "2026-04-25_55962_15",
+        "expression": "play it safe",
+        "meaning_ko": "신중하게 행동하다, 모험하지 않다"
+      }
+    ]
   }
 }
