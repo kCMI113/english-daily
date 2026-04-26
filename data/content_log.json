@@ -1618,5 +1618,86 @@
         "meaning_ko": "신중하게 행동하다, 모험하지 않다"
       }
     ]
+  },
+  "2026-04-26": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-26_42452_01",
+        "expression": "proactive",
+        "meaning_ko": "주도적인, 앞서서 하는"
+      },
+      {
+        "id": "2026-04-26_42452_02",
+        "expression": "extravagant",
+        "meaning_ko": "낭비하는, 사치스러운"
+      },
+      {
+        "id": "2026-04-26_42452_03",
+        "expression": "gregarious",
+        "meaning_ko": "사교적인, 어울리기 좋아하는"
+      },
+      {
+        "id": "2026-04-26_42452_04",
+        "expression": "impartial",
+        "meaning_ko": "공정한, 치우치지 않는"
+      },
+      {
+        "id": "2026-04-26_42452_05",
+        "expression": "look up to",
+        "meaning_ko": "존경하다, 우러러보다"
+      },
+      {
+        "id": "2026-04-26_42452_06",
+        "expression": "run out of",
+        "meaning_ko": "다 떨어지다, 소진하다"
+      },
+      {
+        "id": "2026-04-26_42452_07",
+        "expression": "pass out",
+        "meaning_ko": "기절하다, 잠들다"
+      },
+      {
+        "id": "2026-04-26_42452_08",
+        "expression": "back up",
+        "meaning_ko": "뒷받침하다, 지지하다"
+      },
+      {
+        "id": "2026-04-26_42452_09",
+        "expression": "speak of the devil",
+        "meaning_ko": "호랑이도 제 말 하면 온다"
+      },
+      {
+        "id": "2026-04-26_42452_10",
+        "expression": "cry over spilled milk",
+        "meaning_ko": "이미 엎질러진 물이다"
+      },
+      {
+        "id": "2026-04-26_42452_11",
+        "expression": "take a rain check",
+        "meaning_ko": "다음 기회로 미루다"
+      },
+      {
+        "id": "2026-04-26_42452_12",
+        "expression": "out of the question",
+        "meaning_ko": "절대 불가능한, 논외인"
+      },
+      {
+        "id": "2026-04-26_42452_13",
+        "expression": "better late than never",
+        "meaning_ko": "늦더라도 아예 안 하는 것보다 낫다"
+      },
+      {
+        "id": "2026-04-26_42452_14",
+        "expression": "keep up with",
+        "meaning_ko": "따라잡다, 뒤처지지 않다"
+      },
+      {
+        "id": "2026-04-26_42452_15",
+        "expression": "it's a small world",
+        "meaning_ko": "세상 참 좁다"
+      }
+    ]
   }
 }
