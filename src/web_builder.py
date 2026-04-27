@@ -37,7 +37,7 @@ class WebBuilder:
             f.write(html)
         # Update dates.json
         self._update_dates_json(docs_dir, date)
-        # Update index.html to redirect to latest
+        # Update index.html as a home page with links to latest study and slang
         index_path = os.path.join(docs_dir, "index.html")
         with open(index_path, "w", encoding="utf-8") as f:
             f.write(self._build_index(docs_dir, date))
@@ -56,15 +56,29 @@ class WebBuilder:
             json.dump(dates, f)
 
     def _build_index(self, docs_dir: str, _unused: str = "") -> str:
-        """Build index page that redirects to the latest date."""
+        """Build the GitHub Pages home page."""
         dates = sorted(
             [f.replace(".html", "") for f in os.listdir(docs_dir)
-             if f.endswith(".html") and f != "index.html"],
+             if f.endswith(".html") and f != "index.html" and f[:4].isdigit()],
             reverse=True,
         )
         latest = dates[0] if dates else ""
         links = "\n".join(
             f'      <li><a href="{d}.html">{d}</a></li>' for d in dates
+        )
+        latest_card = (
+            f'<a class="card primary" href="{latest}.html">'
+            f'<span class="label">Latest</span><strong>{latest}</strong>'
+            f'<small>오늘의 영어회화 학습과 복습</small></a>'
+            if latest else
+            '<div class="card primary"><span class="label">Latest</span><strong>준비 중</strong></div>'
+        )
+        slang_card = (
+            '<a class="card accent" href="slang.html">'
+            '<span class="label">Slang</span><strong>Slang Glossary</strong>'
+            '<small>알파벳별 슬랭 표현, 예문, TTS</small></a>'
+            if os.path.exists(os.path.join(docs_dir, "slang.html")) else
+            '<div class="card accent"><span class="label">Slang</span><strong>준비 중</strong></div>'
         )
         return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -74,25 +88,50 @@ class WebBuilder:
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <title>Daily English Conversation</title>
-  <script>
-    fetch('dates.json?t=' + Date.now()).then(r => r.json()).then(dates => {{
-      if (dates.length) window.location.replace(dates[dates.length - 1] + '.html');
-    }});
-  </script>
   <style>
-    body {{ font-family: -apple-system, sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; }}
-    h1 {{ font-size: 20px; color: #1a365d; }}
-    ul {{ list-style: none; padding: 0; }}
-    li {{ padding: 8px 0; border-bottom: 1px solid #eee; }}
-    a {{ color: #2b6cb0; text-decoration: none; }}
-    a:hover {{ text-decoration: underline; }}
+    * {{ box-sizing: border-box; }}
+    body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #f5f7fb; color: #172033; }}
+    header {{ background: #152238; color: #fff; padding: 28px 18px 22px; }}
+    main, .wrap {{ max-width: 860px; margin: 0 auto; }}
+    main {{ padding: 18px; }}
+    h1 {{ margin: 0; font-size: 28px; letter-spacing: 0; }}
+    .sub {{ margin: 8px 0 0; color: #c9d6e8; font-size: 14px; }}
+    .cards {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }}
+    .card {{ display: block; min-height: 136px; border: 1px solid #dce4ef; border-radius: 8px; padding: 18px; text-decoration: none; color: #172033; background: #fff; box-shadow: 0 1px 3px rgba(14, 31, 53, .04); }}
+    .card:hover {{ border-color: #2f6fbd; }}
+    .card.primary {{ border-top: 4px solid #2f6fbd; }}
+    .card.accent {{ border-top: 4px solid #2f8f6b; }}
+    .label {{ display: block; color: #6b7890; font-size: 12px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }}
+    strong {{ display: block; font-size: 22px; margin-bottom: 8px; }}
+    small {{ color: #516178; font-size: 14px; }}
+    h2 {{ font-size: 18px; margin: 0 0 8px; }}
+    ul {{ list-style: none; padding: 0; margin: 0; background: #fff; border: 1px solid #dce4ef; border-radius: 8px; overflow: hidden; }}
+    li {{ border-bottom: 1px solid #edf1f6; }}
+    li:last-child {{ border-bottom: 0; }}
+    li a {{ display: block; padding: 10px 14px; color: #2f6fbd; text-decoration: none; }}
+    li a:hover {{ background: #eef4ff; }}
+    @media (max-width: 640px) {{
+      h1 {{ font-size: 23px; }}
+      .cards {{ grid-template-columns: 1fr; }}
+    }}
   </style>
 </head>
 <body>
-  <h1>Daily English Conversation</h1>
-  <p>Redirecting to latest...</p>
-  <ul>
+  <header>
+    <div class="wrap">
+      <h1>Daily English Conversation</h1>
+      <p class="sub">매일 영어회화와 슬랭 표현 학습</p>
+    </div>
+  </header>
+  <main>
+    <section class="cards">
+      {latest_card}
+      {slang_card}
+    </section>
+    <h2>Daily Archive</h2>
+    <ul>
 {links}
-  </ul>
+    </ul>
+  </main>
 </body>
 </html>"""
