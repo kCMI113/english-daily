@@ -1942,5 +1942,86 @@
         "meaning_ko": "다재다능한, 다용도의"
       }
     ]
+  },
+  "2026-04-30": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-04-30_88873_01",
+        "expression": "spontaneous",
+        "meaning_ko": "즉흥적인, 자발적인"
+      },
+      {
+        "id": "2026-04-30_88873_02",
+        "expression": "vulnerable",
+        "meaning_ko": "취약한, 상처받기 쉬운"
+      },
+      {
+        "id": "2026-04-30_88873_03",
+        "expression": "mediocre",
+        "meaning_ko": "그저 그런, 보통의"
+      },
+      {
+        "id": "2026-04-30_88873_04",
+        "expression": "eccentric",
+        "meaning_ko": "별난, 괴짜 같은"
+      },
+      {
+        "id": "2026-04-30_88873_05",
+        "expression": "obsessed",
+        "meaning_ko": "집착하는, 빠져 있는"
+      },
+      {
+        "id": "2026-04-30_88873_06",
+        "expression": "get around to",
+        "meaning_ko": "~할 짬을 내다"
+      },
+      {
+        "id": "2026-04-30_88873_07",
+        "expression": "under the weather",
+        "meaning_ko": "몸 상태가 안 좋은"
+      },
+      {
+        "id": "2026-04-30_88873_08",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론만 말하다"
+      },
+      {
+        "id": "2026-04-30_88873_09",
+        "expression": "look forward to",
+        "meaning_ko": "~를 고대하다"
+      },
+      {
+        "id": "2026-04-30_88873_10",
+        "expression": "keep in touch",
+        "meaning_ko": "연락하고 지내다"
+      },
+      {
+        "id": "2026-04-30_88873_11",
+        "expression": "show up",
+        "meaning_ko": "나타나다, 오다"
+      },
+      {
+        "id": "2026-04-30_88873_12",
+        "expression": "break a leg",
+        "meaning_ko": "행운을 빌어"
+      },
+      {
+        "id": "2026-04-30_88873_13",
+        "expression": "it's on me",
+        "meaning_ko": "내가 낼게"
+      },
+      {
+        "id": "2026-04-30_88873_14",
+        "expression": "put off",
+        "meaning_ko": "미루다, 연기하다"
+      },
+      {
+        "id": "2026-04-30_88873_15",
+        "expression": "call it a night",
+        "meaning_ko": "그만하고 자다/헤어지다"
+      }
+    ]
   }
 }
