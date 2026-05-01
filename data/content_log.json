@@ -2023,5 +2023,86 @@
         "meaning_ko": "그만하고 자다/헤어지다"
       }
     ]
+  },
+  "2026-05-01": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-01_75242_01",
+        "expression": "resilient",
+        "meaning_ko": "회복력 있는, 강인한"
+      },
+      {
+        "id": "2026-05-01_75242_02",
+        "expression": "integrity",
+        "meaning_ko": "진실성, 정직함"
+      },
+      {
+        "id": "2026-05-01_75242_03",
+        "expression": "ambiguous",
+        "meaning_ko": "모호한, 불분명한"
+      },
+      {
+        "id": "2026-05-01_75242_04",
+        "expression": "embrace",
+        "meaning_ko": "받아들이다, 수용하다"
+      },
+      {
+        "id": "2026-05-01_75242_05",
+        "expression": "get over",
+        "meaning_ko": "극복하다, 잊어내다"
+      },
+      {
+        "id": "2026-05-01_75242_06",
+        "expression": "lay off",
+        "meaning_ko": "해고하다, 그만두게 하다"
+      },
+      {
+        "id": "2026-05-01_75242_07",
+        "expression": "keep a cool head",
+        "meaning_ko": "침착함을 유지하다"
+      },
+      {
+        "id": "2026-05-01_75242_08",
+        "expression": "out of the blue",
+        "meaning_ko": "느닷없이, 갑자기"
+      },
+      {
+        "id": "2026-05-01_75242_09",
+        "expression": "see through",
+        "meaning_ko": "꿰뚫어 보다, 간파하다"
+      },
+      {
+        "id": "2026-05-01_75242_10",
+        "expression": "pull one's weight",
+        "meaning_ko": "자기 몫을 다하다"
+      },
+      {
+        "id": "2026-05-01_75242_11",
+        "expression": "stand one's ground",
+        "meaning_ko": "주장을 고수하다, 물러나지 않다"
+      },
+      {
+        "id": "2026-05-01_75242_12",
+        "expression": "get under someone's skin",
+        "meaning_ko": "짜증나게 하다, 신경 쓰이게 하다"
+      },
+      {
+        "id": "2026-05-01_75242_13",
+        "expression": "make the most of",
+        "meaning_ko": "최대한 활용하다"
+      },
+      {
+        "id": "2026-05-01_75242_14",
+        "expression": "back to square one",
+        "meaning_ko": "원점으로 돌아가다"
+      },
+      {
+        "id": "2026-05-01_75242_15",
+        "expression": "put someone on the spot",
+        "meaning_ko": "곤란하게 만들다, 난처하게 하다"
+      }
+    ]
   }
 }
