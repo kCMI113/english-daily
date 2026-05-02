@@ -2104,5 +2104,86 @@
         "meaning_ko": "곤란하게 만들다, 난처하게 하다"
       }
     ]
+  },
+  "2026-05-02": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-02_61011_01",
+        "expression": "profound",
+        "meaning_ko": "심오한, 깊은"
+      },
+      {
+        "id": "2026-05-02_61011_02",
+        "expression": "tedious",
+        "meaning_ko": "지루한, 따분한"
+      },
+      {
+        "id": "2026-05-02_61011_03",
+        "expression": "skeptical",
+        "meaning_ko": "회의적인, 의심스러운"
+      },
+      {
+        "id": "2026-05-02_61011_04",
+        "expression": "superfluous",
+        "meaning_ko": "불필요한, 과잉의"
+      },
+      {
+        "id": "2026-05-02_61011_05",
+        "expression": "look back on",
+        "meaning_ko": "뒤돌아보다, 회상하다"
+      },
+      {
+        "id": "2026-05-02_61011_06",
+        "expression": "once in a blue moon",
+        "meaning_ko": "아주 드물게, 어쩌다 한번"
+      },
+      {
+        "id": "2026-05-02_61011_07",
+        "expression": "get a move on",
+        "meaning_ko": "서두르다, 빨리 시작하다"
+      },
+      {
+        "id": "2026-05-02_61011_08",
+        "expression": "on the tip of my tongue",
+        "meaning_ko": "입가에 맴도는, 생각이 날 듯 말 듯한"
+      },
+      {
+        "id": "2026-05-02_61011_09",
+        "expression": "mess up",
+        "meaning_ko": "망치다, 실수하다"
+      },
+      {
+        "id": "2026-05-02_61011_10",
+        "expression": "keep your chin up",
+        "meaning_ko": "기운 내, 당당하게 행동해"
+      },
+      {
+        "id": "2026-05-02_61011_11",
+        "expression": "burn bridges",
+        "meaning_ko": "관계를 완전히 끊다, 배수진을 치다"
+      },
+      {
+        "id": "2026-05-02_61011_12",
+        "expression": "show off",
+        "meaning_ko": "자랑하다, 뽐내다"
+      },
+      {
+        "id": "2026-05-02_61011_13",
+        "expression": "not my cup of tea",
+        "meaning_ko": "내 취향이 아니다"
+      },
+      {
+        "id": "2026-05-02_61011_14",
+        "expression": "break the bank",
+        "meaning_ko": "돈이 아주 많이 들다, 전 재산을 털다"
+      },
+      {
+        "id": "2026-05-02_61011_15",
+        "expression": "count someone in",
+        "meaning_ko": "~를 포함시키다, 끼워주다"
+      }
+    ]
   }
 }
