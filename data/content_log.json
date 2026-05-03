@@ -2185,5 +2185,86 @@
         "meaning_ko": "~를 포함시키다, 끼워주다"
       }
     ]
+  },
+  "2026-05-03": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-03_47426_01",
+        "expression": "cautious",
+        "meaning_ko": "조심스러운, 신중한"
+      },
+      {
+        "id": "2026-05-03_47426_02",
+        "expression": "exhausted",
+        "meaning_ko": "기진맥진한, 다 써버린"
+      },
+      {
+        "id": "2026-05-03_47426_03",
+        "expression": "competent",
+        "meaning_ko": "유능한, 능숙한"
+      },
+      {
+        "id": "2026-05-03_47426_04",
+        "expression": "stubborn",
+        "meaning_ko": "고집 센, 완고한"
+      },
+      {
+        "id": "2026-05-03_47426_05",
+        "expression": "humble",
+        "meaning_ko": "겸손한, 소박한"
+      },
+      {
+        "id": "2026-05-03_47426_06",
+        "expression": "run into",
+        "meaning_ko": "우연히 마주치다"
+      },
+      {
+        "id": "2026-05-03_47426_07",
+        "expression": "on the fence",
+        "meaning_ko": "결정을 못 내린, 애매한 태도의"
+      },
+      {
+        "id": "2026-05-03_47426_08",
+        "expression": "hit the gym",
+        "meaning_ko": "운동하러 가다"
+      },
+      {
+        "id": "2026-05-03_47426_09",
+        "expression": "keep an eye on",
+        "meaning_ko": "~을 계속 지켜보다"
+      },
+      {
+        "id": "2026-05-03_47426_10",
+        "expression": "back out",
+        "meaning_ko": "약속을 취소하다, 빠지다"
+      },
+      {
+        "id": "2026-05-03_47426_11",
+        "expression": "get the hang of",
+        "meaning_ko": "요령을 터득하다, 익숙해지다"
+      },
+      {
+        "id": "2026-05-03_47426_12",
+        "expression": "cold feet",
+        "meaning_ko": "갑자기 겁이 나다, 망설여지다"
+      },
+      {
+        "id": "2026-05-03_47426_13",
+        "expression": "under the radar",
+        "meaning_ko": "눈에 띄지 않게, 몰래"
+      },
+      {
+        "id": "2026-05-03_47426_14",
+        "expression": "pass on",
+        "meaning_ko": "거절하다, 사양하다"
+      },
+      {
+        "id": "2026-05-03_47426_15",
+        "expression": "look out for",
+        "meaning_ko": "~을 살피다, 챙기다"
+      }
+    ]
   }
 }
