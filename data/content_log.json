@@ -2266,5 +2266,86 @@
         "meaning_ko": "~을 살피다, 챙기다"
       }
     ]
+  },
+  "2026-05-04": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-04_34842_01",
+        "expression": "preoccupied",
+        "meaning_ko": "정신이 팔린, 몰두한"
+      },
+      {
+        "id": "2026-05-04_34842_02",
+        "expression": "empathetic",
+        "meaning_ko": "공감하는, 배려심 있는"
+      },
+      {
+        "id": "2026-05-04_34842_03",
+        "expression": "assertive",
+        "meaning_ko": "당당한, 자기주장이 분명한"
+      },
+      {
+        "id": "2026-05-04_34842_04",
+        "expression": "intimidating",
+        "meaning_ko": "겁을 주는, 위협적인"
+      },
+      {
+        "id": "2026-05-04_34842_05",
+        "expression": "call the shots",
+        "meaning_ko": "결정권을 쥐다, 주도하다"
+      },
+      {
+        "id": "2026-05-04_34842_06",
+        "expression": "play it by ear",
+        "meaning_ko": "상황 봐 가며 정하다"
+      },
+      {
+        "id": "2026-05-04_34842_07",
+        "expression": "get a grip",
+        "meaning_ko": "정신 차리다, 진정하다"
+      },
+      {
+        "id": "2026-05-04_34842_08",
+        "expression": "fill in for",
+        "meaning_ko": "~의 업무를 대신하다"
+      },
+      {
+        "id": "2026-05-04_34842_09",
+        "expression": "keep someone posted",
+        "meaning_ko": "상황을 계속 알려주다"
+      },
+      {
+        "id": "2026-05-04_34842_10",
+        "expression": "sleep on it",
+        "meaning_ko": "하룻밤 자며 생각해보다"
+      },
+      {
+        "id": "2026-05-04_34842_11",
+        "expression": "out of the loop",
+        "meaning_ko": "상황을 잘 모르다, 소외되다"
+      },
+      {
+        "id": "2026-05-04_34842_12",
+        "expression": "make do with",
+        "meaning_ko": "~로 임시변통하다, 견디다"
+      },
+      {
+        "id": "2026-05-04_34842_13",
+        "expression": "brush off",
+        "meaning_ko": "무시하다, 가볍게 넘기다"
+      },
+      {
+        "id": "2026-05-04_34842_14",
+        "expression": "in the heat of the moment",
+        "meaning_ko": "홧김에, 흥분한 나머지"
+      },
+      {
+        "id": "2026-05-04_34842_15",
+        "expression": "go with your gut",
+        "meaning_ko": "직감을 따르다"
+      }
+    ]
   }
 }
