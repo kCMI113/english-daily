@@ -77,10 +77,12 @@ conda activate english-daily
 export GEMINI_API_KEY="your-api-key"
 python -m src.main              # 오늘 날짜로 생성
 python -m src.main 2025-01-15   # 특정 날짜로 생성
+python -m src.language_summary_vocabulary_builder  # 정적 유닛 단어 페이지 생성
 ```
 
 생성된 파일:
 - `docs/{date}.html` - 웹 버전
+- `docs/language-summary-vocabulary.html` - 유닛별 정적 단어 페이지
 
 ### 3. GitHub Actions 설정
 

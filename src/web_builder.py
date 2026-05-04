@@ -80,6 +80,13 @@ class WebBuilder:
             if os.path.exists(os.path.join(docs_dir, "slang.html")) else
             '<div class="card accent"><span class="label">Slang</span><strong>준비 중</strong></div>'
         )
+        vocab_card = (
+            '<a class="card vocab" href="language-summary-vocabulary.html">'
+            '<span class="label">Vocabulary</span><strong>Language Summary</strong>'
+            '<small>유닛별 핵심 단어, 뜻, 예문, TTS</small></a>'
+            if os.path.exists(os.path.join(docs_dir, "language-summary-vocabulary.html")) else
+            '<div class="card vocab"><span class="label">Vocabulary</span><strong>준비 중</strong></div>'
+        )
         return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -96,11 +103,12 @@ class WebBuilder:
     main {{ padding: 18px; }}
     h1 {{ margin: 0; font-size: 28px; letter-spacing: 0; }}
     .sub {{ margin: 8px 0 0; color: #c9d6e8; font-size: 14px; }}
-    .cards {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }}
+    .cards {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }}
     .card {{ display: block; min-height: 136px; border: 1px solid #dce4ef; border-radius: 8px; padding: 18px; text-decoration: none; color: #172033; background: #fff; box-shadow: 0 1px 3px rgba(14, 31, 53, .04); }}
     .card:hover {{ border-color: #2f6fbd; }}
     .card.primary {{ border-top: 4px solid #2f6fbd; }}
     .card.accent {{ border-top: 4px solid #2f8f6b; }}
+    .card.vocab {{ border-top: 4px solid #9a6a17; }}
     .label {{ display: block; color: #6b7890; font-size: 12px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }}
     strong {{ display: block; font-size: 22px; margin-bottom: 8px; }}
     small {{ color: #516178; font-size: 14px; }}
@@ -127,6 +135,7 @@ class WebBuilder:
     <section class="cards">
       {latest_card}
       {slang_card}
+      {vocab_card}
     </section>
     <h2>Daily Archive</h2>
     <ul>
