@@ -2347,5 +2347,86 @@
         "meaning_ko": "직감을 따르다"
       }
     ]
+  },
+  "2026-05-05": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-05_21126_01",
+        "expression": "lucrative",
+        "meaning_ko": "수익성이 좋은, 돈벌이가 되는"
+      },
+      {
+        "id": "2026-05-05_21126_02",
+        "expression": "lenient",
+        "meaning_ko": "관대한, 너그러운"
+      },
+      {
+        "id": "2026-05-05_21126_03",
+        "expression": "redundant",
+        "meaning_ko": "불필요한, 중복된"
+      },
+      {
+        "id": "2026-05-05_21126_04",
+        "expression": "strenuous",
+        "meaning_ko": "몹시 힘든, 격렬한"
+      },
+      {
+        "id": "2026-05-05_21126_05",
+        "expression": "iron out",
+        "meaning_ko": "해결하다, 조율하다"
+      },
+      {
+        "id": "2026-05-05_21126_06",
+        "expression": "cut someone some slack",
+        "meaning_ko": "좀 봐주다, 사정을 봐주다"
+      },
+      {
+        "id": "2026-05-05_21126_07",
+        "expression": "spill the beans",
+        "meaning_ko": "비밀을 누설하다, 다 털어놓다"
+      },
+      {
+        "id": "2026-05-05_21126_08",
+        "expression": "be out of one's league",
+        "meaning_ko": "넘사벽이다, 수준 차이가 나다"
+      },
+      {
+        "id": "2026-05-05_21126_09",
+        "expression": "look into",
+        "meaning_ko": "조사하다, 알아보다"
+      },
+      {
+        "id": "2026-05-05_21126_10",
+        "expression": "hit the nail on the head",
+        "meaning_ko": "정곡을 찌르다, 핵심을 짚다"
+      },
+      {
+        "id": "2026-05-05_21126_11",
+        "expression": "off the hook",
+        "meaning_ko": "곤경에서 벗어난, 책임을 면한"
+      },
+      {
+        "id": "2026-05-05_21126_12",
+        "expression": "come clean",
+        "meaning_ko": "자백하다, 솔직히 털어놓다"
+      },
+      {
+        "id": "2026-05-05_21126_13",
+        "expression": "wear out",
+        "meaning_ko": "낡아서 못 쓰게 되다, 지치게 하다"
+      },
+      {
+        "id": "2026-05-05_21126_14",
+        "expression": "put two and two together",
+        "meaning_ko": "상황을 종합해 결론을 내다"
+      },
+      {
+        "id": "2026-05-05_21126_15",
+        "expression": "keep at it",
+        "meaning_ko": "계속 노력하다, 끈기 있게 하다"
+      }
+    ]
   }
 }
