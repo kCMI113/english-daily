@@ -2428,5 +2428,86 @@
         "meaning_ko": "계속 노력하다, 끈기 있게 하다"
       }
     ]
+  },
+  "2026-05-06": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-06_7181_01",
+        "expression": "feasible",
+        "meaning_ko": "실현 가능한, 적당한"
+      },
+      {
+        "id": "2026-05-06_7181_02",
+        "expression": "persistent",
+        "meaning_ko": "끈질긴, 끊임없는"
+      },
+      {
+        "id": "2026-05-06_7181_03",
+        "expression": "apprehensive",
+        "meaning_ko": "걱정되는, 불안한"
+      },
+      {
+        "id": "2026-05-06_7181_04",
+        "expression": "notorious",
+        "meaning_ko": "악명 높은"
+      },
+      {
+        "id": "2026-05-06_7181_05",
+        "expression": "give it a shot",
+        "meaning_ko": "한번 시도해보다"
+      },
+      {
+        "id": "2026-05-06_7181_06",
+        "expression": "let the cat out of the bag",
+        "meaning_ko": "비밀을 누설하다"
+      },
+      {
+        "id": "2026-05-06_7181_07",
+        "expression": "call it a day",
+        "meaning_ko": "오늘 일 끝내다"
+      },
+      {
+        "id": "2026-05-06_7181_08",
+        "expression": "look up",
+        "meaning_ko": "(정보를) 찾아보다"
+      },
+      {
+        "id": "2026-05-06_7181_09",
+        "expression": "bite the bullet",
+        "meaning_ko": "어려움을 무릅쓰다"
+      },
+      {
+        "id": "2026-05-06_7181_10",
+        "expression": "catch up",
+        "meaning_ko": "밀린 이야기를 나누다"
+      },
+      {
+        "id": "2026-05-06_7181_11",
+        "expression": "vouch for",
+        "meaning_ko": "보증하다, 단언하다"
+      },
+      {
+        "id": "2026-05-06_7181_12",
+        "expression": "show of hands",
+        "meaning_ko": "거수투표"
+      },
+      {
+        "id": "2026-05-06_7181_13",
+        "expression": "up in the air",
+        "meaning_ko": "아직 결정되지 않은"
+      },
+      {
+        "id": "2026-05-06_7181_14",
+        "expression": "take it easy",
+        "meaning_ko": "진정하다, 쉬엄쉬엄하다"
+      },
+      {
+        "id": "2026-05-06_7181_15",
+        "expression": "get the better of",
+        "meaning_ko": "압도하다, 이기다"
+      }
+    ]
   }
 }
