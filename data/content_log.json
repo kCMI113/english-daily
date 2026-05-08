@@ -2590,5 +2590,86 @@
         "meaning_ko": "잘못을 인정하고 비난을 받다"
       }
     ]
+  },
+  "2026-05-08": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-08_80305_01",
+        "expression": "lethargic",
+        "meaning_ko": "무기력한, 나른한"
+      },
+      {
+        "id": "2026-05-08_80305_02",
+        "expression": "clumsy",
+        "meaning_ko": "서투른, 덜렁대는"
+      },
+      {
+        "id": "2026-05-08_80305_03",
+        "expression": "vague",
+        "meaning_ko": "모호한, 막연한"
+      },
+      {
+        "id": "2026-05-08_80305_04",
+        "expression": "impeccable",
+        "meaning_ko": "흠잡을 데 없는, 완벽한"
+      },
+      {
+        "id": "2026-05-08_80305_05",
+        "expression": "distracted",
+        "meaning_ko": "정신이 산만한, 주의가 산만한"
+      },
+      {
+        "id": "2026-05-08_80305_06",
+        "expression": "doze off",
+        "meaning_ko": "깜빡 졸다"
+      },
+      {
+        "id": "2026-05-08_80305_07",
+        "expression": "settle down",
+        "meaning_ko": "진정하다, 정착하다"
+      },
+      {
+        "id": "2026-05-08_80305_08",
+        "expression": "beat around the bush",
+        "meaning_ko": "돌려 말하다, 딴전 피우다"
+      },
+      {
+        "id": "2026-05-08_80305_09",
+        "expression": "in a nutshell",
+        "meaning_ko": "한마디로 말하면, 요약하자면"
+      },
+      {
+        "id": "2026-05-08_80305_10",
+        "expression": "long story short",
+        "meaning_ko": "긴 말 할 것 없이, 요약하자면"
+      },
+      {
+        "id": "2026-05-08_80305_11",
+        "expression": "hit the books",
+        "meaning_ko": "열심히 공부하다"
+      },
+      {
+        "id": "2026-05-08_80305_12",
+        "expression": "look over",
+        "meaning_ko": "훑어보다, 검토하다"
+      },
+      {
+        "id": "2026-05-08_80305_13",
+        "expression": "extroverted",
+        "meaning_ko": "외향적인, 사교적인"
+      },
+      {
+        "id": "2026-05-08_80305_14",
+        "expression": "lose one's touch",
+        "meaning_ko": "실력이 예전만 못하다"
+      },
+      {
+        "id": "2026-05-08_80305_15",
+        "expression": "end up",
+        "meaning_ko": "결국 ~하게 되다"
+      }
+    ]
   }
 }
