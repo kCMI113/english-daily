@@ -2752,5 +2752,86 @@
         "meaning_ko": "왔다 갔다, 주고받는"
       }
     ]
+  },
+  "2026-05-10": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-10_52679_01",
+        "expression": "candid",
+        "meaning_ko": "솔직한, 숨김없는"
+      },
+      {
+        "id": "2026-05-10_52679_02",
+        "expression": "imply",
+        "meaning_ko": "암시하다, 넌지시 비치다"
+      },
+      {
+        "id": "2026-05-10_52679_03",
+        "expression": "procrastinate",
+        "meaning_ko": "미루다, 꾸물거리다"
+      },
+      {
+        "id": "2026-05-10_52679_04",
+        "expression": "exaggerate",
+        "meaning_ko": "과장하다, 부풀리다"
+      },
+      {
+        "id": "2026-05-10_52679_05",
+        "expression": "get the gist",
+        "meaning_ko": "요지를 파악하다"
+      },
+      {
+        "id": "2026-05-10_52679_06",
+        "expression": "miss the boat",
+        "meaning_ko": "기회를 놓치다"
+      },
+      {
+        "id": "2026-05-10_52679_07",
+        "expression": "call it off",
+        "meaning_ko": "취소하다"
+      },
+      {
+        "id": "2026-05-10_52679_08",
+        "expression": "get a second wind",
+        "meaning_ko": "기운을 되찾다"
+      },
+      {
+        "id": "2026-05-10_52679_09",
+        "expression": "take it for granted",
+        "meaning_ko": "당연하게 여기다"
+      },
+      {
+        "id": "2026-05-10_52679_10",
+        "expression": "keep a low profile",
+        "meaning_ko": "저자세를 유지하다"
+      },
+      {
+        "id": "2026-05-10_52679_11",
+        "expression": "ring a bell",
+        "meaning_ko": "들어본 적 있다"
+      },
+      {
+        "id": "2026-05-10_52679_12",
+        "expression": "put yourself in someone's shoes",
+        "meaning_ko": "역지사지하다"
+      },
+      {
+        "id": "2026-05-10_52679_13",
+        "expression": "down-to-earth",
+        "meaning_ko": "현실적인, 소탈한"
+      },
+      {
+        "id": "2026-05-10_52679_14",
+        "expression": "go the extra mile",
+        "meaning_ko": "특별히 더 노력하다"
+      },
+      {
+        "id": "2026-05-10_52679_15",
+        "expression": "get carried away",
+        "meaning_ko": "흥분하다, 자제력을 잃다"
+      }
+    ]
   }
 }
