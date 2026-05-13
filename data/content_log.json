@@ -2995,5 +2995,86 @@
         "meaning_ko": "싫으면 관두다, 받아들이거나 말거나"
       }
     ]
+  },
+  "2026-05-13": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-13_12999_01",
+        "expression": "meticulous",
+        "meaning_ko": "꼼꼼한, 세심한"
+      },
+      {
+        "id": "2026-05-13_12999_02",
+        "expression": "authentic",
+        "meaning_ko": "진짜인, 진정성 있는"
+      },
+      {
+        "id": "2026-05-13_12999_03",
+        "expression": "superficial",
+        "meaning_ko": "피상적인, 겉핥기식의"
+      },
+      {
+        "id": "2026-05-13_12999_04",
+        "expression": "overwhelmed",
+        "meaning_ko": "벅찬, 압도된"
+      },
+      {
+        "id": "2026-05-13_12999_05",
+        "expression": "keep one's options open",
+        "meaning_ko": "선택의 여지를 남겨두다"
+      },
+      {
+        "id": "2026-05-13_12999_06",
+        "expression": "get to the bottom of",
+        "meaning_ko": "원인을 끝까지 밝혀내다"
+      },
+      {
+        "id": "2026-05-13_12999_07",
+        "expression": "pull it off",
+        "meaning_ko": "해내다, 성공시키다"
+      },
+      {
+        "id": "2026-05-13_12999_08",
+        "expression": "take a toll on",
+        "meaning_ko": "~에 큰 피해를 주다"
+      },
+      {
+        "id": "2026-05-13_12999_09",
+        "expression": "give someone the benefit of the doubt",
+        "meaning_ko": "일단 믿어주다"
+      },
+      {
+        "id": "2026-05-13_12999_10",
+        "expression": "see where it goes",
+        "meaning_ko": "어떻게 되는지 지켜보다"
+      },
+      {
+        "id": "2026-05-13_12999_11",
+        "expression": "stand by someone",
+        "meaning_ko": "~의 곁을 지키다"
+      },
+      {
+        "id": "2026-05-13_12999_12",
+        "expression": "make up for",
+        "meaning_ko": "만회하다, 보충하다"
+      },
+      {
+        "id": "2026-05-13_12999_13",
+        "expression": "look down on",
+        "meaning_ko": "무시하다, 깔보다"
+      },
+      {
+        "id": "2026-05-13_12999_14",
+        "expression": "point out",
+        "meaning_ko": "지적하다, 언급하다"
+      },
+      {
+        "id": "2026-05-13_12999_15",
+        "expression": "think out of the box",
+        "meaning_ko": "고정관념을 깨다"
+      }
+    ]
   }
 }
