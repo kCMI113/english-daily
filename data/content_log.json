@@ -3238,5 +3238,86 @@
         "meaning_ko": "연락하다, 상황을 확인하다"
       }
     ]
+  },
+  "2026-05-16": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-16_70957_01",
+        "expression": "skeptical",
+        "meaning_ko": "회의적인, 의심스러운"
+      },
+      {
+        "id": "2026-05-16_70957_02",
+        "expression": "diligent",
+        "meaning_ko": "부지런한, 성실한"
+      },
+      {
+        "id": "2026-05-16_70957_03",
+        "expression": "reliable",
+        "meaning_ko": "믿음직한, 신뢰할 수 있는"
+      },
+      {
+        "id": "2026-05-16_70957_04",
+        "expression": "hostile",
+        "meaning_ko": "적대적인, 비우호적인"
+      },
+      {
+        "id": "2026-05-16_70957_05",
+        "expression": "come up with",
+        "meaning_ko": "생각해내다, 제시하다"
+      },
+      {
+        "id": "2026-05-16_70957_06",
+        "expression": "get over",
+        "meaning_ko": "극복하다, 잊어버리다"
+      },
+      {
+        "id": "2026-05-16_70957_07",
+        "expression": "look back on",
+        "meaning_ko": "회상하다, 되돌아보다"
+      },
+      {
+        "id": "2026-05-16_70957_08",
+        "expression": "once in a blue moon",
+        "meaning_ko": "아주 드물게, 가뭄에 콩 나듯"
+      },
+      {
+        "id": "2026-05-16_70957_09",
+        "expression": "by all means",
+        "meaning_ko": "물론이지, 얼마든지"
+      },
+      {
+        "id": "2026-05-16_70957_10",
+        "expression": "keep in mind",
+        "meaning_ko": "명심하다, 유념하다"
+      },
+      {
+        "id": "2026-05-16_70957_11",
+        "expression": "get a move on",
+        "meaning_ko": "서두르다, 빨리 움직이다"
+      },
+      {
+        "id": "2026-05-16_70957_12",
+        "expression": "be on the go",
+        "meaning_ko": "쉴 새 없이 바쁘다"
+      },
+      {
+        "id": "2026-05-16_70957_13",
+        "expression": "to make matters worse",
+        "meaning_ko": "설상가상으로, 엎친 데 덮친 격으로"
+      },
+      {
+        "id": "2026-05-16_70957_14",
+        "expression": "look on the bright side",
+        "meaning_ko": "긍정적으로 생각하다"
+      },
+      {
+        "id": "2026-05-16_70957_15",
+        "expression": "better late than never",
+        "meaning_ko": "늦더라도 안 하는 것보다 낫다"
+      }
+    ]
   }
 }
