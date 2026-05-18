@@ -3400,5 +3400,86 @@
         "meaning_ko": "원점으로 돌아가다"
       }
     ]
+  },
+  "2026-05-18": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-18_44474_01",
+        "expression": "daunting",
+        "meaning_ko": "벅찬, 주저하게 만드는"
+      },
+      {
+        "id": "2026-05-18_44474_02",
+        "expression": "unbiased",
+        "meaning_ko": "편견 없는, 공평한"
+      },
+      {
+        "id": "2026-05-18_44474_03",
+        "expression": "mediocre",
+        "meaning_ko": "보통밖에 안 되는, 평범한"
+      },
+      {
+        "id": "2026-05-18_44474_04",
+        "expression": "extravagant",
+        "meaning_ko": "낭비하는, 사치스러운"
+      },
+      {
+        "id": "2026-05-18_44474_05",
+        "expression": "obsessed",
+        "meaning_ko": "집착하는, 빠져 있는"
+      },
+      {
+        "id": "2026-05-18_44474_06",
+        "expression": "get around to",
+        "meaning_ko": "짬을 내어 ~하다"
+      },
+      {
+        "id": "2026-05-18_44474_07",
+        "expression": "at the end of the day",
+        "meaning_ko": "결국에는, 가장 중요한 것은"
+      },
+      {
+        "id": "2026-05-18_44474_08",
+        "expression": "run into",
+        "meaning_ko": "우연히 마주치다"
+      },
+      {
+        "id": "2026-05-18_44474_09",
+        "expression": "it's a long shot",
+        "meaning_ko": "승산이 희박하다"
+      },
+      {
+        "id": "2026-05-18_44474_10",
+        "expression": "on the fence",
+        "meaning_ko": "결정을 못 내린"
+      },
+      {
+        "id": "2026-05-18_44474_11",
+        "expression": "fill in for",
+        "meaning_ko": "~를 대신하다"
+      },
+      {
+        "id": "2026-05-18_44474_12",
+        "expression": "be my guest",
+        "meaning_ko": "그러세요, 마음대로 하세요"
+      },
+      {
+        "id": "2026-05-18_44474_13",
+        "expression": "put off",
+        "meaning_ko": "미루다, 연기하다"
+      },
+      {
+        "id": "2026-05-18_44474_14",
+        "expression": "play it by ear",
+        "meaning_ko": "상황 봐서 정하다"
+      },
+      {
+        "id": "2026-05-18_44474_15",
+        "expression": "miss the point",
+        "meaning_ko": "핵심을 놓치다"
+      }
+    ]
   }
 }
