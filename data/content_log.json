@@ -3481,5 +3481,86 @@
         "meaning_ko": "핵심을 놓치다"
       }
     ]
+  },
+  "2026-05-19": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-19_31416_01",
+        "expression": "empathetic",
+        "meaning_ko": "공감하는, 감정 이입하는"
+      },
+      {
+        "id": "2026-05-19_31416_02",
+        "expression": "cautious",
+        "meaning_ko": "신중한, 조심스러운"
+      },
+      {
+        "id": "2026-05-19_31416_03",
+        "expression": "lucrative",
+        "meaning_ko": "수익성이 좋은, 돈이 되는"
+      },
+      {
+        "id": "2026-05-19_31416_04",
+        "expression": "stubborn",
+        "meaning_ko": "고집 센, 완고한"
+      },
+      {
+        "id": "2026-05-19_31416_05",
+        "expression": "get the hang of",
+        "meaning_ko": "요령을 터득하다, 감을 잡다"
+      },
+      {
+        "id": "2026-05-19_31416_06",
+        "expression": "lose track of time",
+        "meaning_ko": "시간 가는 줄 모르다"
+      },
+      {
+        "id": "2026-05-19_31416_07",
+        "expression": "hit the hay",
+        "meaning_ko": "잠자리에 들다, 자러 가다"
+      },
+      {
+        "id": "2026-05-19_31416_08",
+        "expression": "keep someone posted",
+        "meaning_ko": "계속 소식을 알려주다"
+      },
+      {
+        "id": "2026-05-19_31416_09",
+        "expression": "make ends meet",
+        "meaning_ko": "겨우 생계를 꾸려나가다"
+      },
+      {
+        "id": "2026-05-19_31416_10",
+        "expression": "on the verge of",
+        "meaning_ko": "막 ~하려는 찰나에, 직전에"
+      },
+      {
+        "id": "2026-05-19_31416_11",
+        "expression": "out of the blue",
+        "meaning_ko": "갑자기, 난데없이"
+      },
+      {
+        "id": "2026-05-19_31416_12",
+        "expression": "pull an all-nighter",
+        "meaning_ko": "밤을 꼬박 새우다"
+      },
+      {
+        "id": "2026-05-19_31416_13",
+        "expression": "put someone on the spot",
+        "meaning_ko": "곤란하게 만들다, 당황하게 하다"
+      },
+      {
+        "id": "2026-05-19_31416_14",
+        "expression": "read between the lines",
+        "meaning_ko": "속뜻을 읽다, 행간을 읽다"
+      },
+      {
+        "id": "2026-05-19_31416_15",
+        "expression": "turn a blind eye",
+        "meaning_ko": "못 본 체하다, 눈감아 주다"
+      }
+    ]
   }
 }
