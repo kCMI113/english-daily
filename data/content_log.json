@@ -3805,5 +3805,86 @@
         "meaning_ko": "정보를 알려주다, 설명해주다"
       }
     ]
+  },
+  "2026-05-23": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-23_76139_01",
+        "expression": "lenient",
+        "meaning_ko": "관대한, 너그러운"
+      },
+      {
+        "id": "2026-05-23_76139_02",
+        "expression": "vague",
+        "meaning_ko": "모호한, 희미한"
+      },
+      {
+        "id": "2026-05-23_76139_03",
+        "expression": "fickle",
+        "meaning_ko": "변덕스러운"
+      },
+      {
+        "id": "2026-05-23_76139_04",
+        "expression": "pessimistic",
+        "meaning_ko": "비관적인, 염세적인"
+      },
+      {
+        "id": "2026-05-23_76139_05",
+        "expression": "get a hold of",
+        "meaning_ko": "연락이 닿다, 찾다"
+      },
+      {
+        "id": "2026-05-23_76139_06",
+        "expression": "lay off",
+        "meaning_ko": "그만하다, 해고하다"
+      },
+      {
+        "id": "2026-05-23_76139_07",
+        "expression": "on the same page",
+        "meaning_ko": "의견이 일치하는"
+      },
+      {
+        "id": "2026-05-23_76139_08",
+        "expression": "cut some slack",
+        "meaning_ko": "사정을 봐주다"
+      },
+      {
+        "id": "2026-05-23_76139_09",
+        "expression": "stumble upon",
+        "meaning_ko": "우연히 발견하다"
+      },
+      {
+        "id": "2026-05-23_76139_10",
+        "expression": "out of the question",
+        "meaning_ko": "절대 불가능한"
+      },
+      {
+        "id": "2026-05-23_76139_11",
+        "expression": "pull strings",
+        "meaning_ko": "인맥을 동원하다"
+      },
+      {
+        "id": "2026-05-23_76139_12",
+        "expression": "bring about",
+        "meaning_ko": "초래하다, 일으키다"
+      },
+      {
+        "id": "2026-05-23_76139_13",
+        "expression": "make the most of",
+        "meaning_ko": "최대한 활용하다"
+      },
+      {
+        "id": "2026-05-23_76139_14",
+        "expression": "stand one's ground",
+        "meaning_ko": "주장을 굽히지 않다"
+      },
+      {
+        "id": "2026-05-23_76139_15",
+        "expression": "lucid",
+        "meaning_ko": "명쾌한, 맑은"
+      }
+    ]
   }
 }
