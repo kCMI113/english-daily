@@ -3886,5 +3886,86 @@
         "meaning_ko": "명쾌한, 맑은"
       }
     ]
+  },
+  "2026-05-24": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-24_62769_01",
+        "expression": "candid",
+        "meaning_ko": "솔직한, 숨김없는"
+      },
+      {
+        "id": "2026-05-24_62769_02",
+        "expression": "intuitive",
+        "meaning_ko": "직관적인, 이해하기 쉬운"
+      },
+      {
+        "id": "2026-05-24_62769_03",
+        "expression": "obnoxious",
+        "meaning_ko": "아주 불쾌한, 무례한"
+      },
+      {
+        "id": "2026-05-24_62769_04",
+        "expression": "unanimous",
+        "meaning_ko": "만장일치의"
+      },
+      {
+        "id": "2026-05-24_62769_05",
+        "expression": "get the gist of",
+        "meaning_ko": "핵심을 파악하다"
+      },
+      {
+        "id": "2026-05-24_62769_06",
+        "expression": "go with the flow",
+        "meaning_ko": "상황에 따르다"
+      },
+      {
+        "id": "2026-05-24_62769_07",
+        "expression": "speak your mind",
+        "meaning_ko": "소신껏 말하다"
+      },
+      {
+        "id": "2026-05-24_62769_08",
+        "expression": "hit the nail on the head",
+        "meaning_ko": "정곡을 찌르다"
+      },
+      {
+        "id": "2026-05-24_62769_09",
+        "expression": "keep a straight face",
+        "meaning_ko": "웃음을 참다"
+      },
+      {
+        "id": "2026-05-24_62769_10",
+        "expression": "take it with a grain of salt",
+        "meaning_ko": "걸러서 듣다"
+      },
+      {
+        "id": "2026-05-24_62769_11",
+        "expression": "in a nutshell",
+        "meaning_ko": "한마디로 말하면"
+      },
+      {
+        "id": "2026-05-24_62769_12",
+        "expression": "back to the drawing board",
+        "meaning_ko": "원점에서 다시 시작하다"
+      },
+      {
+        "id": "2026-05-24_62769_13",
+        "expression": "let the cat out of the bag",
+        "meaning_ko": "비밀을 누설하다"
+      },
+      {
+        "id": "2026-05-24_62769_14",
+        "expression": "the best of both worlds",
+        "meaning_ko": "두 마리 토끼를 다 잡다"
+      },
+      {
+        "id": "2026-05-24_62769_15",
+        "expression": "call the shots",
+        "meaning_ko": "결정권을 갖다"
+      }
+    ]
   }
 }
