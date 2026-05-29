@@ -4291,5 +4291,86 @@
         "meaning_ko": "특별히 더 노력하다"
       }
     ]
+  },
+  "2026-05-29": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-05-29_95793_01",
+        "expression": "genuine",
+        "meaning_ko": "진심 어린, 진짜의"
+      },
+      {
+        "id": "2026-05-29_95793_02",
+        "expression": "resilient",
+        "meaning_ko": "회복력 있는, 강인한"
+      },
+      {
+        "id": "2026-05-29_95793_03",
+        "expression": "spontaneous",
+        "meaning_ko": "즉흥적인, 자발적인"
+      },
+      {
+        "id": "2026-05-29_95793_04",
+        "expression": "superficial",
+        "meaning_ko": "피상적인, 겉핥기식의"
+      },
+      {
+        "id": "2026-05-29_95793_05",
+        "expression": "vulnerable",
+        "meaning_ko": "취약한, 상처받기 쉬운"
+      },
+      {
+        "id": "2026-05-29_95793_06",
+        "expression": "look forward to",
+        "meaning_ko": "~를 고대하다"
+      },
+      {
+        "id": "2026-05-29_95793_07",
+        "expression": "under the weather",
+        "meaning_ko": "몸 상태가 좋지 않은"
+      },
+      {
+        "id": "2026-05-29_95793_08",
+        "expression": "let's grab a bite",
+        "meaning_ko": "뭐 좀 먹으러 가자"
+      },
+      {
+        "id": "2026-05-29_95793_09",
+        "expression": "pass out",
+        "meaning_ko": "기절하다, 곯아떨어지다"
+      },
+      {
+        "id": "2026-05-29_95793_10",
+        "expression": "cost an arm and a leg",
+        "meaning_ko": "매우 비싸다"
+      },
+      {
+        "id": "2026-05-29_95793_11",
+        "expression": "i'm all ears",
+        "meaning_ko": "경청하고 있어"
+      },
+      {
+        "id": "2026-05-29_95793_12",
+        "expression": "run out of",
+        "meaning_ko": "~가 다 떨어지다"
+      },
+      {
+        "id": "2026-05-29_95793_13",
+        "expression": "once and for all",
+        "meaning_ko": "완전히, 이번 기회에 딱"
+      },
+      {
+        "id": "2026-05-29_95793_14",
+        "expression": "you can say that again",
+        "meaning_ko": "완전 공감해"
+      },
+      {
+        "id": "2026-05-29_95793_15",
+        "expression": "get away with",
+        "meaning_ko": "교묘히 빠져나가다"
+      }
+    ]
   }
 }
