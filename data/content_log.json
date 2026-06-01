@@ -4534,5 +4534,86 @@
         "meaning_ko": "지적하다, 언급하다"
       }
     ]
+  },
+  "2026-06-01": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-01_56061_01",
+        "expression": "clumsy",
+        "meaning_ko": "서투른, 덤벙대는"
+      },
+      {
+        "id": "2026-06-01_56061_02",
+        "expression": "oblivious",
+        "meaning_ko": "의식하지 못하는, 감을 못 잡는"
+      },
+      {
+        "id": "2026-06-01_56061_03",
+        "expression": "profound",
+        "meaning_ko": "깊은, 심오한, 엄청난"
+      },
+      {
+        "id": "2026-06-01_56061_04",
+        "expression": "tangible",
+        "meaning_ko": "실질적인, 만질 수 있는"
+      },
+      {
+        "id": "2026-06-01_56061_05",
+        "expression": "second-guess",
+        "meaning_ko": "뒤늦게 의심하다, 추측하다"
+      },
+      {
+        "id": "2026-06-01_56061_06",
+        "expression": "get a feel for",
+        "meaning_ko": "감을 잡다, 익숙해지다"
+      },
+      {
+        "id": "2026-06-01_56061_07",
+        "expression": "take the lead",
+        "meaning_ko": "주도하다, 앞장서다"
+      },
+      {
+        "id": "2026-06-01_56061_08",
+        "expression": "strike a chord",
+        "meaning_ko": "심금을 울리다, 공감을 사다"
+      },
+      {
+        "id": "2026-06-01_56061_09",
+        "expression": "miss out on",
+        "meaning_ko": "기회를 놓치다, 빠뜨리다"
+      },
+      {
+        "id": "2026-06-01_56061_10",
+        "expression": "drag one's feet",
+        "meaning_ko": "늑장 부리다, 미루다"
+      },
+      {
+        "id": "2026-06-01_56061_11",
+        "expression": "take a shortcut",
+        "meaning_ko": "지름길로 가다, 요령 피우다"
+      },
+      {
+        "id": "2026-06-01_56061_12",
+        "expression": "keep tabs on",
+        "meaning_ko": "계속 감시하다, 확인하다"
+      },
+      {
+        "id": "2026-06-01_56061_13",
+        "expression": "make do with",
+        "meaning_ko": "~로 견디다, 임시변통하다"
+      },
+      {
+        "id": "2026-06-01_56061_14",
+        "expression": "start from scratch",
+        "meaning_ko": "처음부터 다시 시작하다"
+      },
+      {
+        "id": "2026-06-01_56061_15",
+        "expression": "at the end of the day",
+        "meaning_ko": "결국에는, 가장 중요한 건"
+      }
+    ]
   }
 }
