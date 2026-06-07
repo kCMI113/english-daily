@@ -5020,5 +5020,86 @@
         "meaning_ko": "평정심을 유지하다"
       }
     ]
+  },
+  "2026-06-07": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-07_72825_01",
+        "expression": "cautious",
+        "meaning_ko": "조심스러운, 신중한"
+      },
+      {
+        "id": "2026-06-07_72825_02",
+        "expression": "reluctant",
+        "meaning_ko": "꺼리는, 주저하는"
+      },
+      {
+        "id": "2026-06-07_72825_03",
+        "expression": "optimistic",
+        "meaning_ko": "낙관적인, 긍정적인"
+      },
+      {
+        "id": "2026-06-07_72825_04",
+        "expression": "intimidated",
+        "meaning_ko": "위축된, 겁을 먹은"
+      },
+      {
+        "id": "2026-06-07_72825_05",
+        "expression": "run errands",
+        "meaning_ko": "볼일을 보다, 심부름하다"
+      },
+      {
+        "id": "2026-06-07_72825_06",
+        "expression": "lose track of time",
+        "meaning_ko": "시간 가는 줄 모르다"
+      },
+      {
+        "id": "2026-06-07_72825_07",
+        "expression": "play it safe",
+        "meaning_ko": "신중하게 행동하다"
+      },
+      {
+        "id": "2026-06-07_72825_08",
+        "expression": "take a back seat",
+        "meaning_ko": "뒷전으로 물러나다"
+      },
+      {
+        "id": "2026-06-07_72825_09",
+        "expression": "count someone in",
+        "meaning_ko": "~를 포함시키다, 끼워주다"
+      },
+      {
+        "id": "2026-06-07_72825_10",
+        "expression": "look on the bright side",
+        "meaning_ko": "긍정적으로 생각하다"
+      },
+      {
+        "id": "2026-06-07_72825_11",
+        "expression": "get along with",
+        "meaning_ko": "~와 잘 지내다"
+      },
+      {
+        "id": "2026-06-07_72825_12",
+        "expression": "show off",
+        "meaning_ko": "자랑하다, 과시하다"
+      },
+      {
+        "id": "2026-06-07_72825_13",
+        "expression": "make a long story short",
+        "meaning_ko": "요약하자면, 결론만 말하자면"
+      },
+      {
+        "id": "2026-06-07_72825_14",
+        "expression": "pull a few strings",
+        "meaning_ko": "빽을 쓰다, 영향력을 행사하다"
+      },
+      {
+        "id": "2026-06-07_72825_15",
+        "expression": "think outside the box",
+        "meaning_ko": "창의적으로 생각하다"
+      }
+    ]
   }
 }
