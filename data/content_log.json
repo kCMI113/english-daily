@@ -5101,5 +5101,86 @@
         "meaning_ko": "창의적으로 생각하다"
       }
     ]
+  },
+  "2026-06-08": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-08_60049_01",
+        "expression": "savvy",
+        "meaning_ko": "수완 좋은, 정통한"
+      },
+      {
+        "id": "2026-06-08_60049_02",
+        "expression": "apprehensive",
+        "meaning_ko": "걱정되는, 불안한"
+      },
+      {
+        "id": "2026-06-08_60049_03",
+        "expression": "competent",
+        "meaning_ko": "유능한, 역량 있는"
+      },
+      {
+        "id": "2026-06-08_60049_04",
+        "expression": "empathetic",
+        "meaning_ko": "공감하는, 배려심 있는"
+      },
+      {
+        "id": "2026-06-08_60049_05",
+        "expression": "look up to",
+        "meaning_ko": "존경하다, 우러러보다"
+      },
+      {
+        "id": "2026-06-08_60049_06",
+        "expression": "weigh in on",
+        "meaning_ko": "의견을 내다, 관여하다"
+      },
+      {
+        "id": "2026-06-08_60049_07",
+        "expression": "narrow down",
+        "meaning_ko": "범위를 좁히다, 추리다"
+      },
+      {
+        "id": "2026-06-08_60049_08",
+        "expression": "bite the bullet",
+        "meaning_ko": "어려움을 무릅쓰다, 매를 먼저 맞다"
+      },
+      {
+        "id": "2026-06-08_60049_09",
+        "expression": "a blessing in disguise",
+        "meaning_ko": "전화위복, 불행 중 다행"
+      },
+      {
+        "id": "2026-06-08_60049_10",
+        "expression": "cross that bridge when we come to it",
+        "meaning_ko": "그때 가서 생각하다, 미리 걱정 마라"
+      },
+      {
+        "id": "2026-06-08_60049_11",
+        "expression": "get the ball rolling",
+        "meaning_ko": "시작하다, 착수하다"
+      },
+      {
+        "id": "2026-06-08_60049_12",
+        "expression": "in the same boat",
+        "meaning_ko": "같은 처지인, 같은 배를 탄"
+      },
+      {
+        "id": "2026-06-08_60049_13",
+        "expression": "a change of heart",
+        "meaning_ko": "심경의 변화, 마음이 바뀜"
+      },
+      {
+        "id": "2026-06-08_60049_14",
+        "expression": "take it or leave it",
+        "meaning_ko": "싫으면 관두다, 최종 제안이다"
+      },
+      {
+        "id": "2026-06-08_60049_15",
+        "expression": "fair enough",
+        "meaning_ko": "그럴 만하네, 알겠어"
+      }
+    ]
   }
 }
