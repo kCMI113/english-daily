@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Daily English - 2026-06-09</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4f8; color: #1a202c; line-height: 1.6; overflow-x: hidden; }
+    .container { max-width: 520px; margin: 0 auto; padding: 0; min-height: 100vh; display: flex; flex-direction: column; }
+
+    /* Header */
+    header { background: linear-gradient(135deg, #1a365d, #2b6cb0); color: #fff; padding: 20px 20px 16px; text-align: center; }
+    header h1 { font-size: 18px; font-weight: 700; }
+    header .sub { color: #bee3f8; font-size: 13px; margin-top: 4px; }
+
+    /* Date navigation */
+    .date-nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #fff; border-bottom: 1px solid #e2e8f0; }
+    .date-nav a, .date-nav span { font-size: 13px; color: #2b6cb0; text-decoration: none; padding: 6px 12px; border-radius: 6px; transition: background 0.2s; }
+    .date-nav a:hover { background: #ebf8ff; }
+    .date-nav .disabled { color: #cbd5e0; pointer-events: none; }
+    .date-nav .current-date { font-weight: 600; color: #1a365d; font-size: 14px; }
+
+    /* Tabs */
+    .tabs { display: flex; background: #fff; border-bottom: 2px solid #e2e8f0; }
+    .tab { flex: 1; text-align: center; padding: 12px 0; font-size: 14px; font-weight: 600; cursor: pointer; color: #718096; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; user-select: none; }
+    .tab.active { color: #2b6cb0; border-bottom-color: #2b6cb0; }
+    .tab.review-tab.active { color: #d69e2e; border-bottom-color: #d69e2e; }
+    .tab .count { font-size: 12px; font-weight: 400; color: #a0aec0; margin-left: 4px; }
+    .tab.active .count { color: inherit; opacity: 0.7; }
+
+    /* Card viewport */
+    .card-viewport { flex: 1; position: relative; overflow: hidden; touch-action: pan-y; }
+    .card-track { display: flex; transition: transform 0.3s ease; will-change: transform; height: 100%; }
+    .card-track.swiping { transition: none; }
+    .card-slide { min-width: 100%; padding: 16px; overflow-y: auto; }
+
+    /* Card content */
+    .card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .card-top .expr { font-size: 22px; font-weight: 700; color: #1a365d; }
+    .badge { font-size: 11px; color: #fff; border-radius: 10px; padding: 2px 8px; }
+    .badge-word { background: #38a169; }
+    .badge-phrase { background: #2b6cb0; }
+    .badge-idiom { background: #d69e2e; }
+    .badge-phrasal_verb { background: #805ad5; }
+    .btn-speak { background: none; border: 1px solid #cbd5e0; border-radius: 50%; width: 34px; height: 34px; cursor: pointer; font-size: 16px; display: inline-flex; align-items: center; justify-content: center; transition: all 0.2s; flex-shrink: 0; }
+    .btn-speak:hover { background: #ebf8ff; border-color: #2b6cb0; }
+    .btn-speak.playing { background: #2b6cb0; border-color: #2b6cb0; color: #fff; }
+    .pronunciation { font-size: 13px; color: #718096; margin-bottom: 10px; }
+    .word-forms { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .wf { font-size: 12px; background: #edf2f7; color: #4a5568; border-radius: 4px; padding: 2px 8px; }
+    .wf em { color: #2b6cb0; font-style: normal; font-weight: 600; margin-right: 3px; }
+    .meaning { font-size: 16px; margin-bottom: 10px; }
+    .meaning strong { color: #2d3748; }
+    .explanation { font-size: 13px; color: #4a5568; background: #f7fafc; border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; line-height: 1.7; }
+    .examples { margin-bottom: 12px; }
+    .examples .label { font-size: 12px; font-weight: 600; color: #2b6cb0; text-transform: uppercase; margin-bottom: 8px; }
+    .example-item { margin-bottom: 10px; }
+    .example-en { font-size: 14px; color: #1a202c; display: flex; align-items: flex-start; gap: 6px; }
+    .example-ko { font-size: 13px; color: #718096; padding-left: 20px; margin-top: 2px; }
+    .btn-speak-sm { background: none; border: none; cursor: pointer; font-size: 13px; color: #a0aec0; padding: 0; transition: color 0.2s; flex-shrink: 0; }
+    .btn-speak-sm:hover { color: #2b6cb0; }
+    .syn-ant { border-top: 1px dashed #e2e8f0; padding-top: 10px; margin-top: 10px; font-size: 13px; }
+    .syn-ant .tag { display: inline-block; font-size: 11px; font-weight: 600; border-radius: 4px; padding: 1px 6px; margin-right: 4px; }
+    .tag-syn { background: #ebf8ff; color: #2b6cb0; }
+    .tag-ant { background: #fff5f5; color: #e53e3e; }
+    .syn-ant .ko-hint { color: #a0aec0; }
+    .rel-item { margin: 4px 0 4px 4px; }
+    .rel-example { font-size: 12px; color: #718096; padding-left: 18px; margin-top: 1px; }
+
+    /* Review card */
+    .review-card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .review-card .box-indicator { display: inline-block; font-size: 11px; font-weight: 600; border-radius: 4px; padding: 2px 8px; color: #fff; margin-bottom: 10px; }
+    .box-1 { background: #e53e3e; } .box-2 { background: #dd6b20; } .box-3 { background: #d69e2e; } .box-4 { background: #38a169; } .box-5 { background: #3182ce; }
+    .review-card .expr { font-size: 20px; font-weight: 700; color: #1a365d; }
+    .review-card .meta { font-size: 12px; color: #a0aec0; margin-top: 2px; }
+    .review-card .meaning { font-size: 15px; color: #2d3748; margin-top: 8px; }
+    .review-card .example { font-size: 14px; color: #718096; font-style: italic; margin-top: 8px; padding: 10px; background: #f7fafc; border-radius: 6px; }
+
+    /* Card nav (arrows + progress) */
+    .card-nav { display: flex; align-items: center; justify-content: center; gap: 20px; padding: 12px 16px 8px; background: #f0f4f8; }
+    .card-nav button { background: #fff; border: 1px solid #e2e8f0; border-radius: 50%; width: 44px; height: 44px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; color: #2b6cb0; }
+    .card-nav button:hover { background: #ebf8ff; border-color: #2b6cb0; }
+    .card-nav button:disabled { opacity: 0.3; cursor: default; pointer-events: none; }
+    .progress { font-size: 14px; font-weight: 600; color: #4a5568; min-width: 60px; text-align: center; }
+
+    /* Stats */
+    .stats { background: #fff; border-radius: 10px; padding: 14px; text-align: center; margin: 12px 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .stats .title { font-size: 14px; font-weight: 600; color: #2b6cb0; }
+    .stats .numbers { font-size: 13px; color: #4a5568; margin-top: 4px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 12px; font-size: 12px; color: #a0aec0; }
+
+    /* Empty state */
+    .empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: #a0aec0; font-size: 15px; padding: 40px; }
+    .empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Daily English Conversation</h1>
+      <p class="sub">일상 영어회화 &middot; 중급</p>
+    </header>
+
+    <div class="date-nav">
+      <a id="nav-prev" class="disabled">&larr; &#xC774;&#xC804;</a>
+      <span class="current-date">2026-06-09</span>
+      <a id="nav-next" class="disabled">&#xB2E4;&#xC74C; &rarr;</a>
+    </div>
+
+    <div class="tabs">
+      <div class="tab active" data-tab="learn" onclick="switchTab('learn')">&#x1F4D6; &#xD559;&#xC2B5;<span class="count">(15)</span></div>
+      <div class="tab review-tab" data-tab="review" onclick="switchTab('review')">&#x1F504; &#xBCF5;&#xC2B5;<span class="count">(15)</span></div>
+    </div>
+
+    <!-- Learn tab -->
+    <div id="panel-learn" class="tab-panel">
+      <div class="card-viewport" id="viewport-learn">
+        <div class="card-track" id="track-learn">
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">mundane</span>
+                <span class="badge badge-word">word</span>
+                <button class="btn-speak" data-speak="mundane" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">먼데인</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 일상적인, 평범한</div>
+              
+              <div class="word-forms">
+                
+                <span class="wf"><em>n.</em> mundanity</span>
+                <span class="wf"><em>adj.</em> mundane</span>
+                <span class="wf"><em>adv.</em> mundanely</span>
+              </div>
+              
+              <div class="explanation">&#x1F4A1; 특별할 것 없는 지루한 일상이나 반복되는 업무를 표현할 때 사용합니다. &#39;지루하다&#39;는 부정적인 뉘앙스를 풍길 때가 많으며, 예술이나 창의적인 영역보다는 사무적인 일에 자주 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "I&#39;m tired of doing mundane tasks every day."
+                    <button class="btn-speak-sm" data-speak="I&#39;m tired of doing mundane tasks every day." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 매일 똑같은 일상적인 업무를 하는 게 지겨워.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "She finds joy in the most mundane activities."
+                    <button class="btn-speak-sm" data-speak="She finds joy in the most mundane activities." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그녀는 가장 평범한 활동에서도 즐거움을 찾는다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="ordinary">&#x1F50A;</button> <strong>ordinary</strong> <span class="ko-hint">(보통의)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="It was just an ordinary day.">&#x1F50A;</button> "It was just an ordinary day."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="humdrum">&#x1F50A;</button> <strong>humdrum</strong> <span class="ko-hint">(단조로운)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I&#39;m tired of this humdrum routine.">&#x1F50A;</button> "I&#39;m tired of this humdrum routine."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="extraordinary">&#x1F50A;</button> <strong>extraordinary</strong> <span class="ko-hint">(비범한)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The movie was truly extraordinary.">&#x1F50A;</button> "The movie was truly extraordinary."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">exhilarating</span>
+                <span class="badge badge-word">word</span>
+                <button class="btn-speak" data-speak="exhilarating" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">이그질러레이팅</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 아주 신나는, 짜릿한</div>
+              
+              <div class="word-forms">
+                <span class="wf"><em>v.</em> exhilarate / exhilarated / exhilarated</span>
+                <span class="wf"><em>n.</em> exhilaration</span>
+                <span class="wf"><em>adj.</em> exhilarating</span>
+                <span class="wf"><em>adv.</em> exhilaratingly</span>
+              </div>
+              
+              <div class="explanation">&#x1F4A1; 단순히 즐거운 것을 넘어 아드레날린이 솟구칠 정도로 흥분되고 기분 좋은 상태를 묘사합니다. 익스트림 스포츠를 즐기거나 큰 성취감을 느낄 때 주로 사용합니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Skydiving was the most exhilarating experience of my life."
+                    <button class="btn-speak-sm" data-speak="Skydiving was the most exhilarating experience of my life." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 스카이다이빙은 내 인생에서 가장 짜릿한 경험이었어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Success in the project gave us an exhilarating feeling."
+                    <button class="btn-speak-sm" data-speak="Success in the project gave us an exhilarating feeling." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 프로젝트의 성공은 우리에게 아주 신나는 기분을 안겨주었다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="thrilling">&#x1F50A;</button> <strong>thrilling</strong> <span class="ko-hint">(전율을 느끼는)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The race was absolutely thrilling.">&#x1F50A;</button> "The race was absolutely thrilling."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="invigorating">&#x1F50A;</button> <strong>invigorating</strong> <span class="ko-hint">(기운을 북돋는)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="A morning walk is invigorating.">&#x1F50A;</button> "A morning walk is invigorating."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="boring">&#x1F50A;</button> <strong>boring</strong> <span class="ko-hint">(지루한)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The lecture was quite boring.">&#x1F50A;</button> "The lecture was quite boring."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">lethargic</span>
+                <span class="badge badge-word">word</span>
+                <button class="btn-speak" data-speak="lethargic" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">레싸직</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 무기력한, 혼미한</div>
+              
+              <div class="word-forms">
+                
+                <span class="wf"><em>n.</em> lethargy</span>
+                <span class="wf"><em>adj.</em> lethargic</span>
+                <span class="wf"><em>adv.</em> lethargically</span>
+              </div>
+              
+              <div class="explanation">&#x1F4A1; 에너지가 전혀 없고 몸이 무거워 아무것도 하고 싶지 않은 상태를 말합니다. 피로나 질병으로 인해 정신이 멍하거나 행동이 느려진 상황에서 자주 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "The hot weather makes me feel so lethargic."
+                    <button class="btn-speak-sm" data-speak="The hot weather makes me feel so lethargic." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 날씨가 더우니까 너무 무기력해져.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "I was feeling lethargic after a heavy lunch."
+                    <button class="btn-speak-sm" data-speak="I was feeling lethargic after a heavy lunch." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 점심을 거하게 먹었더니 몸이 축 처지더라고.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="sluggish">&#x1F50A;</button> <strong>sluggish</strong> <span class="ko-hint">(느릿느릿한)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I feel a bit sluggish this morning.">&#x1F50A;</button> "I feel a bit sluggish this morning."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="listless">&#x1F50A;</button> <strong>listless</strong> <span class="ko-hint">(의욕이 없는)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The heat made everyone listless.">&#x1F50A;</button> "The heat made everyone listless."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="energetic">&#x1F50A;</button> <strong>energetic</strong> <span class="ko-hint">(활기찬)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="He is always so energetic.">&#x1F50A;</button> "He is always so energetic."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">pragmatic</span>
+                <span class="badge badge-word">word</span>
+                <button class="btn-speak" data-speak="pragmatic" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">프래그매틱</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 실용적인, 실제적인</div>
+              
+              <div class="word-forms">
+                
+                <span class="wf"><em>n.</em> pragmatism</span>
+                <span class="wf"><em>adj.</em> pragmatic</span>
+                <span class="wf"><em>adv.</em> pragmatically</span>
+              </div>
+              
+              <div class="explanation">&#x1F4A1; 이상이나 이론에 치우치지 않고 현실적인 해결책을 찾는 태도를 말합니다. 비즈니스 미팅이나 의사결정 상황에서 &#39;현실적으로 생각하자&#39;고 할 때 유용한 표현입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "We need to take a pragmatic approach to this problem."
+                    <button class="btn-speak-sm" data-speak="We need to take a pragmatic approach to this problem." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 이 문제에 대해서는 실용적인 접근 방식이 필요해.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "He is very pragmatic when it comes to business."
+                    <button class="btn-speak-sm" data-speak="He is very pragmatic when it comes to business." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그는 사업에 있어서는 매우 현실적이다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="practical">&#x1F50A;</button> <strong>practical</strong> <span class="ko-hint">(현실적인)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Let&#39;s look for a practical solution.">&#x1F50A;</button> "Let&#39;s look for a practical solution."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="realistic">&#x1F50A;</button> <strong>realistic</strong> <span class="ko-hint">(사실적인)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="We need to be realistic about our budget.">&#x1F50A;</button> "We need to be realistic about our budget."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="idealistic">&#x1F50A;</button> <strong>idealistic</strong> <span class="ko-hint">(이상주의적인)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="She has a very idealistic view of the world.">&#x1F50A;</button> "She has a very idealistic view of the world."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">rule out</span>
+                <span class="badge badge-phrasal_verb">phrasal_verb</span>
+                <button class="btn-speak" data-speak="rule out" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">룰 아웃</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 제외하다, 배제하다</div>
+              
+              <div class="explanation">&#x1F4A1; 어떤 가능성이나 옵션을 고려 대상에서 뺄 때 사용합니다. &#39;그럴 리 없다&#39;고 단정 짓거나, 여러 후보 중 하나를 탈락시킬 때 원어민들이 일상적으로 쓰는 표현입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "We can&#39;t rule out the possibility of a delay."
+                    <button class="btn-speak-sm" data-speak="We can&#39;t rule out the possibility of a delay." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 지연될 가능성을 배제할 수는 없어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "The police ruled him out as a suspect."
+                    <button class="btn-speak-sm" data-speak="The police ruled him out as a suspect." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 경찰은 그를 용의 선상에서 제외했다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="exclude">&#x1F50A;</button> <strong>exclude</strong> <span class="ko-hint">(배제하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Don&#39;t exclude him from the list.">&#x1F50A;</button> "Don&#39;t exclude him from the list."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="eliminate">&#x1F50A;</button> <strong>eliminate</strong> <span class="ko-hint">(제거하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="We eliminated the impossible options.">&#x1F50A;</button> "We eliminated the impossible options."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="include">&#x1F50A;</button> <strong>include</strong> <span class="ko-hint">(포함하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Please include my name on the guest list.">&#x1F50A;</button> "Please include my name on the guest list."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">keep at it</span>
+                <span class="badge badge-phrase">phrase</span>
+                <button class="btn-speak" data-speak="keep at it" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">킵 앳 잇</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 계속하다, 꾸준히 하다</div>
+              
+              <div class="explanation">&#x1F4A1; 포기하지 말고 하던 일을 계속하라는 격려의 표현입니다. &#39;keep going&#39;과 비슷하지만, 특정 작업이나 공부를 끈기 있게 이어가라는 뉘앙스가 강합니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Learning English is hard, but keep at it!"
+                    <button class="btn-speak-sm" data-speak="Learning English is hard, but keep at it!" title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 영어 공부가 힘들긴 하지만, 꾸준히 계속해봐!</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "If you keep at it, you&#39;ll eventually get the result."
+                    <button class="btn-speak-sm" data-speak="If you keep at it, you&#39;ll eventually get the result." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 계속 노력하다 보면 결국 결과를 얻게 될 거야.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="stick with it">&#x1F50A;</button> <strong>stick with it</strong> <span class="ko-hint">(계속 매달리다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="If you stick with it, you&#39;ll improve.">&#x1F50A;</button> "If you stick with it, you&#39;ll improve."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="persevere">&#x1F50A;</button> <strong>persevere</strong> <span class="ko-hint">(인내하며 계속하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="You must persevere to succeed.">&#x1F50A;</button> "You must persevere to succeed."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="give up">&#x1F50A;</button> <strong>give up</strong> <span class="ko-hint">(포기하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Don&#39;t give up on your dreams.">&#x1F50A;</button> "Don&#39;t give up on your dreams."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">burn the midnight oil</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="burn the midnight oil" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">번 더 미드나잇 오일</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 밤샘 공부/일을 하다</div>
+              
+              <div class="explanation">&#x1F4A1; 밤늦게까지 전등(옛날의 오일 램프)을 켜고 열심히 일하거나 공부하는 상황을 묘사하는 고전적이고 흔한 숙어입니다. 시험 기간이나 마감 직전에 자주 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "I&#39;ve been burning the midnight oil to finish this project."
+                    <button class="btn-speak-sm" data-speak="I&#39;ve been burning the midnight oil to finish this project." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 이 프로젝트를 끝내려고 계속 밤샘 작업을 하고 있어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Students often burn the midnight oil during finals week."
+                    <button class="btn-speak-sm" data-speak="Students often burn the midnight oil during finals week." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 학생들은 기말고사 기간에 종종 밤을 새워 공부한다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="stay up late">&#x1F50A;</button> <strong>stay up late</strong> <span class="ko-hint">(늦게까지 깨어 있다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I had to stay up late to finish the report.">&#x1F50A;</button> "I had to stay up late to finish the report."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="pull an all-nighter">&#x1F50A;</button> <strong>pull an all-nighter</strong> <span class="ko-hint">(밤을 꼬박 새우다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I pulled an all-nighter for the exam.">&#x1F50A;</button> "I pulled an all-nighter for the exam."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="hit the hay">&#x1F50A;</button> <strong>hit the hay</strong> <span class="ko-hint">(잠자리에 들다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I&#39;m exhausted, time to hit the hay.">&#x1F50A;</button> "I&#39;m exhausted, time to hit the hay."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">take it with a grain of salt</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="take it with a grain of salt" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">테이크 잇 위드 어 그레인 오브 솔트</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 걸러서 듣다, 곧이듣지 않다</div>
+              
+              <div class="explanation">&#x1F4A1; 상대방의 말을 100% 믿지 않고 비판적으로 받아들이거나 가볍게 넘길 때 사용합니다. 소문이나 과장이 섞인 말을 들었을 때 &#39;그냥 참고만 해&#39;라는 뜻으로 자주 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "He exaggerates a lot, so take what he says with a grain of salt."
+                    <button class="btn-speak-sm" data-speak="He exaggerates a lot, so take what he says with a grain of salt." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그는 과장이 심하니까 그가 하는 말은 그냥 걸러서 들어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "I take these rumors with a grain of salt."
+                    <button class="btn-speak-sm" data-speak="I take these rumors with a grain of salt." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 난 이런 소문들을 곧이곧대로 믿지 않아.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="be skeptical">&#x1F50A;</button> <strong>be skeptical</strong> <span class="ko-hint">(의구심을 갖다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="You should be skeptical of online reviews.">&#x1F50A;</button> "You should be skeptical of online reviews."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="take it literally">&#x1F50A;</button> <strong>take it literally</strong> <span class="ko-hint">(말 그대로 믿다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Don&#39;t take everything he says literally.">&#x1F50A;</button> "Don&#39;t take everything he says literally."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">read between the lines</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="read between the lines" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">리드 비트윈 더 라인스</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 속뜻을 파악하다, 행간을 읽다</div>
+              
+              <div class="explanation">&#x1F4A1; 말이나 글에서 직접적으로 드러나지 않은 숨은 의도나 감정을 알아채는 능력을 말합니다. 한국어의 &#39;눈치껏 알아차리다&#39;와 비슷한 상황에서 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "If you read between the lines, you can tell she&#39;s not happy."
+                    <button class="btn-speak-sm" data-speak="If you read between the lines, you can tell she&#39;s not happy." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 행간을 읽어보면 그녀가 기분이 좋지 않다는 걸 알 수 있어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "He didn&#39;t say no, but reading between the lines, I think he&#39;s busy."
+                    <button class="btn-speak-sm" data-speak="He didn&#39;t say no, but reading between the lines, I think he&#39;s busy." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그가 안 된다고 하진 않았지만, 분위기를 보니 바쁜 것 같아.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="infer">&#x1F50A;</button> <strong>infer</strong> <span class="ko-hint">(추론하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="We can infer his meaning from his tone.">&#x1F50A;</button> "We can infer his meaning from his tone."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="take at face value">&#x1F50A;</button> <strong>take at face value</strong> <span class="ko-hint">(겉모습 그대로 믿다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="You shouldn&#39;t take his promise at face value.">&#x1F50A;</button> "You shouldn&#39;t take his promise at face value."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">hit the spot</span>
+                <span class="badge badge-phrase">phrase</span>
+                <button class="btn-speak" data-speak="hit the spot" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">힛 더 스팟</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 딱이다, 제격이다</div>
+              
+              <div class="explanation">&#x1F4A1; 음식이나 음료가 갈증이나 배고픔을 완벽하게 해소해 줄 때, 혹은 어떤 것이 자신이 원하던 바를 정확히 충족시킬 때 쓰는 매우 구어적인 표현입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "That cold water really hit the spot after the run."
+                    <button class="btn-speak-sm" data-speak="That cold water really hit the spot after the run." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 달리기 끝나고 마신 그 찬물이 정말 최고였어.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "This coffee really hits the spot on a rainy day."
+                    <button class="btn-speak-sm" data-speak="This coffee really hits the spot on a rainy day." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 비 오는 날 마시는 이 커피는 정말 제격이다.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="satisfy">&#x1F50A;</button> <strong>satisfy</strong> <span class="ko-hint">(만족시키다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="This meal really satisfied my hunger.">&#x1F50A;</button> "This meal really satisfied my hunger."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="be just what the doctor ordered">&#x1F50A;</button> <strong>be just what the doctor ordered</strong> <span class="ko-hint">(딱 원하던 것이다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="A cold beer was just what the doctor ordered.">&#x1F50A;</button> "A cold beer was just what the doctor ordered."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">call the shots</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="call the shots" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">콜 더 샷츠</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 결정권을 쥐다, 주도하다</div>
+              
+              <div class="explanation">&#x1F4A1; 어떤 상황이나 조직에서 누가 실질적인 지배력을 가지고 중요한 결정을 내리는지를 말할 때 씁니다. &#39;대장 노릇을 하다&#39;는 뉘앙스도 있습니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "In this office, the manager calls the shots."
+                    <button class="btn-speak-sm" data-speak="In this office, the manager calls the shots." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 이 사무실에서는 매니저가 모든 결정을 내려.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "My wife calls the shots when it comes to our finances."
+                    <button class="btn-speak-sm" data-speak="My wife calls the shots when it comes to our finances." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 우리 집 경제권은 아내가 쥐고 있어.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="be in charge">&#x1F50A;</button> <strong>be in charge</strong> <span class="ko-hint">(책임자이다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Who is in charge of this project?">&#x1F50A;</button> "Who is in charge of this project?"</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="pull the strings">&#x1F50A;</button> <strong>pull the strings</strong> <span class="ko-hint">(배후에서 조종하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="He&#39;s the one pulling the strings.">&#x1F50A;</button> "He&#39;s the one pulling the strings."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="follow orders">&#x1F50A;</button> <strong>follow orders</strong> <span class="ko-hint">(지시를 따르다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="I&#39;m just here to follow orders.">&#x1F50A;</button> "I&#39;m just here to follow orders."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">by the book</span>
+                <span class="badge badge-phrase">phrase</span>
+                <button class="btn-speak" data-speak="by the book" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">바이 더 북</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 원칙대로, 정석대로</div>
+              
+              <div class="explanation">&#x1F4A1; 규칙이나 절차를 엄격하게 준수하며 일을 처리하는 방식을 뜻합니다. 융통성이 없다는 비판적인 뉘앙스로 쓰일 때도 있고, 정직하게 일한다는 긍정적인 뜻으로도 쓰입니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "He’s a very fair boss who does everything by the book."
+                    <button class="btn-speak-sm" data-speak="He’s a very fair boss who does everything by the book." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그는 모든 일을 원칙대로 처리하는 아주 공정한 상사야.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "We have to do this by the book to avoid any legal issues."
+                    <button class="btn-speak-sm" data-speak="We have to do this by the book to avoid any legal issues." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 법적인 문제를 피하려면 우리는 이걸 정석대로 해야 해.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="strictly">&#x1F50A;</button> <strong>strictly</strong> <span class="ko-hint">(엄격하게)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The rules were strictly enforced.">&#x1F50A;</button> "The rules were strictly enforced."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="properly">&#x1F50A;</button> <strong>properly</strong> <span class="ko-hint">(제대로)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Make sure you do it properly.">&#x1F50A;</button> "Make sure you do it properly."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="cut corners">&#x1F50A;</button> <strong>cut corners</strong> <span class="ko-hint">(대충 하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="They cut corners to save money.">&#x1F50A;</button> "They cut corners to save money."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">back to the drawing board</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="back to the drawing board" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">백 투 더 드로잉 보드</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 원점으로 돌아가다, 처음부터 다시 시작하다</div>
+              
+              <div class="explanation">&#x1F4A1; 계획이나 아이디어가 실패해서 처음부터 다시 설계해야 할 때 쓰는 표현입니다. 실망스럽지만 다시 시작해야 하는 상황에서 자주 들을 수 있습니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "The client rejected our proposal, so it&#39;s back to the drawing board."
+                    <button class="btn-speak-sm" data-speak="The client rejected our proposal, so it&#39;s back to the drawing board." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 고객이 우리 제안을 거절해서, 처음부터 다시 시작해야 해.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "This plan isn&#39;t working. Let&#39;s go back to the drawing board."
+                    <button class="btn-speak-sm" data-speak="This plan isn&#39;t working. Let&#39;s go back to the drawing board." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 이 계획은 잘 안 풀리네. 원점으로 돌아가서 다시 짜보자.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="start over">&#x1F50A;</button> <strong>start over</strong> <span class="ko-hint">(다시 시작하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="The cake was burnt, so I had to start over.">&#x1F50A;</button> "The cake was burnt, so I had to start over."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="back to square one">&#x1F50A;</button> <strong>back to square one</strong> <span class="ko-hint">(완전 처음으로 돌아가기)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="If this fails, we&#39;re back to square one.">&#x1F50A;</button> "If this fails, we&#39;re back to square one."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">cut corners</span>
+                <span class="badge badge-idiom">idiom</span>
+                <button class="btn-speak" data-speak="cut corners" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">컷 코너스</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 절차를 생략하다, 대충 하다</div>
+              
+              <div class="explanation">&#x1F4A1; 시간이나 비용을 아끼기 위해 정해진 절차를 무시하거나 질을 떨어뜨리며 일을 처리하는 것을 비판할 때 씁니다. 한국어의 &#39;날림으로 하다&#39;와 비슷합니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Don&#39;t cut corners on safety just to finish quickly."
+                    <button class="btn-speak-sm" data-speak="Don&#39;t cut corners on safety just to finish quickly." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 빨리 끝내려고 안전 절차를 대충 넘기지 마.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "The construction company cut corners, and now the building has cracks."
+                    <button class="btn-speak-sm" data-speak="The construction company cut corners, and now the building has cracks." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 그 건설사가 날림으로 공사해서 지금 건물에 금이 갔어.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="skimp">&#x1F50A;</button> <strong>skimp</strong> <span class="ko-hint">(지나치게 아끼다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Don&#39;t skimp on the ingredients.">&#x1F50A;</button> "Don&#39;t skimp on the ingredients."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="be thorough">&#x1F50A;</button> <strong>be thorough</strong> <span class="ko-hint">(철저히 하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="You need to be thorough with the inspection.">&#x1F50A;</button> "You need to be thorough with the inspection."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="card">
+              <div class="card-top">
+                <span class="expr">get a grip</span>
+                <span class="badge badge-phrase">phrase</span>
+                <button class="btn-speak" data-speak="get a grip" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="pronunciation">겟 어 그립</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 정신 차리다, 진정하다</div>
+              
+              <div class="explanation">&#x1F4A1; 너무 당황하거나 감정적이 된 사람에게 정신을 똑바로 차리고 이성을 찾으라고 말할 때 씁니다. 다소 강한 표현일 수 있으므로 친한 사이에서 충고할 때 주로 사용합니다.</div>
+              <div class="examples">
+                <div class="label">Examples</div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "Get a grip! We need to find a way out of here."
+                    <button class="btn-speak-sm" data-speak="Get a grip! We need to find a way out of here." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 정신 차려! 여기서 나갈 방법을 찾아야 한다고.</div>
+                </div>
+                
+                <div class="example-item">
+                  <div class="example-en">
+                    &bull; "I was panicking, but then I told myself to get a grip."
+                    <button class="btn-speak-sm" data-speak="I was panicking, but then I told myself to get a grip." title="&#xC608;&#xBB38; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+                  </div>
+                  <div class="example-ko">&rarr; 당황하고 있었는데, 스스로 정신 차리라고 다독였어.</div>
+                </div>
+                
+              </div>
+              
+              <div class="syn-ant">
+                
+                <div style="margin-bottom:6px;">
+                  <span class="tag tag-syn">&#xC720;&#xC0AC;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="pull yourself together">&#x1F50A;</button> <strong>pull yourself together</strong> <span class="ko-hint">(마음을 추스르다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="You need to pull yourself together for the kids.">&#x1F50A;</button> "You need to pull yourself together for the kids."</div>
+                    
+                  </div>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="calm down">&#x1F50A;</button> <strong>calm down</strong> <span class="ko-hint">(진정하다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="Please calm down and tell me what happened.">&#x1F50A;</button> "Please calm down and tell me what happened."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+                
+                <div>
+                  <span class="tag tag-ant">&#xBC18;&#xC758;</span>
+                  
+                  <div class="rel-item">
+                    <button class="btn-speak-sm" data-speak="lose it">&#x1F50A;</button> <strong>lose it</strong> <span class="ko-hint">(이성을 잃다)</span>
+                    <div class="rel-example"><button class="btn-speak-sm" data-speak="He completely lost it when he heard the news.">&#x1F50A;</button> "He completely lost it when he heard the news."</div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card-nav">
+        <button id="prev-learn" onclick="prevCard('learn')">&larr;</button>
+        <div class="progress" id="progress-learn">1 / 15</div>
+        <button id="next-learn" onclick="nextCard('learn')">&rarr;</button>
+      </div>
+    </div>
+
+    <!-- Review tab -->
+    <div id="panel-review" class="tab-panel" style="display:none;">
+      
+      <div class="card-viewport" id="viewport-review">
+        <div class="card-track" id="track-review">
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-1">Box 1</div>
+              <div class="card-top">
+                <span class="expr">keep your chin up</span>
+                <button class="btn-speak" data-speak="keep your chin up" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 기운 내, 당당하게 행동해</div>
+              
+              <div class="example">
+                &bull; "Keep your chin up! You&#39;ll find a better job soon."
+                <button class="btn-speak-sm" data-speak="Keep your chin up! You&#39;ll find a better job soon.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 기운 내! 곧 더 좋은 직장을 구할 수 있을 거야.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-1">Box 1</div>
+              <div class="card-top">
+                <span class="expr">burn bridges</span>
+                <button class="btn-speak" data-speak="burn bridges" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 관계를 완전히 끊다, 배수진을 치다</div>
+              
+              <div class="example">
+                &bull; "Even if you hate your job, don&#39;t burn your bridges when you leave."
+                <button class="btn-speak-sm" data-speak="Even if you hate your job, don&#39;t burn your bridges when you leave.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 회사가 싫더라도 그만둘 때 관계를 완전히 끊지는 마.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-1">Box 1</div>
+              <div class="card-top">
+                <span class="expr">show off</span>
+                <button class="btn-speak" data-speak="show off" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 자랑하다, 뽐내다</div>
+              
+              <div class="example">
+                &bull; "Stop showing off your new watch."
+                <button class="btn-speak-sm" data-speak="Stop showing off your new watch.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 새 시계 자랑 좀 그만해.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-1">Box 1</div>
+              <div class="card-top">
+                <span class="expr">not my cup of tea</span>
+                <button class="btn-speak" data-speak="not my cup of tea" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 내 취향이 아니다</div>
+              
+              <div class="example">
+                &bull; "I know everyone loves opera, but it&#39;s just not my cup of tea."
+                <button class="btn-speak-sm" data-speak="I know everyone loves opera, but it&#39;s just not my cup of tea.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 다들 오페라를 좋아하는 건 알지만, 그냥 내 취향은 아니야.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-1">Box 1</div>
+              <div class="card-top">
+                <span class="expr">break the bank</span>
+                <button class="btn-speak" data-speak="break the bank" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 돈이 아주 많이 들다, 전 재산을 털다</div>
+              
+              <div class="example">
+                &bull; "Buying a new phone won&#39;t break the bank."
+                <button class="btn-speak-sm" data-speak="Buying a new phone won&#39;t break the bank.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 새 휴대폰을 산다고 해서 파산할 정도는 아니야.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-2">Box 2</div>
+              <div class="card-top">
+                <span class="expr">lucid</span>
+                <button class="btn-speak" data-speak="lucid" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 명쾌한, 이해하기 쉬운</div>
+              
+              <div class="example">
+                &bull; "She gave a lucid explanation of the complex theory."
+                <button class="btn-speak-sm" data-speak="She gave a lucid explanation of the complex theory.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 그녀는 그 복잡한 이론을 아주 명쾌하게 설명해 주었어.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-2">Box 2</div>
+              <div class="card-top">
+                <span class="expr">resilient</span>
+                <button class="btn-speak" data-speak="resilient" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 회복력이 있는, 강인한</div>
+              
+              <div class="example">
+                &bull; "Children are often more resilient than adults."
+                <button class="btn-speak-sm" data-speak="Children are often more resilient than adults.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 아이들은 종종 어른들보다 회복력이 더 빠르다.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-2">Box 2</div>
+              <div class="card-top">
+                <span class="expr">ambiguous</span>
+                <button class="btn-speak" data-speak="ambiguous" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 애매모호한, 다의적인</div>
+              
+              <div class="example">
+                &bull; "His reply to my question was somewhat ambiguous."
+                <button class="btn-speak-sm" data-speak="His reply to my question was somewhat ambiguous.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 내 질문에 대한 그의 대답은 다소 애매모호했어.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-2">Box 2</div>
+              <div class="card-top">
+                <span class="expr">prudent</span>
+                <button class="btn-speak" data-speak="prudent" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 신중한, 검소한</div>
+              
+              <div class="example">
+                &bull; "It would be prudent to save some money for emergencies."
+                <button class="btn-speak-sm" data-speak="It would be prudent to save some money for emergencies.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 비상시를 대비해 돈을 좀 저축해 두는 것이 현명할 거야.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-3">Box 3</div>
+              <div class="card-top">
+                <span class="expr">settle for</span>
+                <button class="btn-speak" data-speak="settle for" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> ~에 만족하다, 감수하다</div>
+              
+              <div class="example">
+                &bull; "Don&#39;t settle for anything less than you deserve."
+                <button class="btn-speak-sm" data-speak="Don&#39;t settle for anything less than you deserve.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 네 가치보다 낮은 것에 안주하지 마.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-3">Box 3</div>
+              <div class="card-top">
+                <span class="expr">barking up the wrong tree</span>
+                <button class="btn-speak" data-speak="barking up the wrong tree" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 번지수를 잘못 찾다</div>
+              
+              <div class="example">
+                &bull; "If you think I&#39;m the one who took your phone, you&#39;re barking up the wrong tree."
+                <button class="btn-speak-sm" data-speak="If you think I&#39;m the one who took your phone, you&#39;re barking up the wrong tree.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 네 핸드폰을 가져간 게 나라고 생각한다면, 넌 완전히 번지수를 잘못 찾은 거야.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-3">Box 3</div>
+              <div class="card-top">
+                <span class="expr">in the heat of the moment</span>
+                <button class="btn-speak" data-speak="in the heat of the moment" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 욱해서, 그 순간의 흥분 때문에</div>
+              
+              <div class="example">
+                &bull; "I&#39;m sorry for what I said; I just got carried away in the heat of the moment."
+                <button class="btn-speak-sm" data-speak="I&#39;m sorry for what I said; I just got carried away in the heat of the moment.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 내가 한 말 사과할게. 그땐 너무 욱해서 그랬어.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-4">Box 4</div>
+              <div class="card-top">
+                <span class="expr">innovative</span>
+                <button class="btn-speak" data-speak="innovative" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 혁신적인, 창의적인</div>
+              
+              <div class="example">
+                &bull; "The company is known for its innovative products and services."
+                <button class="btn-speak-sm" data-speak="The company is known for its innovative products and services.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 그 회사는 혁신적인 제품과 서비스로 유명하다.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-4">Box 4</div>
+              <div class="card-top">
+                <span class="expr">empathetic</span>
+                <button class="btn-speak" data-speak="empathetic" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 공감하는, 감정 이입하는</div>
+              
+              <div class="example">
+                &bull; "A good leader needs to be empathetic to their team members."
+                <button class="btn-speak-sm" data-speak="A good leader needs to be empathetic to their team members.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 좋은 리더는 팀원들에게 공감할 줄 알아야 한다.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="card-slide">
+            <div class="review-card">
+              <div class="box-indicator box-5">Box 5</div>
+              <div class="card-top">
+                <span class="expr">on the tip of my tongue</span>
+                <button class="btn-speak" data-speak="on the tip of my tongue" title="&#xBC1C;&#xC74C; &#xB4E3;&#xAE30;">&#x1F50A;</button>
+              </div>
+              <div class="meta">일상 영어회화</div>
+              <div class="meaning"><strong>&#xB73B;:</strong> 생각이 날 듯 말 듯 한</div>
+              
+              <div class="example">
+                &bull; "His name is on the tip of my tongue, but I can&#39;t remember it."
+                <button class="btn-speak-sm" data-speak="His name is on the tip of my tongue, but I can&#39;t remember it.">&#x1F50A;</button>
+                <br><span style="color:#a0aec0;">&rarr; 그 사람 이름이 생각날 듯 말 듯 한데 기억이 안 나네.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card-nav">
+        <button id="prev-review" onclick="prevCard('review')">&larr;</button>
+        <div class="progress" id="progress-review">1 / 15</div>
+        <button id="next-review" onclick="nextCard('review')">&rarr;</button>
+      </div>
+      
+    </div>
+
+    <footer>Daily English Conversation &middot; Powered by Gemini</footer>
+  </div>
+
+  <script>
+    /* ── State ── */
+    const state = {
+      learn: { index: 0, total: 15 },
+      review: { index: 0, total: 15 },
+    };
+    let activeTab = 'learn';
+
+    /* ── Tab switching ── */
+    function switchTab(tab) {
+      activeTab = tab;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.tab[data-tab="${tab}"]`).classList.add('active');
+      document.getElementById('panel-learn').style.display = tab === 'learn' ? '' : 'none';
+      document.getElementById('panel-review').style.display = tab === 'review' ? '' : 'none';
+    }
+
+    /* ── Card navigation ── */
+    function goTo(tab, idx) {
+      const s = state[tab];
+      if (idx < 0 || idx >= s.total) return;
+      s.index = idx;
+      const track = document.getElementById(`track-${tab}`);
+      if (track) track.style.transform = `translateX(-${idx * 100}%)`;
+      const prog = document.getElementById(`progress-${tab}`);
+      if (prog) prog.textContent = `${idx + 1} / ${s.total}`;
+      const prev = document.getElementById(`prev-${tab}`);
+      const next = document.getElementById(`next-${tab}`);
+      if (prev) prev.disabled = idx === 0;
+      if (next) next.disabled = idx === s.total - 1;
+    }
+    function prevCard(tab) { goTo(tab, state[tab].index - 1); }
+    function nextCard(tab) { goTo(tab, state[tab].index + 1); }
+
+    /* ── Swipe disabled — navigation via buttons only ── */
+
+    /* ── Keyboard navigation ── */
+    document.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') prevCard(activeTab);
+      else if (e.key === 'ArrowRight') nextCard(activeTab);
+    });
+
+    /* ── TTS (event delegation) ── */
+    let currentBtn = null;
+    /* Warm up voices — some browsers load them lazily */
+    if (typeof speechSynthesis !== 'undefined') {
+      speechSynthesis.getVoices();
+      speechSynthesis.addEventListener('voiceschanged', () => speechSynthesis.getVoices());
+    }
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-speak]');
+      if (!btn) return;
+      const text = btn.dataset.speak;
+      if (!text || typeof speechSynthesis === 'undefined') return;
+      speechSynthesis.cancel();
+      if (currentBtn) currentBtn.classList.remove('playing');
+      btn.classList.add('playing');
+      currentBtn = btn;
+      /* Delay after cancel() — Chrome drops speak() if called immediately */
+      setTimeout(() => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = 'en-US';
+        u.rate = 0.9;
+        u.onend = () => { btn.classList.remove('playing'); currentBtn = null; };
+        u.onerror = () => { btn.classList.remove('playing'); currentBtn = null; };
+        speechSynthesis.speak(u);
+      }, 50);
+    });
+
+    /* ── Date navigation ── */
+    const currentDate = '2026-06-09';
+    fetch('dates.json').then(r => r.json()).then(dates => {
+      const idx = dates.indexOf(currentDate);
+      if (idx > 0) {
+        const prev = document.getElementById('nav-prev');
+        prev.href = dates[idx - 1] + '.html';
+        prev.textContent = '\u2190 ' + dates[idx - 1];
+        prev.classList.remove('disabled');
+      }
+      if (idx >= 0 && idx < dates.length - 1) {
+        const next = document.getElementById('nav-next');
+        next.href = dates[idx + 1] + '.html';
+        next.textContent = dates[idx + 1] + ' \u2192';
+        next.classList.remove('disabled');
+      }
+    }).catch(() => {});
+
+    /* ── Init ── */
+    goTo('learn', 0);
+    goTo('review', 0);
+  </script>
+</body>
+</html>
