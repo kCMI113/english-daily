@@ -5344,5 +5344,86 @@
         "meaning_ko": "흐름에 맡기다, 대세를 따르다"
       }
     ]
+  },
+  "2026-06-11": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-11_19611_01",
+        "expression": "versatile",
+        "meaning_ko": "다재다능한, 다용도의"
+      },
+      {
+        "id": "2026-06-11_19611_02",
+        "expression": "procrastinate",
+        "meaning_ko": "미루다, 꾸물거리다"
+      },
+      {
+        "id": "2026-06-11_19611_03",
+        "expression": "vibrant",
+        "meaning_ko": "활기찬, 생생한"
+      },
+      {
+        "id": "2026-06-11_19611_04",
+        "expression": "strive",
+        "meaning_ko": "노력하다, 애쓰다"
+      },
+      {
+        "id": "2026-06-11_19611_05",
+        "expression": "call it a day",
+        "meaning_ko": "일과를 마치다, 퇴근하다"
+      },
+      {
+        "id": "2026-06-11_19611_06",
+        "expression": "lose one's touch",
+        "meaning_ko": "실력이 예전만 못하다"
+      },
+      {
+        "id": "2026-06-11_19611_07",
+        "expression": "get a head start",
+        "meaning_ko": "유리한 고지를 선점하다, 미리 시작하다"
+      },
+      {
+        "id": "2026-06-11_19611_08",
+        "expression": "keep a straight face",
+        "meaning_ko": "웃음을 참다, 정색하다"
+      },
+      {
+        "id": "2026-06-11_19611_09",
+        "expression": "pull someone's leg",
+        "meaning_ko": "농담하다, 놀리다"
+      },
+      {
+        "id": "2026-06-11_19611_10",
+        "expression": "sleep on it",
+        "meaning_ko": "하룻밤 자며 고민하다"
+      },
+      {
+        "id": "2026-06-11_19611_11",
+        "expression": "stand out",
+        "meaning_ko": "눈에 띄다, 두드러지다"
+      },
+      {
+        "id": "2026-06-11_19611_12",
+        "expression": "bring up",
+        "meaning_ko": "화제를 꺼내다, 양육하다"
+      },
+      {
+        "id": "2026-06-11_19611_13",
+        "expression": "get a kick out of",
+        "meaning_ko": "~에서 재미를 느끼다"
+      },
+      {
+        "id": "2026-06-11_19611_14",
+        "expression": "on the fly",
+        "meaning_ko": "즉석에서, 바로바로"
+      },
+      {
+        "id": "2026-06-11_19611_15",
+        "expression": "impromptu",
+        "meaning_ko": "즉석의, 준비 없이"
+      }
+    ]
   }
 }
