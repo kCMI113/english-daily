@@ -5425,5 +5425,86 @@
         "meaning_ko": "즉석의, 준비 없이"
       }
     ]
+  },
+  "2026-06-12": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-12_5606_01",
+        "expression": "daunting",
+        "meaning_ko": "벅찬, 위협적인"
+      },
+      {
+        "id": "2026-06-12_5606_02",
+        "expression": "spontaneous",
+        "meaning_ko": "즉흥적인, 자발적인"
+      },
+      {
+        "id": "2026-06-12_5606_03",
+        "expression": "resilient",
+        "meaning_ko": "회복력 있는, 강인한"
+      },
+      {
+        "id": "2026-06-12_5606_04",
+        "expression": "authentic",
+        "meaning_ko": "진짜의, 진정성 있는"
+      },
+      {
+        "id": "2026-06-12_5606_05",
+        "expression": "put up with",
+        "meaning_ko": "참다, 견디다"
+      },
+      {
+        "id": "2026-06-12_5606_06",
+        "expression": "bring about",
+        "meaning_ko": "초래하다, 야기하다"
+      },
+      {
+        "id": "2026-06-12_5606_07",
+        "expression": "come down with",
+        "meaning_ko": "병에 걸리다"
+      },
+      {
+        "id": "2026-06-12_5606_08",
+        "expression": "beat around the bush",
+        "meaning_ko": "돌려 말하다"
+      },
+      {
+        "id": "2026-06-12_5606_09",
+        "expression": "piece of cake",
+        "meaning_ko": "누워서 떡 먹기"
+      },
+      {
+        "id": "2026-06-12_5606_10",
+        "expression": "out of hand",
+        "meaning_ko": "감당할 수 없는, 통제 불능의"
+      },
+      {
+        "id": "2026-06-12_5606_11",
+        "expression": "keep in mind",
+        "meaning_ko": "명심하다, 유념하다"
+      },
+      {
+        "id": "2026-06-12_5606_12",
+        "expression": "get to know",
+        "meaning_ko": "알아가다"
+      },
+      {
+        "id": "2026-06-12_5606_13",
+        "expression": "take for granted",
+        "meaning_ko": "당연하게 여기다"
+      },
+      {
+        "id": "2026-06-12_5606_14",
+        "expression": "make a difference",
+        "meaning_ko": "변화를 주다, 중요하다"
+      },
+      {
+        "id": "2026-06-12_5606_15",
+        "expression": "it slipped my mind",
+        "meaning_ko": "깜빡 잊어버렸어"
+      }
+    ]
   }
 }
