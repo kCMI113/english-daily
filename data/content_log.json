@@ -5506,5 +5506,86 @@
         "meaning_ko": "깜빡 잊어버렸어"
       }
     ]
+  },
+  "2026-06-13": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-13_91207_01",
+        "expression": "ambiguous",
+        "meaning_ko": "애매모호한, 불분명한"
+      },
+      {
+        "id": "2026-06-13_91207_02",
+        "expression": "integrity",
+        "meaning_ko": "진실성, 고결함"
+      },
+      {
+        "id": "2026-06-13_91207_03",
+        "expression": "fickle",
+        "meaning_ko": "변덕스러운"
+      },
+      {
+        "id": "2026-06-13_91207_04",
+        "expression": "exaggerate",
+        "meaning_ko": "과장하다"
+      },
+      {
+        "id": "2026-06-13_91207_05",
+        "expression": "touchy",
+        "meaning_ko": "민감한, 예민한"
+      },
+      {
+        "id": "2026-06-13_91207_06",
+        "expression": "get the gist",
+        "meaning_ko": "요점을 파악하다"
+      },
+      {
+        "id": "2026-06-13_91207_07",
+        "expression": "brush off",
+        "meaning_ko": "무시하다, 거절하다"
+      },
+      {
+        "id": "2026-06-13_91207_08",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론으로 들어가다"
+      },
+      {
+        "id": "2026-06-13_91207_09",
+        "expression": "pull through",
+        "meaning_ko": "이겨내다, 회복하다"
+      },
+      {
+        "id": "2026-06-13_91207_10",
+        "expression": "all in all",
+        "meaning_ko": "대체로, 전반적으로"
+      },
+      {
+        "id": "2026-06-13_91207_11",
+        "expression": "keep a low profile",
+        "meaning_ko": "조용히 지내다"
+      },
+      {
+        "id": "2026-06-13_91207_12",
+        "expression": "give someone the cold shoulder",
+        "meaning_ko": "쌀쌀맞게 대하다"
+      },
+      {
+        "id": "2026-06-13_91207_13",
+        "expression": "catch up on",
+        "meaning_ko": "밀린 일을 보충하다"
+      },
+      {
+        "id": "2026-06-13_91207_14",
+        "expression": "barking up the wrong tree",
+        "meaning_ko": "헛다리 짚다"
+      },
+      {
+        "id": "2026-06-13_91207_15",
+        "expression": "down to earth",
+        "meaning_ko": "현실적인, 소탈한"
+      }
+    ]
   }
 }
