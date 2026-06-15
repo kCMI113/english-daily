@@ -5668,5 +5668,86 @@
         "meaning_ko": "압도된, 벅찬"
       }
     ]
+  },
+  "2026-06-15": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-15_66119_01",
+        "expression": "diligent",
+        "meaning_ko": "성실한, 부지런한"
+      },
+      {
+        "id": "2026-06-15_66119_02",
+        "expression": "considerate",
+        "meaning_ko": "배려심 있는, 사려 깊은"
+      },
+      {
+        "id": "2026-06-15_66119_03",
+        "expression": "superficial",
+        "meaning_ko": "피상적인, 겉핥기식의"
+      },
+      {
+        "id": "2026-06-15_66119_04",
+        "expression": "reliable",
+        "meaning_ko": "믿음직한, 신뢰할 수 있는"
+      },
+      {
+        "id": "2026-06-15_66119_05",
+        "expression": "look forward to",
+        "meaning_ko": "~를 고대하다, 기대하다"
+      },
+      {
+        "id": "2026-06-15_66119_06",
+        "expression": "under the weather",
+        "meaning_ko": "몸 상태가 좋지 않은"
+      },
+      {
+        "id": "2026-06-15_66119_07",
+        "expression": "better safe than sorry",
+        "meaning_ko": "나중에 후회하느니 조심하는 게 낫다"
+      },
+      {
+        "id": "2026-06-15_66119_08",
+        "expression": "run out of",
+        "meaning_ko": "~이 다 떨어지다"
+      },
+      {
+        "id": "2026-06-15_66119_09",
+        "expression": "on top of the world",
+        "meaning_ko": "기분이 최고인, 날아갈 듯한"
+      },
+      {
+        "id": "2026-06-15_66119_10",
+        "expression": "get around to",
+        "meaning_ko": "시간을 내어 ~하다"
+      },
+      {
+        "id": "2026-06-15_66119_11",
+        "expression": "look after",
+        "meaning_ko": "~를 돌보다, 챙기다"
+      },
+      {
+        "id": "2026-06-15_66119_12",
+        "expression": "break a leg",
+        "meaning_ko": "행운을 빌어 (주로 공연 전)"
+      },
+      {
+        "id": "2026-06-15_66119_13",
+        "expression": "keep in touch",
+        "meaning_ko": "연락하고 지내다"
+      },
+      {
+        "id": "2026-06-15_66119_14",
+        "expression": "go over",
+        "meaning_ko": "검토하다, 훑어보다"
+      },
+      {
+        "id": "2026-06-15_66119_15",
+        "expression": "come across",
+        "meaning_ko": "~한 인상을 주다, 우연히 발견하다"
+      }
+    ]
   }
 }
