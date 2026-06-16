@@ -5749,5 +5749,86 @@
         "meaning_ko": "~한 인상을 주다, 우연히 발견하다"
       }
     ]
+  },
+  "2026-06-16": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-16_52119_01",
+        "expression": "skeptical",
+        "meaning_ko": "회의적인, 의심하는"
+      },
+      {
+        "id": "2026-06-16_52119_02",
+        "expression": "frugal",
+        "meaning_ko": "절약하는, 검소한"
+      },
+      {
+        "id": "2026-06-16_52119_03",
+        "expression": "cynical",
+        "meaning_ko": "냉소적인, 비꼬는"
+      },
+      {
+        "id": "2026-06-16_52119_04",
+        "expression": "acknowledge",
+        "meaning_ko": "인정하다, 받았음을 알리다"
+      },
+      {
+        "id": "2026-06-16_52119_05",
+        "expression": "keep an eye on",
+        "meaning_ko": "지켜보다, 주시하다"
+      },
+      {
+        "id": "2026-06-16_52119_06",
+        "expression": "catch off guard",
+        "meaning_ko": "당황하게 하다, 허를 찌르다"
+      },
+      {
+        "id": "2026-06-16_52119_07",
+        "expression": "keep someone posted",
+        "meaning_ko": "계속 소식을 알려주다"
+      },
+      {
+        "id": "2026-06-16_52119_08",
+        "expression": "wrap up",
+        "meaning_ko": "마무리하다, 정리하다"
+      },
+      {
+        "id": "2026-06-16_52119_09",
+        "expression": "back to square one",
+        "meaning_ko": "원점으로 돌아가다, 처음부터 다시"
+      },
+      {
+        "id": "2026-06-16_52119_10",
+        "expression": "once in a blue moon",
+        "meaning_ko": "극히 드물게, 가뭄에 콩 나듯"
+      },
+      {
+        "id": "2026-06-16_52119_11",
+        "expression": "not my cup of tea",
+        "meaning_ko": "내 취향이 아니다"
+      },
+      {
+        "id": "2026-06-16_52119_12",
+        "expression": "get a move on",
+        "meaning_ko": "서두르다, 빨리 움직이다"
+      },
+      {
+        "id": "2026-06-16_52119_13",
+        "expression": "break the news",
+        "meaning_ko": "소식을 전하다, 말을 꺼내다"
+      },
+      {
+        "id": "2026-06-16_52119_14",
+        "expression": "bring someone up to speed",
+        "meaning_ko": "최신 상황을 알려주다"
+      },
+      {
+        "id": "2026-06-16_52119_15",
+        "expression": "make ends meet",
+        "meaning_ko": "겨우 생계를 유지하다"
+      }
+    ]
   }
 }
