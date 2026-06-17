@@ -5830,5 +5830,86 @@
         "meaning_ko": "겨우 생계를 유지하다"
       }
     ]
+  },
+  "2026-06-17": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-17_38211_01",
+        "expression": "perceptive",
+        "meaning_ko": "통찰력 있는, 눈치 빠른"
+      },
+      {
+        "id": "2026-06-17_38211_02",
+        "expression": "resourceful",
+        "meaning_ko": "수완이 좋은, 자원을 잘 활용하는"
+      },
+      {
+        "id": "2026-06-17_38211_03",
+        "expression": "trivial",
+        "meaning_ko": "사소한, 하찮은"
+      },
+      {
+        "id": "2026-06-17_38211_04",
+        "expression": "impeccable",
+        "meaning_ko": "흠잡을 데 없는, 완벽한"
+      },
+      {
+        "id": "2026-06-17_38211_05",
+        "expression": "get a hold of",
+        "meaning_ko": "~와 연락이 닿다"
+      },
+      {
+        "id": "2026-06-17_38211_06",
+        "expression": "come up with",
+        "meaning_ko": "생각해내다, 제시하다"
+      },
+      {
+        "id": "2026-06-17_38211_07",
+        "expression": "set aside",
+        "meaning_ko": "확보하다, 떼어놓다"
+      },
+      {
+        "id": "2026-06-17_38211_08",
+        "expression": "on the fence",
+        "meaning_ko": "결정을 못 내린, 중립적인"
+      },
+      {
+        "id": "2026-06-17_38211_09",
+        "expression": "be tied up",
+        "meaning_ko": "매우 바쁘다, 꼼짝 못 하다"
+      },
+      {
+        "id": "2026-06-17_38211_10",
+        "expression": "take it easy",
+        "meaning_ko": "쉬엄쉬엄 하다, 진정하다"
+      },
+      {
+        "id": "2026-06-17_38211_11",
+        "expression": "fill someone in",
+        "meaning_ko": "자세히 알려주다, 정보를 주다"
+      },
+      {
+        "id": "2026-06-17_38211_12",
+        "expression": "run into",
+        "meaning_ko": "우연히 마주치다"
+      },
+      {
+        "id": "2026-06-17_38211_13",
+        "expression": "get the hang of",
+        "meaning_ko": "요령을 터득하다, 감을 잡다"
+      },
+      {
+        "id": "2026-06-17_38211_14",
+        "expression": "up in the air",
+        "meaning_ko": "아직 정해지지 않은, 불확실한"
+      },
+      {
+        "id": "2026-06-17_38211_15",
+        "expression": "keep track of",
+        "meaning_ko": "~을 계속 파악하다, 기록하다"
+      }
+    ]
   }
 }
