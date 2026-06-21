@@ -6154,5 +6154,86 @@
         "meaning_ko": "보답하다, 만회하다"
       }
     ]
+  },
+  "2026-06-21": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-21_82775_01",
+        "expression": "genuine",
+        "meaning_ko": "진실한, 진짜의"
+      },
+      {
+        "id": "2026-06-21_82775_02",
+        "expression": "tenacious",
+        "meaning_ko": "끈질긴, 집요한"
+      },
+      {
+        "id": "2026-06-21_82775_03",
+        "expression": "eloquent",
+        "meaning_ko": "유창한, 설득력 있는"
+      },
+      {
+        "id": "2026-06-21_82775_04",
+        "expression": "gullible",
+        "meaning_ko": "잘 속는, 귀가 얇은"
+      },
+      {
+        "id": "2026-06-21_82775_05",
+        "expression": "strenuous",
+        "meaning_ko": "몹시 힘든, 격렬한"
+      },
+      {
+        "id": "2026-06-21_82775_06",
+        "expression": "cut someone some slack",
+        "meaning_ko": "사정을 봐주다, 덜 몰아붙이다"
+      },
+      {
+        "id": "2026-06-21_82775_07",
+        "expression": "hit the nail on the head",
+        "meaning_ko": "정곡을 찌르다, 정확히 맞히다"
+      },
+      {
+        "id": "2026-06-21_82775_08",
+        "expression": "get off on the wrong foot",
+        "meaning_ko": "시작부터 꼬이다, 첫 단추를 잘못 끼우다"
+      },
+      {
+        "id": "2026-06-21_82775_09",
+        "expression": "give it a shot",
+        "meaning_ko": "한번 해보다, 시도하다"
+      },
+      {
+        "id": "2026-06-21_82775_10",
+        "expression": "play it safe",
+        "meaning_ko": "신중하게 행동하다, 모험을 피하다"
+      },
+      {
+        "id": "2026-06-21_82775_11",
+        "expression": "keep your chin up",
+        "meaning_ko": "기운 내, 당당해져"
+      },
+      {
+        "id": "2026-06-21_82775_12",
+        "expression": "in the heat of the moment",
+        "meaning_ko": "욱해서, 한창 흥분해서"
+      },
+      {
+        "id": "2026-06-21_82775_13",
+        "expression": "it's a small world",
+        "meaning_ko": "세상 참 좁다"
+      },
+      {
+        "id": "2026-06-21_82775_14",
+        "expression": "lose one's cool",
+        "meaning_ko": "평정심을 잃다, 버럭 화내다"
+      },
+      {
+        "id": "2026-06-21_82775_15",
+        "expression": "put yourself in someone's shoes",
+        "meaning_ko": "입장을 바꿔 생각하다"
+      }
+    ]
   }
 }
