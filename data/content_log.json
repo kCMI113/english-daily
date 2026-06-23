@@ -6316,5 +6316,86 @@
         "meaning_ko": "곁에 있어 주다"
       }
     ]
+  },
+  "2026-06-23": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-23_55537_01",
+        "expression": "feasible",
+        "meaning_ko": "실행 가능한, 가능한"
+      },
+      {
+        "id": "2026-06-23_55537_02",
+        "expression": "intimidating",
+        "meaning_ko": "위협적인, 겁나는"
+      },
+      {
+        "id": "2026-06-23_55537_03",
+        "expression": "superfluous",
+        "meaning_ko": "불필요한, 과잉의"
+      },
+      {
+        "id": "2026-06-23_55537_04",
+        "expression": "precarious",
+        "meaning_ko": "불안정한, 위태로운"
+      },
+      {
+        "id": "2026-06-23_55537_05",
+        "expression": "get the ball rolling",
+        "meaning_ko": "시작하다, 착수하다"
+      },
+      {
+        "id": "2026-06-23_55537_06",
+        "expression": "brush up on",
+        "meaning_ko": "복습하다, 다시 익히다"
+      },
+      {
+        "id": "2026-06-23_55537_07",
+        "expression": "bite the bullet",
+        "meaning_ko": "어려움을 감수하다, 참다"
+      },
+      {
+        "id": "2026-06-23_55537_08",
+        "expression": "in the blink of an eye",
+        "meaning_ko": "눈 깜짝할 사이에"
+      },
+      {
+        "id": "2026-06-23_55537_09",
+        "expression": "look up to",
+        "meaning_ko": "존경하다, 우러러보다"
+      },
+      {
+        "id": "2026-06-23_55537_10",
+        "expression": "burn the midnight oil",
+        "meaning_ko": "밤늦게까지 공부/일하다"
+      },
+      {
+        "id": "2026-06-23_55537_11",
+        "expression": "at the end of the day",
+        "meaning_ko": "결국에는, 가장 중요한 건"
+      },
+      {
+        "id": "2026-06-23_55537_12",
+        "expression": "keep up with",
+        "meaning_ko": "따라잡다, 뒤처지지 않다"
+      },
+      {
+        "id": "2026-06-23_55537_13",
+        "expression": "hit the sack",
+        "meaning_ko": "잠자리에 들다, 자러 가다"
+      },
+      {
+        "id": "2026-06-23_55537_14",
+        "expression": "for the time being",
+        "meaning_ko": "당분간은, 우선은"
+      },
+      {
+        "id": "2026-06-23_55537_15",
+        "expression": "pull off",
+        "meaning_ko": "해내다, 성사시키다"
+      }
+    ]
   }
 }
