@@ -6397,5 +6397,86 @@
         "meaning_ko": "해내다, 성사시키다"
       }
     ]
+  },
+  "2026-06-24": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-24_41903_01",
+        "expression": "pragmatic",
+        "meaning_ko": "실용적인, 현실적인"
+      },
+      {
+        "id": "2026-06-24_41903_02",
+        "expression": "meticulous",
+        "meaning_ko": "꼼꼼한, 세심한"
+      },
+      {
+        "id": "2026-06-24_41903_03",
+        "expression": "notorious",
+        "meaning_ko": "악명 높은"
+      },
+      {
+        "id": "2026-06-24_41903_04",
+        "expression": "empathy",
+        "meaning_ko": "공감, 감정이입"
+      },
+      {
+        "id": "2026-06-24_41903_05",
+        "expression": "get the drift",
+        "meaning_ko": "대충 알아듣다"
+      },
+      {
+        "id": "2026-06-24_41903_06",
+        "expression": "cut corners",
+        "meaning_ko": "절차를 생략하다, 대충 하다"
+      },
+      {
+        "id": "2026-06-24_41903_07",
+        "expression": "call the shots",
+        "meaning_ko": "주도권을 쥐다, 결정하다"
+      },
+      {
+        "id": "2026-06-24_41903_08",
+        "expression": "fall through",
+        "meaning_ko": "무산되다, 수포로 돌아가다"
+      },
+      {
+        "id": "2026-06-24_41903_09",
+        "expression": "back and forth",
+        "meaning_ko": "왔다 갔다, 주고받기"
+      },
+      {
+        "id": "2026-06-24_41903_10",
+        "expression": "get back to",
+        "meaning_ko": "나중에 다시 연락하다"
+      },
+      {
+        "id": "2026-06-24_41903_11",
+        "expression": "keep an open mind",
+        "meaning_ko": "편견 없이 대하다, 마음을 열다"
+      },
+      {
+        "id": "2026-06-24_41903_12",
+        "expression": "on a whim",
+        "meaning_ko": "충동적으로, 즉흥적으로"
+      },
+      {
+        "id": "2026-06-24_41903_13",
+        "expression": "rule out",
+        "meaning_ko": "배제하다, 제외하다"
+      },
+      {
+        "id": "2026-06-24_41903_14",
+        "expression": "hang in there",
+        "meaning_ko": "조금만 더 버텨, 힘내"
+      },
+      {
+        "id": "2026-06-24_41903_15",
+        "expression": "make the most of",
+        "meaning_ko": "최대한 활용하다, 즐기다"
+      }
+    ]
   }
 }
