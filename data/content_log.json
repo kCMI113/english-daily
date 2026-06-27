@@ -6640,5 +6640,86 @@
         "meaning_ko": "튼튼한, 견고한"
       }
     ]
+  },
+  "2026-06-27": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-27_837_01",
+        "expression": "lenient",
+        "meaning_ko": "관대한, 너그러운"
+      },
+      {
+        "id": "2026-06-27_837_02",
+        "expression": "hectic",
+        "meaning_ko": "몹시 바쁜, 정신없는"
+      },
+      {
+        "id": "2026-06-27_837_03",
+        "expression": "aloof",
+        "meaning_ko": "냉담한, 거리를 두는"
+      },
+      {
+        "id": "2026-06-27_837_04",
+        "expression": "bewildered",
+        "meaning_ko": "당혹스러운, 어리둥절한"
+      },
+      {
+        "id": "2026-06-27_837_05",
+        "expression": "keep it under wraps",
+        "meaning_ko": "비밀로 하다, 숨기다"
+      },
+      {
+        "id": "2026-06-27_837_06",
+        "expression": "off the top of my head",
+        "meaning_ko": "지금 바로 생각나기로는"
+      },
+      {
+        "id": "2026-06-27_837_07",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론으로 들어가다"
+      },
+      {
+        "id": "2026-06-27_837_08",
+        "expression": "get a kick out of",
+        "meaning_ko": "~에서 재미를 느끼다"
+      },
+      {
+        "id": "2026-06-27_837_09",
+        "expression": "blow someone away",
+        "meaning_ko": "~를 깜짝 놀라게 하다"
+      },
+      {
+        "id": "2026-06-27_837_10",
+        "expression": "in a nutshell",
+        "meaning_ko": "한마디로 말하면, 요약하자면"
+      },
+      {
+        "id": "2026-06-27_837_11",
+        "expression": "burn bridges",
+        "meaning_ko": "관계를 끊다, 배수진을 치다"
+      },
+      {
+        "id": "2026-06-27_837_12",
+        "expression": "face the music",
+        "meaning_ko": "책임을 지다, 결과를 받아들이다"
+      },
+      {
+        "id": "2026-06-27_837_13",
+        "expression": "under the gun",
+        "meaning_ko": "압박을 받는, 시간에 쫓기는"
+      },
+      {
+        "id": "2026-06-27_837_14",
+        "expression": "stand your ground",
+        "meaning_ko": "자기 주장을 굽히지 않다"
+      },
+      {
+        "id": "2026-06-27_837_15",
+        "expression": "get carried away",
+        "meaning_ko": "자제력을 잃다, 흥분하다"
+      }
+    ]
   }
 }
