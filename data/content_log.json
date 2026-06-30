@@ -6883,5 +6883,86 @@
         "meaning_ko": "악감정은 없다, 서운해하지 마라"
       }
     ]
+  },
+  "2026-06-30": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-06-30_60558_01",
+        "expression": "embrace",
+        "meaning_ko": "받아들이다, 기꺼이 수용하다"
+      },
+      {
+        "id": "2026-06-30_60558_02",
+        "expression": "cluttered",
+        "meaning_ko": "어수선한, 잡동사니로 가득한"
+      },
+      {
+        "id": "2026-06-30_60558_03",
+        "expression": "pessimistic",
+        "meaning_ko": "비관적인, 부정적인"
+      },
+      {
+        "id": "2026-06-30_60558_04",
+        "expression": "thorough",
+        "meaning_ko": "철저한, 빈틈없는"
+      },
+      {
+        "id": "2026-06-30_60558_05",
+        "expression": "get a grip",
+        "meaning_ko": "정신 차리다, 진정하다"
+      },
+      {
+        "id": "2026-06-30_60558_06",
+        "expression": "at a loss for words",
+        "meaning_ko": "할 말을 잃다, 어이가 없다"
+      },
+      {
+        "id": "2026-06-30_60558_07",
+        "expression": "ring a bell",
+        "meaning_ko": "들어본 적 있다, 낯이 익다"
+      },
+      {
+        "id": "2026-06-30_60558_08",
+        "expression": "go with the flow",
+        "meaning_ko": "흐름에 맡기다, 대세를 따르다"
+      },
+      {
+        "id": "2026-06-30_60558_09",
+        "expression": "keep a straight face",
+        "meaning_ko": "웃음을 참다, 정색하다"
+      },
+      {
+        "id": "2026-06-30_60558_10",
+        "expression": "fill in for",
+        "meaning_ko": "~를 대신하다, 대리 근무하다"
+      },
+      {
+        "id": "2026-06-30_60558_11",
+        "expression": "look forward to",
+        "meaning_ko": "~를 고대하다, 기다리다"
+      },
+      {
+        "id": "2026-06-30_60558_12",
+        "expression": "run out of",
+        "meaning_ko": "~이 다 떨어지다, 고갈되다"
+      },
+      {
+        "id": "2026-06-30_60558_13",
+        "expression": "put up with",
+        "meaning_ko": "참다, 견디다"
+      },
+      {
+        "id": "2026-06-30_60558_14",
+        "expression": "once in a blue moon",
+        "meaning_ko": "아주 드물게, 가뭄에 콩 나듯"
+      },
+      {
+        "id": "2026-06-30_60558_15",
+        "expression": "break the ice",
+        "meaning_ko": "어색함을 깨다, 서먹함을 없애다"
+      }
+    ]
   }
 }
