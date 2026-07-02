@@ -7045,5 +7045,86 @@
         "meaning_ko": "이해가 되다, 타당하다"
       }
     ]
+  },
+  "2026-07-02": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-02_32998_01",
+        "expression": "eccentric",
+        "meaning_ko": "엉뚱한, 별난"
+      },
+      {
+        "id": "2026-07-02_32998_02",
+        "expression": "stifling",
+        "meaning_ko": "답답한, 숨 막히는"
+      },
+      {
+        "id": "2026-07-02_32998_03",
+        "expression": "pivotal",
+        "meaning_ko": "중추적인, 중요한"
+      },
+      {
+        "id": "2026-07-02_32998_04",
+        "expression": "flustered",
+        "meaning_ko": "당황한, 허둥대는"
+      },
+      {
+        "id": "2026-07-02_32998_05",
+        "expression": "chip in",
+        "meaning_ko": "돈을 보태다, 각출하다"
+      },
+      {
+        "id": "2026-07-02_32998_06",
+        "expression": "get away with",
+        "meaning_ko": "교묘히 빠져나가다"
+      },
+      {
+        "id": "2026-07-02_32998_07",
+        "expression": "run into",
+        "meaning_ko": "우연히 마주치다"
+      },
+      {
+        "id": "2026-07-02_32998_08",
+        "expression": "on the tip of my tongue",
+        "meaning_ko": "입가에 맴도는"
+      },
+      {
+        "id": "2026-07-02_32998_09",
+        "expression": "spill the beans",
+        "meaning_ko": "비밀을 털어놓다"
+      },
+      {
+        "id": "2026-07-02_32998_10",
+        "expression": "under the weather",
+        "meaning_ko": "몸 상태가 안 좋은"
+      },
+      {
+        "id": "2026-07-02_32998_11",
+        "expression": "as far as I'm concerned",
+        "meaning_ko": "내 생각에는, 나로서는"
+      },
+      {
+        "id": "2026-07-02_32998_12",
+        "expression": "it's about time",
+        "meaning_ko": "드디어 ~할 때다"
+      },
+      {
+        "id": "2026-07-02_32998_13",
+        "expression": "no strings attached",
+        "meaning_ko": "아무 조건 없는"
+      },
+      {
+        "id": "2026-07-02_32998_14",
+        "expression": "out of hand",
+        "meaning_ko": "감당 안 되는, 통제 불능인"
+      },
+      {
+        "id": "2026-07-02_32998_15",
+        "expression": "take it easy",
+        "meaning_ko": "진정해, 쉬엄쉬엄해"
+      }
+    ]
   }
 }
