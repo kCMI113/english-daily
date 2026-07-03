@@ -7126,5 +7126,86 @@
         "meaning_ko": "진정해, 쉬엄쉬엄해"
       }
     ]
+  },
+  "2026-07-03": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-03_19272_01",
+        "expression": "mediocre",
+        "meaning_ko": "그저 그런, 평범한"
+      },
+      {
+        "id": "2026-07-03_19272_02",
+        "expression": "tangible",
+        "meaning_ko": "실질적인, 눈에 보이는"
+      },
+      {
+        "id": "2026-07-03_19272_03",
+        "expression": "novice",
+        "meaning_ko": "초보자, 초심자"
+      },
+      {
+        "id": "2026-07-03_19272_04",
+        "expression": "redundant",
+        "meaning_ko": "불필요한, 중복된"
+      },
+      {
+        "id": "2026-07-03_19272_05",
+        "expression": "subtle",
+        "meaning_ko": "미묘한, 섬세한"
+      },
+      {
+        "id": "2026-07-03_19272_06",
+        "expression": "on the fence",
+        "meaning_ko": "결정을 못 내린, 중립적인"
+      },
+      {
+        "id": "2026-07-03_19272_07",
+        "expression": "cost an arm and a leg",
+        "meaning_ko": "돈이 엄청 많이 들다"
+      },
+      {
+        "id": "2026-07-03_19272_08",
+        "expression": "wind up",
+        "meaning_ko": "결국 ~하게 되다, 마무리하다"
+      },
+      {
+        "id": "2026-07-03_19272_09",
+        "expression": "out of the loop",
+        "meaning_ko": "상황을 잘 모르는, 소외된"
+      },
+      {
+        "id": "2026-07-03_19272_10",
+        "expression": "ball is in your court",
+        "meaning_ko": "네 결정에 달렸어, 네 차례야"
+      },
+      {
+        "id": "2026-07-03_19272_11",
+        "expression": "jump on the bandwagon",
+        "meaning_ko": "대세에 합류하다, 유행을 따르다"
+      },
+      {
+        "id": "2026-07-03_19272_12",
+        "expression": "brush off",
+        "meaning_ko": "무시하다, 가볍게 넘기다"
+      },
+      {
+        "id": "2026-07-03_19272_13",
+        "expression": "look out for",
+        "meaning_ko": "챙겨주다, 조심하다"
+      },
+      {
+        "id": "2026-07-03_19272_14",
+        "expression": "for good",
+        "meaning_ko": "영원히, 완전히"
+      },
+      {
+        "id": "2026-07-03_19272_15",
+        "expression": "back up",
+        "meaning_ko": "뒷받침하다, 지지하다"
+      }
+    ]
   }
 }
