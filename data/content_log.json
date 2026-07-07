@@ -7450,5 +7450,86 @@
         "meaning_ko": "비밀리에, 뒷거래로"
       }
     ]
+  },
+  "2026-07-07": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-07_64627_01",
+        "expression": "vague",
+        "meaning_ko": "모호한, 막연한"
+      },
+      {
+        "id": "2026-07-07_64627_02",
+        "expression": "intimidate",
+        "meaning_ko": "겁을 주다, 위협하다"
+      },
+      {
+        "id": "2026-07-07_64627_03",
+        "expression": "approachable",
+        "meaning_ko": "다가가기 쉬운, 친근한"
+      },
+      {
+        "id": "2026-07-07_64627_04",
+        "expression": "perplexed",
+        "meaning_ko": "당혹스러운, 어쩔 줄 모르는"
+      },
+      {
+        "id": "2026-07-07_64627_05",
+        "expression": "play it safe",
+        "meaning_ko": "안전하게 가다, 모험을 피하다"
+      },
+      {
+        "id": "2026-07-07_64627_06",
+        "expression": "get the ball rolling",
+        "meaning_ko": "일을 시작하다, 착수하다"
+      },
+      {
+        "id": "2026-07-07_64627_07",
+        "expression": "lose one's touch",
+        "meaning_ko": "실력이 예전만 못하다, 감을 잃다"
+      },
+      {
+        "id": "2026-07-07_64627_08",
+        "expression": "keep your fingers crossed",
+        "meaning_ko": "행운을 빌다"
+      },
+      {
+        "id": "2026-07-07_64627_09",
+        "expression": "on the spur of the moment",
+        "meaning_ko": "충동적으로, 즉흥적으로"
+      },
+      {
+        "id": "2026-07-07_64627_10",
+        "expression": "cut someone some slack",
+        "meaning_ko": "좀 봐주다, 너그럽게 대하다"
+      },
+      {
+        "id": "2026-07-07_64627_11",
+        "expression": "bring something to the table",
+        "meaning_ko": "기여하다, 유용한 것을 제시하다"
+      },
+      {
+        "id": "2026-07-07_64627_12",
+        "expression": "down the road",
+        "meaning_ko": "나중에, 미래에"
+      },
+      {
+        "id": "2026-07-07_64627_13",
+        "expression": "bite the bullet",
+        "meaning_ko": "악물고 견디다, 결단을 내리다"
+      },
+      {
+        "id": "2026-07-07_64627_14",
+        "expression": "burn the midnight oil",
+        "meaning_ko": "밤늦게까지 공부/일하다"
+      },
+      {
+        "id": "2026-07-07_64627_15",
+        "expression": "the elephant in the room",
+        "meaning_ko": "모두가 알지만 쉬쉬하는 문제"
+      }
+    ]
   }
 }
