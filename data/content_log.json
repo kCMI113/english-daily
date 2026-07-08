@@ -7531,5 +7531,86 @@
         "meaning_ko": "모두가 알지만 쉬쉬하는 문제"
       }
     ]
+  },
+  "2026-07-08": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-08_51308_01",
+        "expression": "meticulous",
+        "meaning_ko": "매우 꼼꼼한, 세심한"
+      },
+      {
+        "id": "2026-07-08_51308_02",
+        "expression": "oblivious",
+        "meaning_ko": "의식하지 못하는, 감을 못 잡는"
+      },
+      {
+        "id": "2026-07-08_51308_03",
+        "expression": "fickle",
+        "meaning_ko": "변덕스러운"
+      },
+      {
+        "id": "2026-07-08_51308_04",
+        "expression": "eloquent",
+        "meaning_ko": "말을 잘하는, 설득력 있는"
+      },
+      {
+        "id": "2026-07-08_51308_05",
+        "expression": "pull strings",
+        "meaning_ko": "인맥을 동원하다, 빽을 쓰다"
+      },
+      {
+        "id": "2026-07-08_51308_06",
+        "expression": "keep a low profile",
+        "meaning_ko": "저자세를 유지하다, 눈에 띄지 않게 행동하다"
+      },
+      {
+        "id": "2026-07-08_51308_07",
+        "expression": "lose one's cool",
+        "meaning_ko": "평정심을 잃다, 욱하다"
+      },
+      {
+        "id": "2026-07-08_51308_08",
+        "expression": "play hard to get",
+        "meaning_ko": "튕기다, 비싸게 굴다"
+      },
+      {
+        "id": "2026-07-08_51308_09",
+        "expression": "make a scene",
+        "meaning_ko": "소란을 피우다, 소동을 일으키다"
+      },
+      {
+        "id": "2026-07-08_51308_10",
+        "expression": "fall through",
+        "meaning_ko": "수포로 돌아가다, 무산되다"
+      },
+      {
+        "id": "2026-07-08_51308_11",
+        "expression": "look down on",
+        "meaning_ko": "무시하다, 깔보다"
+      },
+      {
+        "id": "2026-07-08_51308_12",
+        "expression": "get a leg up",
+        "meaning_ko": "우위를 점하다, 도움을 받다"
+      },
+      {
+        "id": "2026-07-08_51308_13",
+        "expression": "take a toll",
+        "meaning_ko": "피해를 주다, 타격을 입히다"
+      },
+      {
+        "id": "2026-07-08_51308_14",
+        "expression": "go the extra mile",
+        "meaning_ko": "특별히 더 노력하다"
+      },
+      {
+        "id": "2026-07-08_51308_15",
+        "expression": "put someone on the spot",
+        "meaning_ko": "곤란하게 만들다, 당황하게 하다"
+      }
+    ]
   }
 }
