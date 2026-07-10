@@ -7693,5 +7693,86 @@
         "meaning_ko": "부당한 대우를 받다, 손해를 보다"
       }
     ]
+  },
+  "2026-07-10": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-10_23808_01",
+        "expression": "pragmatic",
+        "meaning_ko": "실용적인, 현실적인"
+      },
+      {
+        "id": "2026-07-10_23808_02",
+        "expression": "obsolete",
+        "meaning_ko": "구식의, 쓸모없게 된"
+      },
+      {
+        "id": "2026-07-10_23808_03",
+        "expression": "blunt",
+        "meaning_ko": "직설적인, 무딘"
+      },
+      {
+        "id": "2026-07-10_23808_04",
+        "expression": "spontaneous",
+        "meaning_ko": "즉흥적인, 자발적인"
+      },
+      {
+        "id": "2026-07-10_23808_05",
+        "expression": "frantic",
+        "meaning_ko": "정신없이 바쁜, 제정신이 아닌"
+      },
+      {
+        "id": "2026-07-10_23808_06",
+        "expression": "call it a day",
+        "meaning_ko": "오늘은 이만하다, 마무리하다"
+      },
+      {
+        "id": "2026-07-10_23808_07",
+        "expression": "get back to someone",
+        "meaning_ko": "나중에 다시 연락하다"
+      },
+      {
+        "id": "2026-07-10_23808_08",
+        "expression": "up for grabs",
+        "meaning_ko": "누구나 가질 수 있는, 임자 없는"
+      },
+      {
+        "id": "2026-07-10_23808_09",
+        "expression": "take something with a grain of salt",
+        "meaning_ko": "걸러서 듣다, 액면 그대로 믿지 않다"
+      },
+      {
+        "id": "2026-07-10_23808_10",
+        "expression": "get on someone's nerves",
+        "meaning_ko": "신경을 건드리다, 짜증나게 하다"
+      },
+      {
+        "id": "2026-07-10_23808_11",
+        "expression": "look after",
+        "meaning_ko": "돌보다, 챙기다"
+      },
+      {
+        "id": "2026-07-10_23808_12",
+        "expression": "out of the question",
+        "meaning_ko": "불가능한, 말도 안 되는"
+      },
+      {
+        "id": "2026-07-10_23808_13",
+        "expression": "hang in there",
+        "meaning_ko": "조금만 더 버티다, 기운 내다"
+      },
+      {
+        "id": "2026-07-10_23808_14",
+        "expression": "go through",
+        "meaning_ko": "겪다, 살펴보다"
+      },
+      {
+        "id": "2026-07-10_23808_15",
+        "expression": "make up one's mind",
+        "meaning_ko": "결심하다, 마음을 정하다"
+      }
+    ]
   }
 }
