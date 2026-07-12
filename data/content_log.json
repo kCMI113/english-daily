@@ -7855,5 +7855,86 @@
         "meaning_ko": "직관적인, 이해하기 쉬운"
       }
     ]
+  },
+  "2026-07-12": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-12_95849_01",
+        "expression": "ambiguous",
+        "meaning_ko": "애매모호한, 불분명한"
+      },
+      {
+        "id": "2026-07-12_95849_02",
+        "expression": "gullible",
+        "meaning_ko": "잘 속는, 귀가 얇은"
+      },
+      {
+        "id": "2026-07-12_95849_03",
+        "expression": "mundane",
+        "meaning_ko": "평범한, 일상적인, 재미없는"
+      },
+      {
+        "id": "2026-07-12_95849_04",
+        "expression": "lenient",
+        "meaning_ko": "관대한, 너그러운"
+      },
+      {
+        "id": "2026-07-12_95849_05",
+        "expression": "candid",
+        "meaning_ko": "솔직한, 거침없는"
+      },
+      {
+        "id": "2026-07-12_95849_06",
+        "expression": "brush up on",
+        "meaning_ko": "다시 공부하다, 복습하다"
+      },
+      {
+        "id": "2026-07-12_95849_07",
+        "expression": "come in handy",
+        "meaning_ko": "유용하다, 도움이 되다"
+      },
+      {
+        "id": "2026-07-12_95849_08",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론으로 바로 들어가다"
+      },
+      {
+        "id": "2026-07-12_95849_09",
+        "expression": "get a kick out of",
+        "meaning_ko": "~에서 큰 재미를 느끼다"
+      },
+      {
+        "id": "2026-07-12_95849_10",
+        "expression": "let it slide",
+        "meaning_ko": "그냥 넘어가 주다, 묵인하다"
+      },
+      {
+        "id": "2026-07-12_95849_11",
+        "expression": "make the most of",
+        "meaning_ko": "최대한 활용하다"
+      },
+      {
+        "id": "2026-07-12_95849_12",
+        "expression": "on top of things",
+        "meaning_ko": "상황을 잘 파악하고 있는, 일을 잘 관리하는"
+      },
+      {
+        "id": "2026-07-12_95849_13",
+        "expression": "stand one's ground",
+        "meaning_ko": "자기 주장을 굽히지 않다"
+      },
+      {
+        "id": "2026-07-12_95849_14",
+        "expression": "take for granted",
+        "meaning_ko": "당연하게 여기다"
+      },
+      {
+        "id": "2026-07-12_95849_15",
+        "expression": "turn a blind eye",
+        "meaning_ko": "못 본 척하다, 눈감아 주다"
+      }
+    ]
   }
 }
