@@ -7936,5 +7936,86 @@
         "meaning_ko": "못 본 척하다, 눈감아 주다"
       }
     ]
+  },
+  "2026-07-13": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-13_82641_01",
+        "expression": "reluctant",
+        "meaning_ko": "내키지 않는, 꺼리는"
+      },
+      {
+        "id": "2026-07-13_82641_02",
+        "expression": "vulnerable",
+        "meaning_ko": "취약한, 상처받기 쉬운"
+      },
+      {
+        "id": "2026-07-13_82641_03",
+        "expression": "strenuous",
+        "meaning_ko": "몹시 힘든, 격렬한"
+      },
+      {
+        "id": "2026-07-13_82641_04",
+        "expression": "complacent",
+        "meaning_ko": "안주하는, 자기만족적인"
+      },
+      {
+        "id": "2026-07-13_82641_05",
+        "expression": "keep one's options open",
+        "meaning_ko": "선택의 여지를 남겨두다"
+      },
+      {
+        "id": "2026-07-13_82641_06",
+        "expression": "read between the lines",
+        "meaning_ko": "숨은 의도를 파악하다"
+      },
+      {
+        "id": "2026-07-13_82641_07",
+        "expression": "rule out",
+        "meaning_ko": "제외하다, 배제하다"
+      },
+      {
+        "id": "2026-07-13_82641_08",
+        "expression": "go back on",
+        "meaning_ko": "약속을 어기다, 번복하다"
+      },
+      {
+        "id": "2026-07-13_82641_09",
+        "expression": "take a back seat",
+        "meaning_ko": "뒷전으로 밀려나다"
+      },
+      {
+        "id": "2026-07-13_82641_10",
+        "expression": "be in the red",
+        "meaning_ko": "적자가 나다"
+      },
+      {
+        "id": "2026-07-13_82641_11",
+        "expression": "keep tabs on",
+        "meaning_ko": "~을 계속 파악하다, 감시하다"
+      },
+      {
+        "id": "2026-07-13_82641_12",
+        "expression": "stand up for",
+        "meaning_ko": "옹호하다, 지지하다"
+      },
+      {
+        "id": "2026-07-13_82641_13",
+        "expression": "barking up the wrong tree",
+        "meaning_ko": "헛다리를 짚다"
+      },
+      {
+        "id": "2026-07-13_82641_14",
+        "expression": "settle for",
+        "meaning_ko": "아쉬운 대로 만족하다"
+      },
+      {
+        "id": "2026-07-13_82641_15",
+        "expression": "vouch for",
+        "meaning_ko": "보증하다, 확신하다"
+      }
+    ]
   }
 }
