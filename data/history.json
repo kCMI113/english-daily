@@ -2353,11 +2353,11 @@
       "expression": "pull strings",
       "meaning_ko": "빽을 쓰다, 영향력을 행사하다",
       "category_ko": "일상 영어회화",
-      "box": 5,
+      "box": 6,
       "first_seen": "2026-04-06",
-      "last_reviewed": "2026-05-25",
-      "next_review": "2026-06-24",
-      "review_count": 4,
+      "last_reviewed": "2026-07-19",
+      "next_review": "retired",
+      "review_count": 5,
       "examples": [
         {
           "en": "He had to pull strings to get his son into that school.",
@@ -5866,11 +5866,11 @@
       "expression": "at the end of the day",
       "meaning_ko": "결국에는, 가장 중요한 건",
       "category_ko": "일상 영어회화",
-      "box": 4,
+      "box": 5,
       "first_seen": "2026-04-11",
-      "last_reviewed": "2026-06-08",
-      "next_review": "2026-06-22",
-      "review_count": 3,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-08-18",
+      "review_count": 4,
       "examples": [
         {
           "en": "At the end of the day, it's your decision, not mine.",
@@ -5899,11 +5899,11 @@
       "expression": "settle for",
       "meaning_ko": "~에 만족하다, 감수하다",
       "category_ko": "일상 영어회화",
-      "box": 4,
+      "box": 5,
       "first_seen": "2026-04-11",
-      "last_reviewed": "2026-06-09",
-      "next_review": "2026-06-23",
-      "review_count": 3,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-08-18",
+      "review_count": 4,
       "examples": [
         {
           "en": "Don't settle for anything less than you deserve.",
@@ -10179,11 +10179,11 @@
       "expression": "bite off more than one can chew",
       "meaning_ko": "무리하다, 과욕을 부리다",
       "category_ko": "일상 영어회화",
-      "box": 3,
+      "box": 4,
       "first_seen": "2026-04-19",
-      "last_reviewed": "2026-06-18",
-      "next_review": "2026-06-25",
-      "review_count": 2,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-08-02",
+      "review_count": 3,
       "examples": [
         {
           "en": "I think I bit off more than I could chew by taking on three projects.",
@@ -10213,11 +10213,11 @@
       "expression": "on second thought",
       "meaning_ko": "다시 생각해보니",
       "category_ko": "일상 영어회화",
-      "box": 3,
+      "box": 4,
       "first_seen": "2026-04-19",
-      "last_reviewed": "2026-06-19",
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-08-02",
+      "review_count": 3,
       "examples": [
         {
           "en": "I'll have a coffee. On second thought, make it an iced latte.",
@@ -10241,11 +10241,11 @@
       "expression": "count on",
       "meaning_ko": "믿다, 의지하다",
       "category_ko": "일상 영어회화",
-      "box": 3,
+      "box": 4,
       "first_seen": "2026-04-19",
-      "last_reviewed": "2026-06-19",
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-08-02",
+      "review_count": 3,
       "examples": [
         {
           "en": "You can always count on me if you need help.",
@@ -14424,11 +14424,11 @@
       "expression": "burn the midnight oil",
       "meaning_ko": "밤늦게까지 공부/일하다",
       "category_ko": "일상 영어회화",
-      "box": 2,
+      "box": 3,
       "first_seen": "2026-04-27",
-      "last_reviewed": "2026-05-26",
-      "next_review": "2026-05-29",
-      "review_count": 1,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-26",
+      "review_count": 2,
       "examples": [
         {
           "en": "I have a big exam tomorrow, so I'll be burning the midnight oil.",
@@ -14458,11 +14458,11 @@
       "expression": "drop by",
       "meaning_ko": "잠깐 들르다",
       "category_ko": "일상 영어회화",
-      "box": 2,
+      "box": 3,
       "first_seen": "2026-04-27",
-      "last_reviewed": "2026-05-26",
-      "next_review": "2026-05-29",
-      "review_count": 1,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-26",
+      "review_count": 2,
       "examples": [
         {
           "en": "Feel free to drop by whenever you're in the neighborhood.",
@@ -14491,11 +14491,11 @@
       "expression": "get to the point",
       "meaning_ko": "본론으로 들어가다",
       "category_ko": "일상 영어회화",
-      "box": 2,
+      "box": 3,
       "first_seen": "2026-04-27",
-      "last_reviewed": "2026-05-26",
-      "next_review": "2026-05-29",
-      "review_count": 1,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-26",
+      "review_count": 2,
       "examples": [
         {
           "en": "Stop talking about the weather and get to the point.",
@@ -14525,11 +14525,11 @@
       "expression": "barking up the wrong tree",
       "meaning_ko": "번지수를 잘못 짚다",
       "category_ko": "일상 영어회화",
-      "box": 2,
+      "box": 3,
       "first_seen": "2026-04-27",
-      "last_reviewed": "2026-05-26",
-      "next_review": "2026-05-29",
-      "review_count": 1,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-26",
+      "review_count": 2,
       "examples": [
         {
           "en": "If you think I'm the one who told him, you're barking up the wrong tree.",
@@ -24364,11 +24364,11 @@
       "expression": "touch base",
       "meaning_ko": "연락하다, 상황을 확인하다",
       "category_ko": "일상 영어회화",
-      "box": 1,
+      "box": 2,
       "first_seen": "2026-05-15",
-      "last_reviewed": "2026-05-15",
-      "next_review": "2026-05-16",
-      "review_count": 0,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-22",
+      "review_count": 1,
       "examples": [
         {
           "en": "Let's touch base next week to discuss the project.",
@@ -24397,11 +24397,11 @@
       "expression": "skeptical",
       "meaning_ko": "회의적인, 의심스러운",
       "category_ko": "일상 영어회화",
-      "box": 1,
+      "box": 2,
       "first_seen": "2026-05-16",
-      "last_reviewed": "2026-05-16",
-      "next_review": "2026-05-17",
-      "review_count": 0,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-22",
+      "review_count": 1,
       "examples": [
         {
           "en": "I'm a bit skeptical about his excuses.",
@@ -24436,11 +24436,11 @@
       "expression": "diligent",
       "meaning_ko": "부지런한, 성실한",
       "category_ko": "일상 영어회화",
-      "box": 1,
+      "box": 2,
       "first_seen": "2026-05-16",
-      "last_reviewed": "2026-05-16",
-      "next_review": "2026-05-17",
-      "review_count": 0,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-22",
+      "review_count": 1,
       "examples": [
         {
           "en": "Success requires diligent effort over a long time.",
@@ -24475,11 +24475,11 @@
       "expression": "reliable",
       "meaning_ko": "믿음직한, 신뢰할 수 있는",
       "category_ko": "일상 영어회화",
-      "box": 1,
+      "box": 2,
       "first_seen": "2026-05-16",
-      "last_reviewed": "2026-05-16",
-      "next_review": "2026-05-17",
-      "review_count": 0,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-22",
+      "review_count": 1,
       "examples": [
         {
           "en": "We are looking for a reliable person to join our team.",
@@ -24514,11 +24514,11 @@
       "expression": "hostile",
       "meaning_ko": "적대적인, 비우호적인",
       "category_ko": "일상 영어회화",
-      "box": 1,
+      "box": 2,
       "first_seen": "2026-05-16",
-      "last_reviewed": "2026-05-16",
-      "next_review": "2026-05-17",
-      "review_count": 0,
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-22",
+      "review_count": 1,
       "examples": [
         {
           "en": "The crowd grew hostile as the speaker continued.",
@@ -58646,11 +58646,522 @@
           "example": "I finally gave in to their demands."
         }
       ]
+    },
+    "2026-07-19_831_01": {
+      "expression": "adaptable",
+      "meaning_ko": "적응력이 있는",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Successful entrepreneurs are usually highly adaptable.",
+          "ko": "성공한 기업가들은 보통 적응력이 매우 뛰어납니다."
+        },
+        {
+          "en": "She’s so adaptable that she settled into the new city in no time.",
+          "ko": "그녀는 적응력이 정말 좋아서 새 도시에 금방 자리를 잡았어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "flexible",
+          "ko": "유연한",
+          "example": "You need to be flexible with your schedule."
+        },
+        {
+          "en": "versatile",
+          "ko": "다재다능한",
+          "example": "He is a versatile actor."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "rigid",
+          "ko": "엄격한, 융통성 없는",
+          "example": "The company has a rigid hierarchy."
+        }
+      ]
+    },
+    "2026-07-19_831_02": {
+      "expression": "humble",
+      "meaning_ko": "겸손한, 소박한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Despite his fame, he remains very humble.",
+          "ko": "유명세에도 불구하고 그는 여전히 매우 겸손해요."
+        },
+        {
+          "en": "Welcome to my humble abode.",
+          "ko": "누추한 제 집에 오신 걸 환영합니다."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "modest",
+          "ko": "겸손한",
+          "example": "He is very modest about his success."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "arrogant",
+          "ko": "거만한",
+          "example": "Nobody likes an arrogant person."
+        }
+      ]
+    },
+    "2026-07-19_831_03": {
+      "expression": "tedious",
+      "meaning_ko": "지루한, 따분한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Checking the data one by one was a tedious task.",
+          "ko": "데이터를 하나하나 확인하는 건 정말 지루한 작업이었어."
+        },
+        {
+          "en": "I find long commutes incredibly tedious.",
+          "ko": "긴 통근 시간은 정말 따분해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "monotonous",
+          "ko": "단조로운",
+          "example": "The work was monotonous and dull."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "exciting",
+          "ko": "흥미진진한",
+          "example": "The movie was really exciting."
+        }
+      ]
+    },
+    "2026-07-19_831_04": {
+      "expression": "exquisite",
+      "meaning_ko": "매우 아름다운, 정교한",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "The detail on this watch is exquisite.",
+          "ko": "이 시계의 디테일은 정말 정교하네요."
+        },
+        {
+          "en": "We had an exquisite dinner at the new French restaurant.",
+          "ko": "새로 생긴 프랑스 식당에서 정말 훌륭한 저녁 식사를 했어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "superb",
+          "ko": "최고의",
+          "example": "The service at the hotel was superb."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "ordinary",
+          "ko": "평범한",
+          "example": "It was just an ordinary meal."
+        }
+      ]
+    },
+    "2026-07-19_831_05": {
+      "expression": "bring up",
+      "meaning_ko": "화제를 꺼내다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'm sorry to bring this up now, but we have a problem.",
+          "ko": "지금 이 이야기를 꺼내서 미안하지만, 문제가 좀 있어."
+        },
+        {
+          "en": "Why did you have to bring up my ex-boyfriend?",
+          "ko": "왜 굳이 내 전 남자친구 얘기를 꺼낸 거야?"
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "mention",
+          "ko": "언급하다",
+          "example": "He didn't mention the price."
+        },
+        {
+          "en": "raise",
+          "ko": "제기하다",
+          "example": "I want to raise an important point."
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-07-19_831_06": {
+      "expression": "look into",
+      "meaning_ko": "조사하다, 알아보다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'll look into the matter and get back to you soon.",
+          "ko": "그 건에 대해 알아보고 곧 다시 연락드릴게요."
+        },
+        {
+          "en": "The manager promised to look into our complaints.",
+          "ko": "매니저가 우리의 불만 사항을 조사해보겠다고 약속했어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "investigate",
+          "ko": "수사하다, 조사하다",
+          "example": "Police are investigating the cause of the fire."
+        },
+        {
+          "en": "examine",
+          "ko": "검토하다",
+          "example": "We need to examine the results."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "ignore",
+          "ko": "무시하다",
+          "example": "You can't just ignore the problem."
+        }
+      ]
+    },
+    "2026-07-19_831_07": {
+      "expression": "a piece of cake",
+      "meaning_ko": "식은 죽 먹기",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Don't worry about the test; it'll be a piece of cake.",
+          "ko": "시험 걱정 마. 완전 식은 죽 먹기일 거야."
+        },
+        {
+          "en": "Fixing this computer was a piece of cake for him.",
+          "ko": "이 컴퓨터를 고치는 건 그에게 아주 쉬운 일이었어."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "a breeze",
+          "ko": "쉬운 일",
+          "example": "The exam was a breeze."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "a tough nut to crack",
+          "ko": "어려운 문제",
+          "example": "This math problem is a tough nut to crack."
+        }
+      ]
+    },
+    "2026-07-19_831_08": {
+      "expression": "get along with",
+      "meaning_ko": "~와 잘 지내다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Do you get along with your new colleagues?",
+          "ko": "새 동료들이랑은 잘 지내고 있어?"
+        },
+        {
+          "en": "I don't really get along with my sister.",
+          "ko": "난 사실 우리 언니랑 그렇게 사이가 좋진 않아."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "be on good terms with",
+          "ko": "~와 사이가 좋다",
+          "example": "I'm on good terms with my neighbors."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "clash with",
+          "ko": "~와 충돌하다",
+          "example": "He often clashes with his boss."
+        }
+      ]
+    },
+    "2026-07-19_831_09": {
+      "expression": "under the radar",
+      "meaning_ko": "눈에 띄지 않게",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "They tried to keep their relationship under the radar.",
+          "ko": "그들은 연애 사실을 들키지 않으려고 조심했어."
+        },
+        {
+          "en": "He prefers to work under the radar without any praise.",
+          "ko": "그는 칭찬받는 것 없이 조용히 일하는 걸 선호해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "low-key",
+          "ko": "자제하는, 낮은 자세의",
+          "example": "We kept the party low-key."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "in the spotlight",
+          "ko": "주목받는",
+          "example": "She loves being in the spotlight."
+        }
+      ]
+    },
+    "2026-07-19_831_10": {
+      "expression": "make ends meet",
+      "meaning_ko": "생계를 꾸리다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "It's hard to make ends meet with such a low salary.",
+          "ko": "그렇게 적은 월급으로는 생계를 꾸리기가 힘들어."
+        },
+        {
+          "en": "Many students work part-time to make ends meet.",
+          "ko": "많은 학생들이 생활비를 벌기 위해 아르바이트를 해."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "get by",
+          "ko": "그럭저럭 살아가다",
+          "example": "We have enough money to get by."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "live in luxury",
+          "ko": "호화롭게 살다",
+          "example": "They are living in luxury now."
+        }
+      ]
+    },
+    "2026-07-19_831_11": {
+      "expression": "look over",
+      "meaning_ko": "훑어보다, 검토하다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Could you look over my essay before I hand it in?",
+          "ko": "에세이 제출하기 전에 한 번 훑어봐 줄 수 있어?"
+        },
+        {
+          "en": "I'll look over the contract tonight.",
+          "ko": "오늘 밤에 계약서를 검토해 볼게."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "review",
+          "ko": "검토하다",
+          "example": "Please review the document."
+        },
+        {
+          "en": "scan",
+          "ko": "훑어보다",
+          "example": "I scanned the newspaper for headlines."
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-07-19_831_12": {
+      "expression": "blessing in disguise",
+      "meaning_ko": "전화위복",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Losing that job was a blessing in disguise.",
+          "ko": "그 직장을 잃은 게 오히려 전화위복이 됐어."
+        },
+        {
+          "en": "The rainy weather was a blessing in disguise because I finished my work.",
+          "ko": "비가 온 게 다행이었어. 덕분에 일을 다 끝냈거든."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "hidden benefit",
+          "ko": "숨겨진 이점",
+          "example": "The delay had a hidden benefit."
+        }
+      ],
+      "antonyms": []
+    },
+    "2026-07-19_831_13": {
+      "expression": "it's on me",
+      "meaning_ko": "내가 낼게, 내가 쏠게",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "Put your wallet away. Lunch is on me.",
+          "ko": "지갑 넣어둬. 점심은 내가 쏠게."
+        },
+        {
+          "en": "The next round of drinks is on me!",
+          "ko": "다음 술은 내가 살게!"
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "it's my treat",
+          "ko": "내가 대접할게",
+          "example": "Dinner is my treat tonight."
+        },
+        {
+          "en": "I've got this",
+          "ko": "내가 계산할게",
+          "example": "Don't worry, I've got this."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "go Dutch",
+          "ko": "각자 내다",
+          "example": "Let's go Dutch this time."
+        }
+      ]
+    },
+    "2026-07-19_831_14": {
+      "expression": "cost an arm and a leg",
+      "meaning_ko": "매우 비싸다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "That new car must have cost him an arm and a leg.",
+          "ko": "저 새 차 진짜 비싸게 주고 샀을 거야."
+        },
+        {
+          "en": "Repairs for this phone will cost an arm and a leg.",
+          "ko": "이 핸드폰 수리비 엄청 많이 나올 거야."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "overpriced",
+          "ko": "지나치게 비싼",
+          "example": "This coffee is way overpriced."
+        }
+      ],
+      "antonyms": [
+        {
+          "en": "dirt cheap",
+          "ko": "아주 싼",
+          "example": "I got these shoes dirt cheap."
+        }
+      ]
+    },
+    "2026-07-19_831_15": {
+      "expression": "keep someone posted",
+      "meaning_ko": "계속 상황을 알려주다",
+      "category_ko": "일상 영어회화",
+      "box": 1,
+      "first_seen": "2026-07-19",
+      "last_reviewed": "2026-07-19",
+      "next_review": "2026-07-20",
+      "review_count": 0,
+      "examples": [
+        {
+          "en": "I'll keep you posted on the progress.",
+          "ko": "진행 상황을 계속 알려드릴게요."
+        },
+        {
+          "en": "Keep me posted if anything changes.",
+          "ko": "뭐가 바뀌면 나한테 바로 알려줘."
+        }
+      ],
+      "synonyms": [
+        {
+          "en": "keep someone in the loop",
+          "ko": "상황을 계속 공유하다",
+          "example": "Please keep me in the loop about the project."
+        }
+      ],
+      "antonyms": []
     }
   },
   "metadata": {
-    "last_run": "2026-07-18",
-    "total_expressions_learned": 1635,
+    "last_run": "2026-07-19",
+    "total_expressions_learned": 1650,
     "current_category_index": 0
   }
 }
