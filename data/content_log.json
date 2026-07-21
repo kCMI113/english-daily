@@ -8584,5 +8584,86 @@
         "meaning_ko": "그만해, 집어쳐"
       }
     ]
+  },
+  "2026-07-21": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-21_73912_01",
+        "expression": "procrastinate",
+        "meaning_ko": "미루다, 늑장 부리다"
+      },
+      {
+        "id": "2026-07-21_73912_02",
+        "expression": "modest",
+        "meaning_ko": "겸손한, 수수한"
+      },
+      {
+        "id": "2026-07-21_73912_03",
+        "expression": "intimidating",
+        "meaning_ko": "위협적인, 겁나는"
+      },
+      {
+        "id": "2026-07-21_73912_04",
+        "expression": "reliable",
+        "meaning_ko": "믿음직한, 신뢰할 수 있는"
+      },
+      {
+        "id": "2026-07-21_73912_05",
+        "expression": "cut someone some slack",
+        "meaning_ko": "봐주다, 여유를 주다"
+      },
+      {
+        "id": "2026-07-21_73912_06",
+        "expression": "call it even",
+        "meaning_ko": "비긴 걸로 하다, 셈을 치다"
+      },
+      {
+        "id": "2026-07-21_73912_07",
+        "expression": "be on the same page",
+        "meaning_ko": "같은 생각이다, 이해가 일치하다"
+      },
+      {
+        "id": "2026-07-21_73912_08",
+        "expression": "get the ball rolling",
+        "meaning_ko": "시작하다, 착수하다"
+      },
+      {
+        "id": "2026-07-21_73912_09",
+        "expression": "miss the point",
+        "meaning_ko": "요점을 놓치다, 헛다리 짚다"
+      },
+      {
+        "id": "2026-07-21_73912_10",
+        "expression": "in the long run",
+        "meaning_ko": "결국에는, 장기적으로는"
+      },
+      {
+        "id": "2026-07-21_73912_11",
+        "expression": "keep one's fingers crossed",
+        "meaning_ko": "행운을 빌다, 잘되길 바라다"
+      },
+      {
+        "id": "2026-07-21_73912_12",
+        "expression": "spill the beans",
+        "meaning_ko": "비밀을 누설하다, 다 털어놓다"
+      },
+      {
+        "id": "2026-07-21_73912_13",
+        "expression": "take it or leave it",
+        "meaning_ko": "싫으면 관둬라, 최종 제안이다"
+      },
+      {
+        "id": "2026-07-21_73912_14",
+        "expression": "be cut out for",
+        "meaning_ko": "~에 적성이 맞다, 딱이다"
+      },
+      {
+        "id": "2026-07-21_73912_15",
+        "expression": "get carried away",
+        "meaning_ko": "흥분해서 도를 넘다, 넋을 잃다"
+      }
+    ]
   }
 }
