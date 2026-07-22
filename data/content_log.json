@@ -8665,5 +8665,86 @@
         "meaning_ko": "흥분해서 도를 넘다, 넋을 잃다"
       }
     ]
+  },
+  "2026-07-22": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-22_60779_01",
+        "expression": "meticulous",
+        "meaning_ko": "꼼꼼한, 세심한"
+      },
+      {
+        "id": "2026-07-22_60779_02",
+        "expression": "pessimistic",
+        "meaning_ko": "비관적인, 회의적인"
+      },
+      {
+        "id": "2026-07-22_60779_03",
+        "expression": "stubborn",
+        "meaning_ko": "고집 센, 완고한"
+      },
+      {
+        "id": "2026-07-22_60779_04",
+        "expression": "overlook",
+        "meaning_ko": "간과하다, 못 보고 넘어가다"
+      },
+      {
+        "id": "2026-07-22_60779_05",
+        "expression": "get a hold of",
+        "meaning_ko": "연락이 닿다, 찾다"
+      },
+      {
+        "id": "2026-07-22_60779_06",
+        "expression": "bring something to the table",
+        "meaning_ko": "기여하다, 이익을 제공하다"
+      },
+      {
+        "id": "2026-07-22_60779_07",
+        "expression": "get to the point",
+        "meaning_ko": "본론으로 들어가다"
+      },
+      {
+        "id": "2026-07-22_60779_08",
+        "expression": "keep someone in the dark",
+        "meaning_ko": "비밀로 하다, 알리지 않다"
+      },
+      {
+        "id": "2026-07-22_60779_09",
+        "expression": "take a crack at",
+        "meaning_ko": "한번 해보다, 시도하다"
+      },
+      {
+        "id": "2026-07-22_60779_10",
+        "expression": "up in the air",
+        "meaning_ko": "불확실한, 미정인"
+      },
+      {
+        "id": "2026-07-22_60779_11",
+        "expression": "call off",
+        "meaning_ko": "취소하다"
+      },
+      {
+        "id": "2026-07-22_60779_12",
+        "expression": "go with the flow",
+        "meaning_ko": "대세를 따르다, 흐름에 맡기다"
+      },
+      {
+        "id": "2026-07-22_60779_13",
+        "expression": "lose one's touch",
+        "meaning_ko": "실력이 예전만 못하다"
+      },
+      {
+        "id": "2026-07-22_60779_14",
+        "expression": "pull someone's leg",
+        "meaning_ko": "농담하다, 놀리다"
+      },
+      {
+        "id": "2026-07-22_60779_15",
+        "expression": "the elephant in the room",
+        "meaning_ko": "모두가 알지만 피하는 문제"
+      }
+    ]
   }
 }
