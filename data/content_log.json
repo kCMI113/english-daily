@@ -8746,5 +8746,86 @@
         "meaning_ko": "모두가 알지만 피하는 문제"
       }
     ]
+  },
+  "2026-07-23": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-23_46823_01",
+        "expression": "versatile",
+        "meaning_ko": "다재다능한, 다용도의"
+      },
+      {
+        "id": "2026-07-23_46823_02",
+        "expression": "eloquent",
+        "meaning_ko": "말을 설득력 있게 잘하는"
+      },
+      {
+        "id": "2026-07-23_46823_03",
+        "expression": "persistent",
+        "meaning_ko": "끈질긴, 지속적인"
+      },
+      {
+        "id": "2026-07-23_46823_04",
+        "expression": "feasible",
+        "meaning_ko": "실현 가능한"
+      },
+      {
+        "id": "2026-07-23_46823_05",
+        "expression": "indifferent",
+        "meaning_ko": "무관심한, 냉담한"
+      },
+      {
+        "id": "2026-07-23_46823_06",
+        "expression": "get around to",
+        "meaning_ko": "짬을 내어 ~하다"
+      },
+      {
+        "id": "2026-07-23_46823_07",
+        "expression": "a long shot",
+        "meaning_ko": "거의 승산 없는 일"
+      },
+      {
+        "id": "2026-07-23_46823_08",
+        "expression": "in person",
+        "meaning_ko": "직접, 몸소, 대면하여"
+      },
+      {
+        "id": "2026-07-23_46823_09",
+        "expression": "run into",
+        "meaning_ko": "우연히 마주치다"
+      },
+      {
+        "id": "2026-07-23_46823_10",
+        "expression": "bite the bullet",
+        "meaning_ko": "악물고 견디다, 하기 싫은 일을 하다"
+      },
+      {
+        "id": "2026-07-23_46823_11",
+        "expression": "back up",
+        "meaning_ko": "뒷받침하다, 지지하다"
+      },
+      {
+        "id": "2026-07-23_46823_12",
+        "expression": "on the house",
+        "meaning_ko": "가게에서 주는 서비스인"
+      },
+      {
+        "id": "2026-07-23_46823_13",
+        "expression": "out of stock",
+        "meaning_ko": "재고가 없는, 품절된"
+      },
+      {
+        "id": "2026-07-23_46823_14",
+        "expression": "clear up",
+        "meaning_ko": "오해를 풀다, 해결하다"
+      },
+      {
+        "id": "2026-07-23_46823_15",
+        "expression": "get cold feet",
+        "meaning_ko": "갑자기 겁이 나다, 망설이다"
+      }
+    ]
   }
 }
