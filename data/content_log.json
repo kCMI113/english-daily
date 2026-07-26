@@ -8989,5 +8989,86 @@
         "meaning_ko": "소란을 피우다"
       }
     ]
+  },
+  "2026-07-26": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-26_6147_01",
+        "expression": "ambiguous",
+        "meaning_ko": "애매모호한, 불분명한"
+      },
+      {
+        "id": "2026-07-26_6147_02",
+        "expression": "notorious",
+        "meaning_ko": "악명 높은, 소문난"
+      },
+      {
+        "id": "2026-07-26_6147_03",
+        "expression": "perseverance",
+        "meaning_ko": "인내심, 끈기"
+      },
+      {
+        "id": "2026-07-26_6147_04",
+        "expression": "eccentric",
+        "meaning_ko": "별난, 기이한"
+      },
+      {
+        "id": "2026-07-26_6147_05",
+        "expression": "get the gist",
+        "meaning_ko": "요점을 파악하다"
+      },
+      {
+        "id": "2026-07-26_6147_06",
+        "expression": "run it by someone",
+        "meaning_ko": "의견을 묻다, 확인받다"
+      },
+      {
+        "id": "2026-07-26_6147_07",
+        "expression": "cut to the chase",
+        "meaning_ko": "본론으로 들어가다"
+      },
+      {
+        "id": "2026-07-26_6147_08",
+        "expression": "narrow down",
+        "meaning_ko": "범위를 좁히다"
+      },
+      {
+        "id": "2026-07-26_6147_09",
+        "expression": "a rule of thumb",
+        "meaning_ko": "경험 법칙, 대략적인 원칙"
+      },
+      {
+        "id": "2026-07-26_6147_10",
+        "expression": "lose one's temper",
+        "meaning_ko": "화를 내다, 울컥하다"
+      },
+      {
+        "id": "2026-07-26_6147_11",
+        "expression": "show off",
+        "meaning_ko": "자랑하다, 뽐내다"
+      },
+      {
+        "id": "2026-07-26_6147_12",
+        "expression": "in a nutshell",
+        "meaning_ko": "한마디로, 요약하자면"
+      },
+      {
+        "id": "2026-07-26_6147_13",
+        "expression": "take it personally",
+        "meaning_ko": "기분 나쁘게 듣다"
+      },
+      {
+        "id": "2026-07-26_6147_14",
+        "expression": "brush up on",
+        "meaning_ko": "다시 공부하다, 복습하다"
+      },
+      {
+        "id": "2026-07-26_6147_15",
+        "expression": "make a long story short",
+        "meaning_ko": "말하자면 긴데, 결론은"
+      }
+    ]
   }
 }
