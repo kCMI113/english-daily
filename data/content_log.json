@@ -9070,5 +9070,86 @@
         "meaning_ko": "말하자면 긴데, 결론은"
       }
     ]
+  },
+  "2026-07-27": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-27_92630_01",
+        "expression": "vulnerable",
+        "meaning_ko": "취약한, 상처받기 쉬운"
+      },
+      {
+        "id": "2026-07-27_92630_02",
+        "expression": "proactive",
+        "meaning_ko": "주도적인, 앞서서 행동하는"
+      },
+      {
+        "id": "2026-07-27_92630_03",
+        "expression": "subtle",
+        "meaning_ko": "미묘한, 감지하기 힘든"
+      },
+      {
+        "id": "2026-07-27_92630_04",
+        "expression": "noteworthy",
+        "meaning_ko": "주목할 만한, 눈에 띄는"
+      },
+      {
+        "id": "2026-07-27_92630_05",
+        "expression": "get back to",
+        "meaning_ko": "나중에 다시 연락하다"
+      },
+      {
+        "id": "2026-07-27_92630_06",
+        "expression": "touch base",
+        "meaning_ko": "연락하다, 상황을 확인하다"
+      },
+      {
+        "id": "2026-07-27_92630_07",
+        "expression": "ring a bell",
+        "meaning_ko": "들어본 적 있는 것 같다"
+      },
+      {
+        "id": "2026-07-27_92630_08",
+        "expression": "no-brainer",
+        "meaning_ko": "쉬운 결정, 당연한 일"
+      },
+      {
+        "id": "2026-07-27_92630_09",
+        "expression": "catch up",
+        "meaning_ko": "밀린 이야기를 하다"
+      },
+      {
+        "id": "2026-07-27_92630_10",
+        "expression": "keep in touch",
+        "meaning_ko": "연락하며 지내다"
+      },
+      {
+        "id": "2026-07-27_92630_11",
+        "expression": "make up one's mind",
+        "meaning_ko": "결심하다, 마음을 정하다"
+      },
+      {
+        "id": "2026-07-27_92630_12",
+        "expression": "out of the question",
+        "meaning_ko": "절대 안 되는, 불가능한"
+      },
+      {
+        "id": "2026-07-27_92630_13",
+        "expression": "hang in there",
+        "meaning_ko": "조금만 더 버텨봐, 힘내"
+      },
+      {
+        "id": "2026-07-27_92630_14",
+        "expression": "set the bar",
+        "meaning_ko": "기준을 세우다, 기대치를 높이다"
+      },
+      {
+        "id": "2026-07-27_92630_15",
+        "expression": "keep an open mind",
+        "meaning_ko": "편견 없이 마음을 열다"
+      }
+    ]
   }
 }
