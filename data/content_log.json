@@ -9394,5 +9394,86 @@
         "meaning_ko": "손이 닿지 않는, 힘에 부치는"
       }
     ]
+  },
+  "2026-07-31": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-07-31_38217_01",
+        "expression": "indispensable",
+        "meaning_ko": "필수적인, 없어서는 안 될"
+      },
+      {
+        "id": "2026-07-31_38217_02",
+        "expression": "receptive",
+        "meaning_ko": "수용적인, 잘 받아들이는"
+      },
+      {
+        "id": "2026-07-31_38217_03",
+        "expression": "conscientious",
+        "meaning_ko": "성실한, 양심적인"
+      },
+      {
+        "id": "2026-07-31_38217_04",
+        "expression": "volatile",
+        "meaning_ko": "변덕스러운, 불안정한"
+      },
+      {
+        "id": "2026-07-31_38217_05",
+        "expression": "burn the midnight oil",
+        "meaning_ko": "밤샘 공부(작업)를 하다"
+      },
+      {
+        "id": "2026-07-31_38217_06",
+        "expression": "play devil's advocate",
+        "meaning_ko": "일부러 반대 의견을 내다"
+      },
+      {
+        "id": "2026-07-31_38217_07",
+        "expression": "throw in the towel",
+        "meaning_ko": "포기하다, 항복하다"
+      },
+      {
+        "id": "2026-07-31_38217_08",
+        "expression": "keep someone on their toes",
+        "meaning_ko": "긴장을 늦추지 않게 하다"
+      },
+      {
+        "id": "2026-07-31_38217_09",
+        "expression": "face the music",
+        "meaning_ko": "결과에 책임을 지다"
+      },
+      {
+        "id": "2026-07-31_38217_10",
+        "expression": "under the weather",
+        "meaning_ko": "몸 컨디션이 안 좋은"
+      },
+      {
+        "id": "2026-07-31_38217_11",
+        "expression": "hit the nail on the head",
+        "meaning_ko": "정곡을 찌르다, 정확히 맞히다"
+      },
+      {
+        "id": "2026-07-31_38217_12",
+        "expression": "in the same boat",
+        "meaning_ko": "같은 처지인, 같은 배를 탄"
+      },
+      {
+        "id": "2026-07-31_38217_13",
+        "expression": "speak of the devil",
+        "meaning_ko": "호랑이도 제 말 하면 온다더니"
+      },
+      {
+        "id": "2026-07-31_38217_14",
+        "expression": "think outside the box",
+        "meaning_ko": "창의적으로 생각하다"
+      },
+      {
+        "id": "2026-07-31_38217_15",
+        "expression": "pull yourself together",
+        "meaning_ko": "마음을 추스르다, 진정하다"
+      }
+    ]
   }
 }
