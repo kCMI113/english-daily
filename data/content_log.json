@@ -9637,5 +9637,86 @@
         "meaning_ko": "큰 그림을 보다"
       }
     ]
+  },
+  "2026-08-03": {
+    "category": "daily_conversation",
+    "category_ko": "일상 영어회화",
+    "expressions": [
+      {
+        "id": "2026-08-03_97482_01",
+        "expression": "amiable",
+        "meaning_ko": "상냥한, 정감 있는"
+      },
+      {
+        "id": "2026-08-03_97482_02",
+        "expression": "apprehensive",
+        "meaning_ko": "걱정되는, 불안한"
+      },
+      {
+        "id": "2026-08-03_97482_03",
+        "expression": "impartial",
+        "meaning_ko": "공정한, 치우치지 않는"
+      },
+      {
+        "id": "2026-08-03_97482_04",
+        "expression": "lucrative",
+        "meaning_ko": "수익성이 좋은, 돈벌이가 되는"
+      },
+      {
+        "id": "2026-08-03_97482_05",
+        "expression": "strenuous",
+        "meaning_ko": "몹시 힘든, 격렬한"
+      },
+      {
+        "id": "2026-08-03_97482_06",
+        "expression": "mediocre",
+        "meaning_ko": "평범한, 그저 그런"
+      },
+      {
+        "id": "2026-08-03_97482_07",
+        "expression": "hit it off",
+        "meaning_ko": "금방 친해지다"
+      },
+      {
+        "id": "2026-08-03_97482_08",
+        "expression": "get a load of",
+        "meaning_ko": "~을 좀 봐, 이것 좀 들어봐"
+      },
+      {
+        "id": "2026-08-03_97482_09",
+        "expression": "blow someone away",
+        "meaning_ko": "~를 깜짝 놀라게 하다"
+      },
+      {
+        "id": "2026-08-03_97482_10",
+        "expression": "get to the bottom of",
+        "meaning_ko": "진상을 규명하다, 원인을 밝혀내다"
+      },
+      {
+        "id": "2026-08-03_97482_11",
+        "expression": "keep a lid on",
+        "meaning_ko": "비밀로 하다, 억제하다"
+      },
+      {
+        "id": "2026-08-03_97482_12",
+        "expression": "on the tip of my tongue",
+        "meaning_ko": "입가에 맴도는, 생각이 날 듯 말 듯 한"
+      },
+      {
+        "id": "2026-08-03_97482_13",
+        "expression": "put something off",
+        "meaning_ko": "미루다, 연기하다"
+      },
+      {
+        "id": "2026-08-03_97482_14",
+        "expression": "take it out on someone",
+        "meaning_ko": "~에게 화풀이하다"
+      },
+      {
+        "id": "2026-08-03_97482_15",
+        "expression": "wing it",
+        "meaning_ko": "즉흥적으로 하다, 대충 때우다"
+      }
+    ]
   }
 }
